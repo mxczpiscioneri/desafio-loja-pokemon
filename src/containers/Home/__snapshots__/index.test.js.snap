@@ -41,10 +41,10 @@ Object {
           class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
         >
           <div
-            class="MuiGrid-root sc-dlfnbm hbZnVW MuiGrid-item MuiGrid-grid-xs-2"
+            class="MuiGrid-root sc-dlfnbm hbZnVW MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
           >
             <div
-              class="MuiPaper-root MuiCard-root sc-hKgILt kmFPbB MuiPaper-elevation1 MuiPaper-rounded"
+              class="MuiPaper-root MuiCard-root sc-hKgILt gJCffI MuiPaper-elevation1 MuiPaper-rounded"
             >
               <button
                 class="MuiButtonBase-root MuiCardActionArea-root"
@@ -167,10 +167,10 @@ Object {
         class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
       >
         <div
-          class="MuiGrid-root sc-dlfnbm hbZnVW MuiGrid-item MuiGrid-grid-xs-2"
+          class="MuiGrid-root sc-dlfnbm hbZnVW MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
         >
           <div
-            class="MuiPaper-root MuiCard-root sc-hKgILt kmFPbB MuiPaper-elevation1 MuiPaper-rounded"
+            class="MuiPaper-root MuiCard-root sc-hKgILt gJCffI MuiPaper-elevation1 MuiPaper-rounded"
           >
             <button
               class="MuiButtonBase-root MuiCardActionArea-root"
