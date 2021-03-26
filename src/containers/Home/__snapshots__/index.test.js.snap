@@ -6,63 +6,79 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="App"
+        class="MuiContainer-root MuiContainer-maxWidthLg"
       >
-        <header
-          class="App-header"
+        <div
+          aria-hidden="true"
+          class="MuiBackdrop-root sc-bdfBwQ iodWSc"
+          style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
         >
-          <img
-            alt="logo"
-            class="App-logo"
-            src="logo.svg"
-          />
-          <p>
-            Edit 
-            <code>
-              src/App.js
-            </code>
-             and save to reload.
-          </p>
-          <a
-            class="App-link"
-            href="https://reactjs.org"
-            rel="noopener noreferrer"
-            target="_blank"
+          <div
+            class="sc-gsTCUz gomrDe"
           >
-            Learn React
-          </a>
-        </header>
+            <div
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+              role="progressbar"
+              style="width: 40px; height: 40px;"
+            >
+              <svg
+                class="MuiCircularProgress-svg"
+                viewBox="22 22 44 44"
+              >
+                <circle
+                  class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                  cx="44"
+                  cy="44"
+                  fill="none"
+                  r="20.2"
+                  stroke-width="3.6"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+        />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="App"
+      class="MuiContainer-root MuiContainer-maxWidthLg"
     >
-      <header
-        class="App-header"
+      <div
+        aria-hidden="true"
+        class="MuiBackdrop-root sc-bdfBwQ iodWSc"
+        style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
       >
-        <img
-          alt="logo"
-          class="App-logo"
-          src="logo.svg"
-        />
-        <p>
-          Edit 
-          <code>
-            src/App.js
-          </code>
-           and save to reload.
-        </p>
-        <a
-          class="App-link"
-          href="https://reactjs.org"
-          rel="noopener noreferrer"
-          target="_blank"
+        <div
+          class="sc-gsTCUz gomrDe"
         >
-          Learn React
-        </a>
-      </header>
+          <div
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+            role="progressbar"
+            style="width: 40px; height: 40px;"
+          >
+            <svg
+              class="MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                cx="44"
+                cy="44"
+                fill="none"
+                r="20.2"
+                stroke-width="3.6"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+      />
     </div>
   </div>,
   "debug": [Function],

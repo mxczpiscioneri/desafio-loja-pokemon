@@ -5,7 +5,7 @@ import Routes from './routes'
 import Loading from './components/Loading'
 
 const App = () => (
-  <StylesProvider>
+  <StylesProvider injectFirst>
     <Suspense fallback={<Loading backdrop={false} />}>
       <BrowserRouter>
         <Switch>
