@@ -43,7 +43,7 @@ const Home = () => {
         {data.length > 0 ? (
           <>
             {data.map(item => (
-              <GridStyled item xs={2} key={item.id}>
+              <GridStyled item xs={6} sm={4} md={3} lg={2} key={item.id}>
                 <CardStyled>
                   <CardActionArea>
                     <ImageStyled

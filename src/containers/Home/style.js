@@ -6,7 +6,7 @@ export const GridStyled = styled(Grid)`
 `
 export const CardStyled = styled(Card)`
   overflow: inherit;
-  background-color: #e3e4e8;
+  background-color: #f5f5f5;
 `
 export const ImageStyled = styled.img`
   position: absolute;
