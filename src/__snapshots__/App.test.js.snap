@@ -4,9 +4,17 @@ exports[`render App render with success 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div />
+    <div>
+      <div
+        class="sc-dlfnbm xrSES"
+      />
+    </div>
   </body>,
-  "container": <div />,
+  "container": <div>
+    <div
+      class="sc-dlfnbm xrSES"
+    />
+  </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
   "findAllByDisplayValue": [Function],
