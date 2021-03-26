@@ -1,4 +1,4 @@
-import React, { createContext } from 'react'
+import React, { createContext, useContext } from 'react'
 import PropTypes from 'prop-types'
 import { useLocalStorage } from '../hooks/useLocalStorage'
 
@@ -13,6 +13,8 @@ export const TypeProvider = ({ children }) => {
     </TypeContext.Provider>
   )
 }
+
+export const useTypeContext = () => useContext(TypeContext)
 
 TypeProvider.propTypes = {
   children: PropTypes.any.isRequired

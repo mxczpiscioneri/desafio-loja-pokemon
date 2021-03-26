@@ -6,20 +6,20 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-jrAGrp fncGdr MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-iqHYGH cWxDiN MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
         >
           <img
-            class="sc-kEjbxe fRIJKq"
+            class="sc-crrsfI hmoLXq"
             src="logo.png"
           />
           <div
-            class="sc-iqHYGH dhxBkJ"
+            class="sc-dQppl zAAvG"
           >
             <div
-              class="sc-crrsfI VNyzD"
+              class="sc-bqyKva bSMltS"
             >
               <svg
                 aria-hidden="true"
@@ -33,7 +33,7 @@ Object {
               </svg>
             </div>
             <div
-              class="MuiInputBase-root sc-dQppl iankGQ"
+              class="MuiInputBase-root sc-kstrdz dNlXHV"
             >
               <input
                 aria-label="search"
@@ -43,6 +43,479 @@ Object {
                 value=""
               />
             </div>
+          </div>
+        </div>
+        <div
+          class="MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scrollable"
+            style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+          />
+          <div
+            class="MuiTabs-scroller MuiTabs-scrollable"
+            style="margin-bottom: 0px;"
+          >
+            <div
+              aria-label="scrollable auto tabs"
+              class="MuiTabs-flexContainer"
+              role="tablist"
+            >
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="normal"
+                      class="MuiAvatar-img"
+                      src="normal.svg"
+                    />
+                  </div>
+                  normal
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="fighting"
+                      class="MuiAvatar-img"
+                      src="fighting.svg"
+                    />
+                  </div>
+                  fighting
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="flying"
+                      class="MuiAvatar-img"
+                      src="flying.svg"
+                    />
+                  </div>
+                  flying
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="poison"
+                      class="MuiAvatar-img"
+                      src="poison.svg"
+                    />
+                  </div>
+                  poison
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="ground"
+                      class="MuiAvatar-img"
+                      src="ground.svg"
+                    />
+                  </div>
+                  ground
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="rock"
+                      class="MuiAvatar-img"
+                      src="rock.svg"
+                    />
+                  </div>
+                  rock
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="bug"
+                      class="MuiAvatar-img"
+                      src="bug.svg"
+                    />
+                  </div>
+                  bug
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="ghost"
+                      class="MuiAvatar-img"
+                      src="ghost.svg"
+                    />
+                  </div>
+                  ghost
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="steel"
+                      class="MuiAvatar-img"
+                      src="steel.svg"
+                    />
+                  </div>
+                  steel
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="fire"
+                      class="MuiAvatar-img"
+                      src="fire.svg"
+                    />
+                  </div>
+                  fire
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="water"
+                      class="MuiAvatar-img"
+                      src="water.svg"
+                    />
+                  </div>
+                  water
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="grass"
+                      class="MuiAvatar-img"
+                      src="grass.svg"
+                    />
+                  </div>
+                  grass
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="electric"
+                      class="MuiAvatar-img"
+                      src="electric.svg"
+                    />
+                  </div>
+                  electric
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="psychic"
+                      class="MuiAvatar-img"
+                      src="psychic.svg"
+                    />
+                  </div>
+                  psychic
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="ice"
+                      class="MuiAvatar-img"
+                      src="ice.svg"
+                    />
+                  </div>
+                  ice
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="dragon"
+                      class="MuiAvatar-img"
+                      src="dragon.svg"
+                    />
+                  </div>
+                  dragon
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="dark"
+                      class="MuiAvatar-img"
+                      src="dark.svg"
+                    />
+                  </div>
+                  dark
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="fairy"
+                      class="MuiAvatar-img"
+                      src="fairy.svg"
+                    />
+                  </div>
+                  fairy
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <span
+              class="PrivateTabIndicator-root-2 PrivateTabIndicator-colorSecondary-4 MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
           </div>
         </div>
       </header>
@@ -173,20 +646,20 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-jrAGrp fncGdr MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-iqHYGH cWxDiN MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
       >
         <img
-          class="sc-kEjbxe fRIJKq"
+          class="sc-crrsfI hmoLXq"
           src="logo.png"
         />
         <div
-          class="sc-iqHYGH dhxBkJ"
+          class="sc-dQppl zAAvG"
         >
           <div
-            class="sc-crrsfI VNyzD"
+            class="sc-bqyKva bSMltS"
           >
             <svg
               aria-hidden="true"
@@ -200,7 +673,7 @@ Object {
             </svg>
           </div>
           <div
-            class="MuiInputBase-root sc-dQppl iankGQ"
+            class="MuiInputBase-root sc-kstrdz dNlXHV"
           >
             <input
               aria-label="search"
@@ -210,6 +683,479 @@ Object {
               value=""
             />
           </div>
+        </div>
+      </div>
+      <div
+        class="MuiTabs-root"
+      >
+        <div
+          class="MuiTabs-scrollable"
+          style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+        />
+        <div
+          class="MuiTabs-scroller MuiTabs-scrollable"
+          style="margin-bottom: 0px;"
+        >
+          <div
+            aria-label="scrollable auto tabs"
+            class="MuiTabs-flexContainer"
+            role="tablist"
+          >
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="normal"
+                    class="MuiAvatar-img"
+                    src="normal.svg"
+                  />
+                </div>
+                normal
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="fighting"
+                    class="MuiAvatar-img"
+                    src="fighting.svg"
+                  />
+                </div>
+                fighting
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="flying"
+                    class="MuiAvatar-img"
+                    src="flying.svg"
+                  />
+                </div>
+                flying
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="poison"
+                    class="MuiAvatar-img"
+                    src="poison.svg"
+                  />
+                </div>
+                poison
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="ground"
+                    class="MuiAvatar-img"
+                    src="ground.svg"
+                  />
+                </div>
+                ground
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="rock"
+                    class="MuiAvatar-img"
+                    src="rock.svg"
+                  />
+                </div>
+                rock
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="bug"
+                    class="MuiAvatar-img"
+                    src="bug.svg"
+                  />
+                </div>
+                bug
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="ghost"
+                    class="MuiAvatar-img"
+                    src="ghost.svg"
+                  />
+                </div>
+                ghost
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="steel"
+                    class="MuiAvatar-img"
+                    src="steel.svg"
+                  />
+                </div>
+                steel
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="fire"
+                    class="MuiAvatar-img"
+                    src="fire.svg"
+                  />
+                </div>
+                fire
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="water"
+                    class="MuiAvatar-img"
+                    src="water.svg"
+                  />
+                </div>
+                water
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="grass"
+                    class="MuiAvatar-img"
+                    src="grass.svg"
+                  />
+                </div>
+                grass
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="electric"
+                    class="MuiAvatar-img"
+                    src="electric.svg"
+                  />
+                </div>
+                electric
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="psychic"
+                    class="MuiAvatar-img"
+                    src="psychic.svg"
+                  />
+                </div>
+                psychic
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="ice"
+                    class="MuiAvatar-img"
+                    src="ice.svg"
+                  />
+                </div>
+                ice
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="dragon"
+                    class="MuiAvatar-img"
+                    src="dragon.svg"
+                  />
+                </div>
+                dragon
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="dark"
+                    class="MuiAvatar-img"
+                    src="dark.svg"
+                  />
+                </div>
+                dark
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="fairy"
+                    class="MuiAvatar-img"
+                    src="fairy.svg"
+                  />
+                </div>
+                fairy
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <span
+            class="PrivateTabIndicator-root-2 PrivateTabIndicator-colorSecondary-4 MuiTabs-indicator"
+            style="left: 0px; width: 0px;"
+          />
         </div>
       </div>
     </header>
@@ -397,20 +1343,20 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-jrAGrp fncGdr MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-iqHYGH cWxDiN MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
         >
           <img
-            class="sc-kEjbxe fRIJKq"
+            class="sc-crrsfI hmoLXq"
             src="logo.png"
           />
           <div
-            class="sc-iqHYGH dhxBkJ"
+            class="sc-dQppl zAAvG"
           >
             <div
-              class="sc-crrsfI VNyzD"
+              class="sc-bqyKva bSMltS"
             >
               <svg
                 aria-hidden="true"
@@ -424,7 +1370,7 @@ Object {
               </svg>
             </div>
             <div
-              class="MuiInputBase-root sc-dQppl iankGQ"
+              class="MuiInputBase-root sc-kstrdz dNlXHV"
             >
               <input
                 aria-label="search"
@@ -434,6 +1380,479 @@ Object {
                 value=""
               />
             </div>
+          </div>
+        </div>
+        <div
+          class="MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scrollable"
+            style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+          />
+          <div
+            class="MuiTabs-scroller MuiTabs-scrollable"
+            style="margin-bottom: 0px;"
+          >
+            <div
+              aria-label="scrollable auto tabs"
+              class="MuiTabs-flexContainer"
+              role="tablist"
+            >
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="normal"
+                      class="MuiAvatar-img"
+                      src="normal.svg"
+                    />
+                  </div>
+                  normal
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="fighting"
+                      class="MuiAvatar-img"
+                      src="fighting.svg"
+                    />
+                  </div>
+                  fighting
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="flying"
+                      class="MuiAvatar-img"
+                      src="flying.svg"
+                    />
+                  </div>
+                  flying
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="poison"
+                      class="MuiAvatar-img"
+                      src="poison.svg"
+                    />
+                  </div>
+                  poison
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="ground"
+                      class="MuiAvatar-img"
+                      src="ground.svg"
+                    />
+                  </div>
+                  ground
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="rock"
+                      class="MuiAvatar-img"
+                      src="rock.svg"
+                    />
+                  </div>
+                  rock
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="bug"
+                      class="MuiAvatar-img"
+                      src="bug.svg"
+                    />
+                  </div>
+                  bug
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="ghost"
+                      class="MuiAvatar-img"
+                      src="ghost.svg"
+                    />
+                  </div>
+                  ghost
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="steel"
+                      class="MuiAvatar-img"
+                      src="steel.svg"
+                    />
+                  </div>
+                  steel
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="fire"
+                      class="MuiAvatar-img"
+                      src="fire.svg"
+                    />
+                  </div>
+                  fire
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="water"
+                      class="MuiAvatar-img"
+                      src="water.svg"
+                    />
+                  </div>
+                  water
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="grass"
+                      class="MuiAvatar-img"
+                      src="grass.svg"
+                    />
+                  </div>
+                  grass
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="electric"
+                      class="MuiAvatar-img"
+                      src="electric.svg"
+                    />
+                  </div>
+                  electric
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="psychic"
+                      class="MuiAvatar-img"
+                      src="psychic.svg"
+                    />
+                  </div>
+                  psychic
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="ice"
+                      class="MuiAvatar-img"
+                      src="ice.svg"
+                    />
+                  </div>
+                  ice
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="dragon"
+                      class="MuiAvatar-img"
+                      src="dragon.svg"
+                    />
+                  </div>
+                  dragon
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="dark"
+                      class="MuiAvatar-img"
+                      src="dark.svg"
+                    />
+                  </div>
+                  dark
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="fairy"
+                      class="MuiAvatar-img"
+                      src="fairy.svg"
+                    />
+                  </div>
+                  fairy
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <span
+              class="PrivateTabIndicator-root-10 PrivateTabIndicator-colorSecondary-12 MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
           </div>
         </div>
       </header>
@@ -489,20 +1908,20 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-jrAGrp fncGdr MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-iqHYGH cWxDiN MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
       >
         <img
-          class="sc-kEjbxe fRIJKq"
+          class="sc-crrsfI hmoLXq"
           src="logo.png"
         />
         <div
-          class="sc-iqHYGH dhxBkJ"
+          class="sc-dQppl zAAvG"
         >
           <div
-            class="sc-crrsfI VNyzD"
+            class="sc-bqyKva bSMltS"
           >
             <svg
               aria-hidden="true"
@@ -516,7 +1935,7 @@ Object {
             </svg>
           </div>
           <div
-            class="MuiInputBase-root sc-dQppl iankGQ"
+            class="MuiInputBase-root sc-kstrdz dNlXHV"
           >
             <input
               aria-label="search"
@@ -526,6 +1945,479 @@ Object {
               value=""
             />
           </div>
+        </div>
+      </div>
+      <div
+        class="MuiTabs-root"
+      >
+        <div
+          class="MuiTabs-scrollable"
+          style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+        />
+        <div
+          class="MuiTabs-scroller MuiTabs-scrollable"
+          style="margin-bottom: 0px;"
+        >
+          <div
+            aria-label="scrollable auto tabs"
+            class="MuiTabs-flexContainer"
+            role="tablist"
+          >
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="normal"
+                    class="MuiAvatar-img"
+                    src="normal.svg"
+                  />
+                </div>
+                normal
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="fighting"
+                    class="MuiAvatar-img"
+                    src="fighting.svg"
+                  />
+                </div>
+                fighting
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="flying"
+                    class="MuiAvatar-img"
+                    src="flying.svg"
+                  />
+                </div>
+                flying
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="poison"
+                    class="MuiAvatar-img"
+                    src="poison.svg"
+                  />
+                </div>
+                poison
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="ground"
+                    class="MuiAvatar-img"
+                    src="ground.svg"
+                  />
+                </div>
+                ground
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="rock"
+                    class="MuiAvatar-img"
+                    src="rock.svg"
+                  />
+                </div>
+                rock
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="bug"
+                    class="MuiAvatar-img"
+                    src="bug.svg"
+                  />
+                </div>
+                bug
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="ghost"
+                    class="MuiAvatar-img"
+                    src="ghost.svg"
+                  />
+                </div>
+                ghost
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="steel"
+                    class="MuiAvatar-img"
+                    src="steel.svg"
+                  />
+                </div>
+                steel
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="fire"
+                    class="MuiAvatar-img"
+                    src="fire.svg"
+                  />
+                </div>
+                fire
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="water"
+                    class="MuiAvatar-img"
+                    src="water.svg"
+                  />
+                </div>
+                water
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="grass"
+                    class="MuiAvatar-img"
+                    src="grass.svg"
+                  />
+                </div>
+                grass
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="electric"
+                    class="MuiAvatar-img"
+                    src="electric.svg"
+                  />
+                </div>
+                electric
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="psychic"
+                    class="MuiAvatar-img"
+                    src="psychic.svg"
+                  />
+                </div>
+                psychic
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="ice"
+                    class="MuiAvatar-img"
+                    src="ice.svg"
+                  />
+                </div>
+                ice
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="dragon"
+                    class="MuiAvatar-img"
+                    src="dragon.svg"
+                  />
+                </div>
+                dragon
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="dark"
+                    class="MuiAvatar-img"
+                    src="dark.svg"
+                  />
+                </div>
+                dark
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="fairy"
+                    class="MuiAvatar-img"
+                    src="fairy.svg"
+                  />
+                </div>
+                fairy
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <span
+            class="PrivateTabIndicator-root-10 PrivateTabIndicator-colorSecondary-12 MuiTabs-indicator"
+            style="left: 0px; width: 0px;"
+          />
         </div>
       </div>
     </header>
@@ -638,20 +2530,20 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-jrAGrp fncGdr MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-iqHYGH cWxDiN MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
         >
           <img
-            class="sc-kEjbxe fRIJKq"
+            class="sc-crrsfI hmoLXq"
             src="logo.png"
           />
           <div
-            class="sc-iqHYGH dhxBkJ"
+            class="sc-dQppl zAAvG"
           >
             <div
-              class="sc-crrsfI VNyzD"
+              class="sc-bqyKva bSMltS"
             >
               <svg
                 aria-hidden="true"
@@ -665,7 +2557,7 @@ Object {
               </svg>
             </div>
             <div
-              class="MuiInputBase-root sc-dQppl iankGQ"
+              class="MuiInputBase-root sc-kstrdz dNlXHV"
             >
               <input
                 aria-label="search"
@@ -675,6 +2567,479 @@ Object {
                 value=""
               />
             </div>
+          </div>
+        </div>
+        <div
+          class="MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scrollable"
+            style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+          />
+          <div
+            class="MuiTabs-scroller MuiTabs-scrollable"
+            style="margin-bottom: 0px;"
+          >
+            <div
+              aria-label="scrollable auto tabs"
+              class="MuiTabs-flexContainer"
+              role="tablist"
+            >
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="normal"
+                      class="MuiAvatar-img"
+                      src="normal.svg"
+                    />
+                  </div>
+                  normal
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="fighting"
+                      class="MuiAvatar-img"
+                      src="fighting.svg"
+                    />
+                  </div>
+                  fighting
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="flying"
+                      class="MuiAvatar-img"
+                      src="flying.svg"
+                    />
+                  </div>
+                  flying
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="poison"
+                      class="MuiAvatar-img"
+                      src="poison.svg"
+                    />
+                  </div>
+                  poison
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="ground"
+                      class="MuiAvatar-img"
+                      src="ground.svg"
+                    />
+                  </div>
+                  ground
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="rock"
+                      class="MuiAvatar-img"
+                      src="rock.svg"
+                    />
+                  </div>
+                  rock
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="bug"
+                      class="MuiAvatar-img"
+                      src="bug.svg"
+                    />
+                  </div>
+                  bug
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="ghost"
+                      class="MuiAvatar-img"
+                      src="ghost.svg"
+                    />
+                  </div>
+                  ghost
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="steel"
+                      class="MuiAvatar-img"
+                      src="steel.svg"
+                    />
+                  </div>
+                  steel
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="fire"
+                      class="MuiAvatar-img"
+                      src="fire.svg"
+                    />
+                  </div>
+                  fire
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="water"
+                      class="MuiAvatar-img"
+                      src="water.svg"
+                    />
+                  </div>
+                  water
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="grass"
+                      class="MuiAvatar-img"
+                      src="grass.svg"
+                    />
+                  </div>
+                  grass
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="electric"
+                      class="MuiAvatar-img"
+                      src="electric.svg"
+                    />
+                  </div>
+                  electric
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="psychic"
+                      class="MuiAvatar-img"
+                      src="psychic.svg"
+                    />
+                  </div>
+                  psychic
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="ice"
+                      class="MuiAvatar-img"
+                      src="ice.svg"
+                    />
+                  </div>
+                  ice
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="dragon"
+                      class="MuiAvatar-img"
+                      src="dragon.svg"
+                    />
+                  </div>
+                  dragon
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="dark"
+                      class="MuiAvatar-img"
+                      src="dark.svg"
+                    />
+                  </div>
+                  dark
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                  >
+                    <img
+                      alt="fairy"
+                      class="MuiAvatar-img"
+                      src="fairy.svg"
+                    />
+                  </div>
+                  fairy
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <span
+              class="PrivateTabIndicator-root-6 PrivateTabIndicator-colorSecondary-8 MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
           </div>
         </div>
       </header>
@@ -700,20 +3065,20 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-jrAGrp fncGdr MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-iqHYGH cWxDiN MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
       >
         <img
-          class="sc-kEjbxe fRIJKq"
+          class="sc-crrsfI hmoLXq"
           src="logo.png"
         />
         <div
-          class="sc-iqHYGH dhxBkJ"
+          class="sc-dQppl zAAvG"
         >
           <div
-            class="sc-crrsfI VNyzD"
+            class="sc-bqyKva bSMltS"
           >
             <svg
               aria-hidden="true"
@@ -727,7 +3092,7 @@ Object {
             </svg>
           </div>
           <div
-            class="MuiInputBase-root sc-dQppl iankGQ"
+            class="MuiInputBase-root sc-kstrdz dNlXHV"
           >
             <input
               aria-label="search"
@@ -737,6 +3102,479 @@ Object {
               value=""
             />
           </div>
+        </div>
+      </div>
+      <div
+        class="MuiTabs-root"
+      >
+        <div
+          class="MuiTabs-scrollable"
+          style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+        />
+        <div
+          class="MuiTabs-scroller MuiTabs-scrollable"
+          style="margin-bottom: 0px;"
+        >
+          <div
+            aria-label="scrollable auto tabs"
+            class="MuiTabs-flexContainer"
+            role="tablist"
+          >
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="normal"
+                    class="MuiAvatar-img"
+                    src="normal.svg"
+                  />
+                </div>
+                normal
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="fighting"
+                    class="MuiAvatar-img"
+                    src="fighting.svg"
+                  />
+                </div>
+                fighting
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="flying"
+                    class="MuiAvatar-img"
+                    src="flying.svg"
+                  />
+                </div>
+                flying
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="poison"
+                    class="MuiAvatar-img"
+                    src="poison.svg"
+                  />
+                </div>
+                poison
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="ground"
+                    class="MuiAvatar-img"
+                    src="ground.svg"
+                  />
+                </div>
+                ground
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="rock"
+                    class="MuiAvatar-img"
+                    src="rock.svg"
+                  />
+                </div>
+                rock
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="bug"
+                    class="MuiAvatar-img"
+                    src="bug.svg"
+                  />
+                </div>
+                bug
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="ghost"
+                    class="MuiAvatar-img"
+                    src="ghost.svg"
+                  />
+                </div>
+                ghost
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="steel"
+                    class="MuiAvatar-img"
+                    src="steel.svg"
+                  />
+                </div>
+                steel
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="fire"
+                    class="MuiAvatar-img"
+                    src="fire.svg"
+                  />
+                </div>
+                fire
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="water"
+                    class="MuiAvatar-img"
+                    src="water.svg"
+                  />
+                </div>
+                water
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="grass"
+                    class="MuiAvatar-img"
+                    src="grass.svg"
+                  />
+                </div>
+                grass
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="electric"
+                    class="MuiAvatar-img"
+                    src="electric.svg"
+                  />
+                </div>
+                electric
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="psychic"
+                    class="MuiAvatar-img"
+                    src="psychic.svg"
+                  />
+                </div>
+                psychic
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="ice"
+                    class="MuiAvatar-img"
+                    src="ice.svg"
+                  />
+                </div>
+                ice
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="dragon"
+                    class="MuiAvatar-img"
+                    src="dragon.svg"
+                  />
+                </div>
+                dragon
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="dark"
+                    class="MuiAvatar-img"
+                    src="dark.svg"
+                  />
+                </div>
+                dark
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-jrAGrp kQMTIf MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe ipgGUv"
+                >
+                  <img
+                    alt="fairy"
+                    class="MuiAvatar-img"
+                    src="fairy.svg"
+                  />
+                </div>
+                fairy
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <span
+            class="PrivateTabIndicator-root-6 PrivateTabIndicator-colorSecondary-8 MuiTabs-indicator"
+            style="left: 0px; width: 0px;"
+          />
         </div>
       </div>
     </header>

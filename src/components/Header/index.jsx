@@ -1,6 +1,7 @@
 import React from 'react'
-import { Toolbar } from '@material-ui/core'
 import SearchIcon from '@material-ui/icons/Search'
+import { Toolbar } from '@material-ui/core'
+import Tabs from '../Tabs'
 import image from '../../assets/images/logo.png'
 import { AppBarStyled, InputBaseStyled, LogoStyled, SearchIconStyled, SearchStyled } from './style'
 
@@ -18,6 +19,7 @@ const Header = () => (
         />
       </SearchStyled>
     </Toolbar>
+    <Tabs />
   </AppBarStyled>
 )
 
