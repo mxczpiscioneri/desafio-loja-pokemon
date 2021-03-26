@@ -1,7 +1,11 @@
 import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import { render } from '@testing-library/react'
+import { fireEvent, render, screen } from '@testing-library/react'
 import Home from '.'
+import { usePokemon } from '../../hooks/usePokemon'
+import mockDetailsPokemon from '../../assets/mock-data/details-pokemon.json'
+
+jest.mock('../../hooks/usePokemon')
 
 const containerComponent = (
   <BrowserRouter>
@@ -10,8 +14,76 @@ const containerComponent = (
 )
 
 describe('Home container', () => {
-  test('Render the basic layout', () => {
+  test('Render layout', () => {
+    const mockHooks = {
+      loading: true,
+      data: [mockDetailsPokemon],
+      error: false,
+      setError: jest.fn(),
+      offset: 0,
+      paginate: jest.fn(),
+      getAllPokemon: jest.fn()
+    }
+    usePokemon.mockReturnValue(mockHooks)
+
+    const component = render(containerComponent)
+
+    fireEvent.mouseOver(screen.getByAltText('bulbasaur'))
+    fireEvent.mouseOut(screen.getByAltText('bulbasaur'))
+
+    expect(component).toMatchSnapshot()
+  })
+
+  test('Render without pokemon', () => {
+    const mockHooks = {
+      loading: false,
+      data: [],
+      error: false,
+      setError: jest.fn(),
+      offset: 0,
+      paginate: jest.fn(),
+      getAllPokemon: jest.fn()
+    }
+    usePokemon.mockReturnValue(mockHooks)
+
     const component = render(containerComponent)
     expect(component).toMatchSnapshot()
+  })
+
+  test('Render with error', () => {
+    const mockHooks = {
+      loading: false,
+      data: [],
+      error: true,
+      setError: jest.fn(),
+      offset: 0,
+      paginate: jest.fn(),
+      getAllPokemon: jest.fn()
+    }
+    usePokemon.mockReturnValue(mockHooks)
+
+    const component = render(containerComponent)
+
+    expect(component).toMatchSnapshot()
+  })
+
+  test('click button load more', () => {
+    const mockPaginate = jest.fn()
+    const mockHooks = {
+      loading: false,
+      data: [mockDetailsPokemon],
+      error: false,
+      setError: jest.fn(),
+      offset: 0,
+      paginate: mockPaginate,
+      getAllPokemon: jest.fn()
+    }
+    usePokemon.mockReturnValue(mockHooks)
+
+    render(containerComponent)
+
+    fireEvent.click(screen.getByTestId('btnLoadMore'))
+
+    expect(mockPaginate).toBeCalled()
   })
 })
