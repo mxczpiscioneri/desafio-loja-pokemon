@@ -34,9 +34,9 @@ export const TypesStyled = styled(Box)`
 export const AvatarStyled = styled(Avatar)`
   margin: 0 4px;
   background-color: #cfcfcf;
-  padding: 8px;
-  width: 16px;
-  height: 16px;
+  padding: 4px;
+  width: 24px;
+  height: 24px;
   display: inline-block;
 `
 export const PriceStyled = styled(Typography)`

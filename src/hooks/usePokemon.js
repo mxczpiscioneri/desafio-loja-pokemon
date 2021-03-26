@@ -1,10 +1,18 @@
+/* eslint complexity: ["error", 5] */
+
 import { useState, useCallback } from 'react'
 import PokeApiService from '../services/pokeapi'
 
 export const usePokemon = () => {
-  const [loading, setLoading] = useState(false)
+  const limit = 24
+  const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
   const [data, setData] = useState([])
+  const [offset, setOffset] = useState(0)
+
+  const paginate = () => {
+    setOffset(offsetCurrent => offsetCurrent + limit)
+  }
 
   const getPokemonDetail = async (pokemons) => {
     const pokemonListDetails = await Promise.all(
@@ -26,11 +34,11 @@ export const usePokemon = () => {
       setError(false)
       setLoading(true)
 
-      const responseList = await PokeApiService.getAll(0, 60)
+      const responseList = await PokeApiService.getAll(offset, limit)
       let responseDetails = await getPokemonDetail(responseList.data.results)
       responseDetails = responseDetails.filter(value => Object.keys(value).length !== 0)
 
-      setData(responseDetails)
+      setData(dataCurrent => dataCurrent.concat(responseDetails))
     } catch (err) {
       if (err.response && err.response.status === 404) {
         setData([])
@@ -40,12 +48,15 @@ export const usePokemon = () => {
     } finally {
       setLoading(false)
     }
-  }, [])
+  }, [offset])
 
   return {
     loading,
     data,
     error,
+    setError,
+    offset,
+    paginate,
     getAllPokemon
   }
 }

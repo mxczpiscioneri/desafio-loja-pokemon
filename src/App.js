@@ -1,11 +1,13 @@
 import React, { Suspense } from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import { StylesProvider } from '@material-ui/core/styles'
+import { CssBaseline } from '@material-ui/core'
 import Routes from './routes'
 import Loading from './components/Loading'
 
 const App = () => (
   <StylesProvider injectFirst>
+    <CssBaseline />
     <Suspense fallback={<Loading backdrop={false} />}>
       <BrowserRouter>
         <Switch>
