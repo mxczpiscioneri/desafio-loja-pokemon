@@ -6,6 +6,9 @@ const PokeApiService = {
   },
   getDetails (url) {
     return Api.get(url)
+  },
+  getType (type) {
+    return Api.get(`type/${type}`)
   }
 }
 

@@ -2,6 +2,7 @@ import MockAdapter from 'axios-mock-adapter'
 import { renderHook, act } from '@testing-library/react-hooks'
 import Api from '../services/api'
 import mockListPokemon from '../assets/mock-data/list-pokemon.json'
+import mockListPokemonType from '../assets/mock-data/list-pokemon-type.json'
 import mockDetailsPokemon from '../assets/mock-data/details-pokemon.json'
 import { usePokemon } from './usePokemon'
 
@@ -18,6 +19,23 @@ describe('usePokemon hooks', () => {
 
     act(() => {
       result.current.getAllPokemon()
+    })
+
+    await waitForNextUpdate()
+
+    expect(result.current.data[0]).toStrictEqual(mockDetailsPokemon)
+    expect(result.current.error).toBe(false)
+  })
+
+  test('getAllPokemon type with success', async () => {
+    const { result, waitForNextUpdate } = renderHook(() => usePokemon())
+
+    mock.onGet(`/type/test`).reply(200, mockListPokemonType)
+    mock.onGet(mockListPokemonType.pokemon[0].url).reply(200, mockDetailsPokemon)
+    mock.onGet(mockListPokemonType.pokemon[1].url).reply(200, mockDetailsPokemon)
+
+    act(() => {
+      result.current.getAllPokemon('test')
     })
 
     await waitForNextUpdate()
