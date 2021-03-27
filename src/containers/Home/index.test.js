@@ -66,24 +66,4 @@ describe('Home container', () => {
 
     expect(component).toMatchSnapshot()
   })
-
-  test('click button load more', () => {
-    const mockPaginate = jest.fn()
-    const mockHooks = {
-      loading: false,
-      data: [mockDetailsPokemon],
-      error: false,
-      setError: jest.fn(),
-      offset: 0,
-      paginate: mockPaginate,
-      getAllPokemon: jest.fn()
-    }
-    usePokemon.mockReturnValue(mockHooks)
-
-    render(containerComponent)
-
-    fireEvent.click(screen.getByTestId('btnLoadMore'))
-
-    expect(mockPaginate).toBeCalled()
-  })
 })

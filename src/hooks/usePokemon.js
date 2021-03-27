@@ -14,11 +14,11 @@ export const usePokemon = () => {
     setOffset(offsetCurrent => offsetCurrent + limit)
   }
 
-  const getPokemonDetail = async (pokemons) => {
+  const getPokemonDetail = async (pokemons, type) => {
     const pokemonListDetails = await Promise.all(
-      pokemons.map(async ({ url }) => {
+      pokemons.map(async (item) => {
         try {
-          const responseDetails = await PokeApiService.getDetails(url)
+          const responseDetails = await PokeApiService.getDetails(type ? item.pokemon.url : item.url)
           return responseDetails && responseDetails.data
         } catch (exception) {
           return {}
@@ -29,13 +29,22 @@ export const usePokemon = () => {
     return pokemonListDetails
   }
 
-  const getAllPokemon = useCallback(async () => {
+  const getAllPokemon = useCallback(async (type) => {
     try {
       setError(false)
       setLoading(true)
 
-      const responseList = await PokeApiService.getAll(offset, limit)
-      let responseDetails = await getPokemonDetail(responseList.data.results)
+      let responseList
+      if (type) {
+        setData([])
+        const response = await PokeApiService.getType(type)
+        responseList = response.data.pokemon
+      } else {
+        const response = await PokeApiService.getAll(offset, limit)
+        responseList = response.data.results
+      }
+
+      let responseDetails = await getPokemonDetail(responseList, !!type)
       responseDetails = responseDetails.filter(value => Object.keys(value).length !== 0)
 
       setData(dataCurrent => dataCurrent.concat(responseDetails))

@@ -43,3 +43,7 @@ export const PriceStyled = styled(Typography)`
   text-transform: capitalize;
   text-align: center;
 `
+export const LoadingStyled = styled.div`
+  margin-top: 60px;
+  width: 100%;
+`

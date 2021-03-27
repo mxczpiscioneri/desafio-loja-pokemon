@@ -4,16 +4,28 @@ import { useTypeContext } from '../../contexts/type'
 import { Tabs as TabMui } from '@material-ui/core'
 import { AvatarStyled, TabStyled } from './style'
 import { keys } from '../../hooks/useLocalStorage'
+import { useHistory } from 'react-router-dom'
+import { paths } from '../../routes'
 
 const Tabs = () => {
+  const { push } = useHistory()
   const { type, setType } = useTypeContext()
   const infoType = getType(type)
   const tabIndicatorProps = { style: { backgroundColor: infoType.color } }
 
+  const handleTab = (value) => {
+    setType(keys.type, value)
+    if (value === typesOfPokemon[0].name) {
+      push(paths.home)
+    } else {
+      push(paths.type.replace(':type', value))
+    }
+  }
+
   return (
     <TabMui
       value={type || false}
-      onChange={(_, value) => setType(keys.type, value)}
+      onChange={(_, value) => handleTab(value)}
       variant="scrollable"
       scrollButtons="auto"
       aria-label="scrollable auto tabs"
