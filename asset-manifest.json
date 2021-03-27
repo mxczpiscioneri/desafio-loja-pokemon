@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.js": "/desafio-loja-pokemon/static/js/main.2fcf1c7a.chunk.js",
-    "main.js.map": "/desafio-loja-pokemon/static/js/main.2fcf1c7a.chunk.js.map",
-    "runtime-main.js": "/desafio-loja-pokemon/static/js/runtime-main.cac70b17.js",
-    "runtime-main.js.map": "/desafio-loja-pokemon/static/js/runtime-main.cac70b17.js.map",
-    "static/js/2.6004a374.chunk.js": "/desafio-loja-pokemon/static/js/2.6004a374.chunk.js",
-    "static/js/2.6004a374.chunk.js.map": "/desafio-loja-pokemon/static/js/2.6004a374.chunk.js.map",
-    "static/js/3.e70f020a.chunk.js": "/desafio-loja-pokemon/static/js/3.e70f020a.chunk.js",
-    "static/js/3.e70f020a.chunk.js.map": "/desafio-loja-pokemon/static/js/3.e70f020a.chunk.js.map",
-    "static/js/4.ae056bd5.chunk.js": "/desafio-loja-pokemon/static/js/4.ae056bd5.chunk.js",
-    "static/js/4.ae056bd5.chunk.js.map": "/desafio-loja-pokemon/static/js/4.ae056bd5.chunk.js.map",
-    "static/js/5.858de0a0.chunk.js": "/desafio-loja-pokemon/static/js/5.858de0a0.chunk.js",
-    "static/js/5.858de0a0.chunk.js.map": "/desafio-loja-pokemon/static/js/5.858de0a0.chunk.js.map",
+    "main.js": "/desafio-loja-pokemon/static/js/main.dd24e603.chunk.js",
+    "main.js.map": "/desafio-loja-pokemon/static/js/main.dd24e603.chunk.js.map",
+    "runtime-main.js": "/desafio-loja-pokemon/static/js/runtime-main.96476230.js",
+    "runtime-main.js.map": "/desafio-loja-pokemon/static/js/runtime-main.96476230.js.map",
+    "static/js/2.8c3c4587.chunk.js": "/desafio-loja-pokemon/static/js/2.8c3c4587.chunk.js",
+    "static/js/2.8c3c4587.chunk.js.map": "/desafio-loja-pokemon/static/js/2.8c3c4587.chunk.js.map",
+    "static/js/3.d75b3367.chunk.js": "/desafio-loja-pokemon/static/js/3.d75b3367.chunk.js",
+    "static/js/3.d75b3367.chunk.js.map": "/desafio-loja-pokemon/static/js/3.d75b3367.chunk.js.map",
+    "static/js/4.f9b550be.chunk.js": "/desafio-loja-pokemon/static/js/4.f9b550be.chunk.js",
+    "static/js/4.f9b550be.chunk.js.map": "/desafio-loja-pokemon/static/js/4.f9b550be.chunk.js.map",
+    "static/js/5.a65c5d34.chunk.js": "/desafio-loja-pokemon/static/js/5.a65c5d34.chunk.js",
+    "static/js/5.a65c5d34.chunk.js.map": "/desafio-loja-pokemon/static/js/5.a65c5d34.chunk.js.map",
     "index.html": "/desafio-loja-pokemon/index.html",
-    "static/js/2.6004a374.chunk.js.LICENSE.txt": "/desafio-loja-pokemon/static/js/2.6004a374.chunk.js.LICENSE.txt",
-    "static/media/background.a8d7eb8c.png": "/desafio-loja-pokemon/static/media/background.a8d7eb8c.png",
+    "static/js/2.8c3c4587.chunk.js.LICENSE.txt": "/desafio-loja-pokemon/static/js/2.8c3c4587.chunk.js.LICENSE.txt",
+    "static/media/all.svg": "/desafio-loja-pokemon/static/media/all.49c7b738.svg",
+    "static/media/background.8606724d.png": "/desafio-loja-pokemon/static/media/background.8606724d.png",
     "static/media/bug.svg": "/desafio-loja-pokemon/static/media/bug.204df919.svg",
     "static/media/dark.svg": "/desafio-loja-pokemon/static/media/dark.27fdc7ed.svg",
     "static/media/dragon.svg": "/desafio-loja-pokemon/static/media/dragon.9d32757b.svg",
@@ -35,8 +36,8 @@
     "static/media/water.svg": "/desafio-loja-pokemon/static/media/water.b6d13329.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cac70b17.js",
-    "static/js/2.6004a374.chunk.js",
-    "static/js/main.2fcf1c7a.chunk.js"
+    "static/js/runtime-main.96476230.js",
+    "static/js/2.8c3c4587.chunk.js",
+    "static/js/main.dd24e603.chunk.js"
   ]
 }
