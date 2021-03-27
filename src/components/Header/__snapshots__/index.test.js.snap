@@ -75,6 +75,31 @@ Object {
                     class="MuiAvatar-root MuiAvatar-circle sc-gsTCUz dpZnWk"
                   >
                     <img
+                      alt="all"
+                      class="MuiAvatar-img"
+                      src="all.svg"
+                    />
+                  </div>
+                  all
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-bdfBwQ ixxUhz MuiTab-labelIcon"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiTab-wrapper"
+                >
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-gsTCUz dpZnWk"
+                  >
+                    <img
                       alt="normal"
                       class="MuiAvatar-img"
                       src="normal.svg"
@@ -578,6 +603,31 @@ Object {
             class="MuiTabs-flexContainer"
             role="tablist"
           >
+            <button
+              aria-selected="false"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-bdfBwQ ixxUhz MuiTab-labelIcon"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiTab-wrapper"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circle sc-gsTCUz dpZnWk"
+                >
+                  <img
+                    alt="all"
+                    class="MuiAvatar-img"
+                    src="all.svg"
+                  />
+                </div>
+                all
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
             <button
               aria-selected="false"
               class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-bdfBwQ ixxUhz MuiTab-labelIcon"

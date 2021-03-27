@@ -5,7 +5,7 @@ describe('useLocalStorage hooks', () => {
   test('initial values', async () => {
     const { result } = renderHook(() => useLocalStorage())
 
-    expect(result.current.storedValue).toStrictEqual({ 'type': null })
+    expect(result.current.storedValue).toStrictEqual({ type: 'all' })
   })
 
   test('setValue', async () => {

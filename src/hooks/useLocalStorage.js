@@ -6,7 +6,7 @@ export const useLocalStorage = () => {
   const [storedValue, setStoredValue] = useState(() => {
     let stored = null
     try {
-      const typeSaved = window.localStorage.getItem(keys.type.value)
+      const typeSaved = window.localStorage.getItem(keys.type.value) || 'all'
       stored = { type: typeSaved }
     } catch (error) { }
     return stored

@@ -1,5 +1,5 @@
 import React from 'react'
-import typesOfPokemon from '../../common/constants/typesOfPokemon'
+import typesOfPokemon, { getType } from '../../common/constants/typesOfPokemon'
 import { useTypeContext } from '../../contexts/type'
 import { Tabs as TabMui } from '@material-ui/core'
 import { AvatarStyled, TabStyled } from './style'
@@ -7,6 +7,8 @@ import { keys } from '../../hooks/useLocalStorage'
 
 const Tabs = () => {
   const { type, setType } = useTypeContext()
+  const infoType = getType(type)
+  const tabIndicatorProps = { style: { backgroundColor: infoType.color } }
 
   return (
     <TabMui
@@ -15,6 +17,7 @@ const Tabs = () => {
       variant="scrollable"
       scrollButtons="auto"
       aria-label="scrollable auto tabs"
+      TabIndicatorProps={tabIndicatorProps}
     >
       {typesOfPokemon.map(item => (
         <TabStyled
