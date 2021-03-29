@@ -54,7 +54,7 @@ const Gallery = ({ list, loading, paginate }) => (
         {paginate &&
         <Grid item xs={12} align="center">
           <Button data-testid="btnLoadMore" variant="outlined" size="large" color="primary" onClick={() => paginate()}>
-              Carregar mais
+            Carregar mais
           </Button>
         </Grid>
         }
