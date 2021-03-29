@@ -5,6 +5,8 @@ import { useParams } from 'react-router-dom'
 import Header from '../../components/Header'
 import Gallery from '../../components/Gallery'
 import { usePokemon } from '../../hooks/usePokemon'
+import { useCart } from '../../hooks/useCart'
+import Drawer from '../../components/Drawer'
 
 const Home = () => {
   const {
@@ -16,6 +18,7 @@ const Home = () => {
     getAllPokemon
   } = usePokemon()
   const { type } = useParams()
+  const { open, toggleDrawer } = useCart()
 
   useEffect(() => {
     getAllPokemon(type)
@@ -24,6 +27,7 @@ const Home = () => {
   return (
     <>
       <Header />
+      <Drawer open={open} toggleDrawer={toggleDrawer} />
       <Container>
         {error &&
           <Snackbar

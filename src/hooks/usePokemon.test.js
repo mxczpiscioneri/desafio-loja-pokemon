@@ -30,7 +30,7 @@ describe('usePokemon hooks', () => {
   test('getAllPokemon type with success', async () => {
     const { result, waitForNextUpdate } = renderHook(() => usePokemon())
 
-    mock.onGet(`/type/test`).reply(200, mockListPokemonType)
+    mock.onGet('/type/test').reply(200, mockListPokemonType)
     mock.onGet(mockListPokemonType.pokemon[0].url).reply(200, mockDetailsPokemon)
     mock.onGet(mockListPokemonType.pokemon[1].url).reply(200, mockDetailsPokemon)
 

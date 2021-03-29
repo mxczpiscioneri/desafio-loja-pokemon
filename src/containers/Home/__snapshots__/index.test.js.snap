@@ -545,6 +545,10 @@ Object {
         </div>
       </header>
       <div
+        class="PrivateSwipeArea-root-6 PrivateSwipeArea-anchorRight-8"
+        style="width: 20px;"
+      />
+      <div
         class="MuiContainer-root MuiContainer-maxWidthLg"
       >
         <div
@@ -1207,6 +1211,10 @@ Object {
         </div>
       </div>
     </header>
+    <div
+      class="PrivateSwipeArea-root-6 PrivateSwipeArea-anchorRight-8"
+      style="width: 20px;"
+    />
     <div
       class="MuiContainer-root MuiContainer-maxWidthLg"
     >
@@ -1921,12 +1929,16 @@ Object {
               </button>
             </div>
             <span
-              class="PrivateTabIndicator-root-10 PrivateTabIndicator-colorSecondary-12 MuiTabs-indicator"
+              class="PrivateTabIndicator-root-20 PrivateTabIndicator-colorSecondary-22 MuiTabs-indicator"
               style="left: 0px; width: 0px;"
             />
           </div>
         </div>
       </header>
+      <div
+        class="PrivateSwipeArea-root-24 PrivateSwipeArea-anchorRight-26"
+        style="width: 20px;"
+      />
       <div
         class="MuiContainer-root MuiContainer-maxWidthLg"
       >
@@ -2511,12 +2523,16 @@ Object {
             </button>
           </div>
           <span
-            class="PrivateTabIndicator-root-10 PrivateTabIndicator-colorSecondary-12 MuiTabs-indicator"
+            class="PrivateTabIndicator-root-20 PrivateTabIndicator-colorSecondary-22 MuiTabs-indicator"
             style="left: 0px; width: 0px;"
           />
         </div>
       </div>
     </header>
+    <div
+      class="PrivateSwipeArea-root-24 PrivateSwipeArea-anchorRight-26"
+      style="width: 20px;"
+    />
     <div
       class="MuiContainer-root MuiContainer-maxWidthLg"
     >
@@ -3158,12 +3174,16 @@ Object {
               </button>
             </div>
             <span
-              class="PrivateTabIndicator-root-6 PrivateTabIndicator-colorSecondary-8 MuiTabs-indicator"
+              class="PrivateTabIndicator-root-11 PrivateTabIndicator-colorSecondary-13 MuiTabs-indicator"
               style="left: 0px; width: 0px;"
             />
           </div>
         </div>
       </header>
+      <div
+        class="PrivateSwipeArea-root-15 PrivateSwipeArea-anchorRight-17"
+        style="width: 20px;"
+      />
       <div
         class="MuiContainer-root MuiContainer-maxWidthLg"
       >
@@ -3718,12 +3738,16 @@ Object {
             </button>
           </div>
           <span
-            class="PrivateTabIndicator-root-6 PrivateTabIndicator-colorSecondary-8 MuiTabs-indicator"
+            class="PrivateTabIndicator-root-11 PrivateTabIndicator-colorSecondary-13 MuiTabs-indicator"
             style="left: 0px; width: 0px;"
           />
         </div>
       </div>
     </header>
+    <div
+      class="PrivateSwipeArea-root-15 PrivateSwipeArea-anchorRight-17"
+      style="width: 20px;"
+    />
     <div
       class="MuiContainer-root MuiContainer-maxWidthLg"
     >
