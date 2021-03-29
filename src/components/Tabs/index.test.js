@@ -1,7 +1,7 @@
 import React from 'react'
 import { fireEvent, render, screen } from '@testing-library/react'
 import Tabs from '.'
-import * as TypeContext from '../../contexts/type'
+import * as PokemonContext from '../../contexts/pokemon'
 import { keys } from '../../hooks/useLocalStorage'
 import { paths } from '../../routes'
 
@@ -24,7 +24,7 @@ describe('Tabs components', () => {
     const mockUseContext = { type: null, setType: mockSetType }
     const type = 'all'
     jest
-      .spyOn(TypeContext, 'useTypeContext')
+      .spyOn(PokemonContext, 'usePokemonContext')
       .mockImplementation(() => mockUseContext)
 
     render(<Tabs />)
@@ -40,7 +40,7 @@ describe('Tabs components', () => {
     const mockUseContext = { type: null, setType: mockSetType }
     const type = 'normal'
     jest
-      .spyOn(TypeContext, 'useTypeContext')
+      .spyOn(PokemonContext, 'usePokemonContext')
       .mockImplementation(() => mockUseContext)
 
     render(<Tabs />)
