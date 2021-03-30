@@ -118,7 +118,7 @@ Object {
             <span
               class="MuiButton-label"
             >
-              Finalizar compra
+              Continuar
             </span>
             <span
               class="MuiTouchRipple-root"
@@ -242,7 +242,7 @@ Object {
           <span
             class="MuiButton-label"
           >
-            Finalizar compra
+            Continuar
           </span>
           <span
             class="MuiTouchRipple-root"

@@ -25,13 +25,18 @@ export const PokemonProvider = ({ children }) => {
     setValue(keys.cart, JSON.stringify(newListPokemon))
   }
 
+  const clearCart = () => {
+    setValue(keys.cart, JSON.stringify([]))
+  }
+
   return (
     <PokemonContext.Provider value={{
       type: storedValue.type,
       setType,
       cart: JSON.parse(storedValue.cart),
       addCart,
-      removeCart }}
+      removeCart,
+      clearCart }}
     >
       {children}
     </PokemonContext.Provider>
