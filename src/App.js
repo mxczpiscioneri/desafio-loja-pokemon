@@ -4,15 +4,15 @@ import { StylesProvider } from '@material-ui/core/styles'
 import { CssBaseline } from '@material-ui/core'
 import Routes from './routes'
 import Loading from './components/Loading'
-import TypeContext, { TypeProvider } from './contexts/type'
+import PokemonContext, { PokemonProvider } from './contexts/pokemon'
 import { BackgroundStyled } from './style'
 import { getType } from './common/constants/typesOfPokemon'
 
 const App = () => (
   <StylesProvider injectFirst>
     <CssBaseline />
-    <TypeProvider>
-      <TypeContext.Consumer>
+    <PokemonProvider>
+      <PokemonContext.Consumer>
         {context => (
           <BackgroundStyled backgroundColor={getType(context.type).color}>
             <Suspense fallback={<Loading backdrop={false} />}>
@@ -26,8 +26,8 @@ const App = () => (
             </Suspense>
           </BackgroundStyled>
         )}
-      </TypeContext.Consumer>
-    </TypeProvider>
+      </PokemonContext.Consumer>
+    </PokemonProvider>
   </StylesProvider>
 )
 

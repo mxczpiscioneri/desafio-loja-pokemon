@@ -1,20 +1,19 @@
 import React from 'react'
 import typesOfPokemon, { getType } from '../../common/constants/typesOfPokemon'
-import { useTypeContext } from '../../contexts/type'
+import { usePokemonContext } from '../../contexts/pokemon'
 import { Tabs as TabMui } from '@material-ui/core'
 import { AvatarStyled, TabStyled } from './style'
-import { keys } from '../../hooks/useLocalStorage'
 import { useHistory } from 'react-router-dom'
 import { paths } from '../../routes'
 
 const Tabs = () => {
   const { push } = useHistory()
-  const { type, setType } = useTypeContext()
+  const { type, setType } = usePokemonContext()
   const infoType = getType(type)
   const tabIndicatorProps = { style: { backgroundColor: infoType.color } }
 
   const handleTab = (value) => {
-    setType(keys.type, value)
+    setType(value)
     if (value === typesOfPokemon[0].name) {
       push(paths.home)
     } else {

@@ -1,8 +1,7 @@
 import React from 'react'
 import { fireEvent, render, screen } from '@testing-library/react'
 import Tabs from '.'
-import * as TypeContext from '../../contexts/type'
-import { keys } from '../../hooks/useLocalStorage'
+import * as PokemonContext from '../../contexts/pokemon'
 import { paths } from '../../routes'
 
 const mockHistory = jest.fn()
@@ -24,14 +23,14 @@ describe('Tabs components', () => {
     const mockUseContext = { type: null, setType: mockSetType }
     const type = 'all'
     jest
-      .spyOn(TypeContext, 'useTypeContext')
+      .spyOn(PokemonContext, 'usePokemonContext')
       .mockImplementation(() => mockUseContext)
 
     render(<Tabs />)
 
     fireEvent.click(screen.getByText(type))
 
-    expect(mockSetType).toBeCalledWith(keys.type, type)
+    expect(mockSetType).toBeCalledWith(type)
     expect(mockHistory).toBeCalledWith(paths.home)
   })
 
@@ -40,14 +39,14 @@ describe('Tabs components', () => {
     const mockUseContext = { type: null, setType: mockSetType }
     const type = 'normal'
     jest
-      .spyOn(TypeContext, 'useTypeContext')
+      .spyOn(PokemonContext, 'usePokemonContext')
       .mockImplementation(() => mockUseContext)
 
     render(<Tabs />)
 
     fireEvent.click(screen.getByText(type))
 
-    expect(mockSetType).toBeCalledWith(keys.type, type)
+    expect(mockSetType).toBeCalledWith(type)
     expect(mockHistory).toBeCalledWith(paths.type.replace(':type', type))
   })
 })
