@@ -24,33 +24,65 @@ Object {
           Carrinho de compras
         </li>
         <li
-          class="MuiListItem-root MuiListItem-gutters"
+          class="MuiListItem-container"
         >
           <div
-            class="MuiListItemAvatar-root"
+            class="MuiListItem-root MuiListItem-gutters MuiListItem-secondaryAction"
           >
             <div
-              class="MuiAvatar-root MuiAvatar-circle"
+              class="MuiListItemAvatar-root"
             >
-              <img
-                class="MuiAvatar-img"
-                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
-              />
+              <div
+                class="MuiAvatar-root MuiAvatar-circle"
+              >
+                <img
+                  class="MuiAvatar-img"
+                  src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiListItemText-root MuiListItemText-multiline"
+            >
+              <span
+                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+              >
+                bulbasaur
+              </span>
+              <p
+                class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+              >
+                $ 64
+              </p>
             </div>
           </div>
           <div
-            class="MuiListItemText-root MuiListItemText-multiline"
+            class="MuiListItemSecondaryAction-root"
           >
-            <span
-              class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+            <button
+              aria-label="deletar"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall MuiIconButton-edgeEnd"
+              tabindex="0"
+              type="button"
             >
-              bulbasaur
-            </span>
-            <p
-              class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
-            >
-              $ 64
-            </p>
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M14.59 8L12 10.59 9.41 8 8 9.41 10.59 12 8 14.59 9.41 16 12 13.41 14.59 16 16 14.59 13.41 12 16 9.41 14.59 8zM12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
           </div>
         </li>
         <hr
@@ -116,33 +148,65 @@ Object {
         Carrinho de compras
       </li>
       <li
-        class="MuiListItem-root MuiListItem-gutters"
+        class="MuiListItem-container"
       >
         <div
-          class="MuiListItemAvatar-root"
+          class="MuiListItem-root MuiListItem-gutters MuiListItem-secondaryAction"
         >
           <div
-            class="MuiAvatar-root MuiAvatar-circle"
+            class="MuiListItemAvatar-root"
           >
-            <img
-              class="MuiAvatar-img"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
-            />
+            <div
+              class="MuiAvatar-root MuiAvatar-circle"
+            >
+              <img
+                class="MuiAvatar-img"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline"
+          >
+            <span
+              class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+            >
+              bulbasaur
+            </span>
+            <p
+              class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+            >
+              $ 64
+            </p>
           </div>
         </div>
         <div
-          class="MuiListItemText-root MuiListItemText-multiline"
+          class="MuiListItemSecondaryAction-root"
         >
-          <span
-            class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+          <button
+            aria-label="deletar"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall MuiIconButton-edgeEnd"
+            tabindex="0"
+            type="button"
           >
-            bulbasaur
-          </span>
-          <p
-            class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
-          >
-            $ 64
-          </p>
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M14.59 8L12 10.59 9.41 8 8 9.41 10.59 12 8 14.59 9.41 16 12 13.41 14.59 16 16 14.59 13.41 12 16 9.41 14.59 8zM12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
       </li>
       <hr

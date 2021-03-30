@@ -22,7 +22,8 @@ export const ImageStyled = styled.img`
   }
 `
 export const CardContentStyled = styled(CardContent)`
-  padding: 32px 8px 8px 8px;
+  padding: 36px 8px 8px 8px;
+  text-align: center;
 `
 export const NameStyled = styled(Typography)`
   text-transform: capitalize;

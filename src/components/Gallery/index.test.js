@@ -2,6 +2,7 @@ import React from 'react'
 import { fireEvent, render, screen } from '@testing-library/react'
 import Gallery from '.'
 import mockDetailsPokemon from '../../assets/mock-data/details-pokemon.json'
+import * as PokemonContext from '../../contexts/pokemon'
 
 jest.mock('../../hooks/usePokemon')
 
@@ -35,5 +36,21 @@ describe('Gallery components', () => {
     fireEvent.click(screen.getByTestId('btnLoadMore'))
 
     expect(mockPaginate).toBeCalled()
+  })
+
+  test('click button add cart', () => {
+    const mockFunc = jest.fn()
+    const mockContext = { addCart: mockFunc }
+    jest
+      .spyOn(PokemonContext, 'usePokemonContext')
+      .mockImplementation(() => mockContext)
+
+    render(
+      <Gallery list={[mockDetailsPokemon]} loading={true} paginate={jest.fn()} />
+    )
+
+    fireEvent.click(screen.getByTestId('btnAddCart'))
+
+    expect(mockFunc).toBeCalled()
   })
 })

@@ -23,7 +23,7 @@ const Drawer = ({ open, toggleDrawer }) => {
       disableBackdropTransition={!iOS}
       disableDiscovery={iOS}
     >
-      <Cart resume={[]} />
+      <Cart />
     </SwipeableDrawer>
   )
 }

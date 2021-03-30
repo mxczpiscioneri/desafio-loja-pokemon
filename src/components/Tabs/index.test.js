@@ -2,7 +2,6 @@ import React from 'react'
 import { fireEvent, render, screen } from '@testing-library/react'
 import Tabs from '.'
 import * as PokemonContext from '../../contexts/pokemon'
-import { keys } from '../../hooks/useLocalStorage'
 import { paths } from '../../routes'
 
 const mockHistory = jest.fn()
@@ -31,7 +30,7 @@ describe('Tabs components', () => {
 
     fireEvent.click(screen.getByText(type))
 
-    expect(mockSetType).toBeCalledWith(keys.type, type)
+    expect(mockSetType).toBeCalledWith(type)
     expect(mockHistory).toBeCalledWith(paths.home)
   })
 
@@ -47,7 +46,7 @@ describe('Tabs components', () => {
 
     fireEvent.click(screen.getByText(type))
 
-    expect(mockSetType).toBeCalledWith(keys.type, type)
+    expect(mockSetType).toBeCalledWith(type)
     expect(mockHistory).toBeCalledWith(paths.type.replace(':type', type))
   })
 })

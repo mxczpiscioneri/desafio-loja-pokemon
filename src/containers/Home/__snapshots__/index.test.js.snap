@@ -602,7 +602,7 @@ Object {
                   title="bulbasaur"
                 />
                 <div
-                  class="MuiCardContent-root sc-jrAGrp OooiR"
+                  class="MuiCardContent-root sc-jrAGrp ePNBus"
                 >
                   <h5
                     class="MuiTypography-root sc-kEjbxe iBCBWH MuiTypography-h5"
@@ -640,6 +640,22 @@ Object {
                       />
                     </div>
                   </div>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-textSizeSmall MuiButton-sizeSmall"
+                    data-testid="btnAddCart"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      Comprar
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </span>
                 </div>
                 <span
                   class="MuiCardActionArea-focusHighlight"
@@ -1272,7 +1288,7 @@ Object {
                 title="bulbasaur"
               />
               <div
-                class="MuiCardContent-root sc-jrAGrp OooiR"
+                class="MuiCardContent-root sc-jrAGrp ePNBus"
               >
                 <h5
                   class="MuiTypography-root sc-kEjbxe iBCBWH MuiTypography-h5"
@@ -1310,6 +1326,22 @@ Object {
                     />
                   </div>
                 </div>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-textSizeSmall MuiButton-sizeSmall"
+                  data-testid="btnAddCart"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Comprar
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
               </div>
               <span
                 class="MuiCardActionArea-focusHighlight"
