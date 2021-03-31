@@ -1,7 +1,7 @@
 import React from 'react'
 import SearchIcon from '@material-ui/icons/Search'
 import ShoppingIcon from '@material-ui/icons/ShoppingBasket'
-import { Toolbar } from '@material-ui/core'
+import { Badge, Toolbar } from '@material-ui/core'
 import { useHistory } from 'react-router-dom'
 import Tabs from '../Tabs'
 import image from '../../assets/images/logo.png'
@@ -12,7 +12,7 @@ import { usePokemonContext } from '../../contexts/pokemon'
 
 const Header = () => {
   const { push } = useHistory()
-  const { type, toggleDrawer } = usePokemonContext()
+  const { type, toggleDrawer, cart } = usePokemonContext()
 
   const searchPokemon = (event) => {
     event.preventDefault()
@@ -36,7 +36,9 @@ const Header = () => {
           />
         </SearchStyled>
         <ShoppingIconStyled onClick={toggleDrawer}>
-          <ShoppingIcon />
+          <Badge badgeContent={cart.length}>
+            <ShoppingIcon />
+          </Badge>
         </ShoppingIconStyled>
       </Toolbar>
       <Tabs />

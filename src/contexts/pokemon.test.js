@@ -16,11 +16,11 @@ jest.mock('react-router-dom', () => ({
     push: jest.fn()
   })
 }))
-const mockSetState = jest.fn();
+const mockSetState = jest.fn()
 jest.mock('react', () => ({
-    ...jest.requireActual('react'),
-    useState: initial => [initial, mockSetState]
-}));
+  ...jest.requireActual('react'),
+  useState: initial => [initial, mockSetState]
+}))
 
 describe('PokemonContext', () => {
   test('setType', () => {

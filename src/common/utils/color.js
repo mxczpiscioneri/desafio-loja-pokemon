@@ -1,6 +1,6 @@
 /* eslint complexity: ["error", 10] */
 
-const lightenDarkenColor = (color = '', amt) => {
+const lightenDarkenColor = (color, amt) => {
   let col = color
 
   col = col.slice(1)

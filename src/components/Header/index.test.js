@@ -4,6 +4,7 @@ import { MuiThemeProvider } from '@material-ui/core'
 import { ThemeProvider } from 'styled-components'
 import Header from '.'
 import theme from '../../theme'
+import * as PokemonContext from '../../contexts/pokemon'
 import { paths } from '../../routes'
 
 const mockHistory = jest.fn()
@@ -13,6 +14,13 @@ jest.mock('react-router-dom', () => ({
     push: mockHistory
   })
 }))
+
+beforeEach(() => {
+  const mockContext = { type: 'all', cart: [] }
+  jest
+    .spyOn(PokemonContext, 'usePokemonContext')
+    .mockImplementation(() => mockContext)
+})
 
 describe('Header components', () => {
   const renderComponent = () => render(

@@ -11,6 +11,7 @@ import { usePokemon } from '../../hooks/usePokemon'
 
 jest.mock('../../hooks/usePokemon')
 
+const mockFunc = jest.fn()
 const containerComponent = (
   <MuiThemeProvider theme={theme}>
     <ThemeProvider theme={theme}>
@@ -20,6 +21,13 @@ const containerComponent = (
     </ThemeProvider>
   </MuiThemeProvider>
 )
+
+beforeEach(() => {
+  const mockContext = { addCart: mockFunc, type: 'all', cart: [] }
+  jest
+    .spyOn(PokemonContext, 'usePokemonContext')
+    .mockImplementation(() => mockContext)
+})
 
 describe('Details container', () => {
   test('Render layout', () => {
@@ -51,12 +59,6 @@ describe('Details container', () => {
   })
 
   test('click button add cart', () => {
-    const mockFunc = jest.fn()
-    const mockContext = { addCart: mockFunc }
-    jest
-      .spyOn(PokemonContext, 'usePokemonContext')
-      .mockImplementation(() => mockContext)
-
     const mockHooks = {
       loading: true,
       data: [mockDetailsPokemon],

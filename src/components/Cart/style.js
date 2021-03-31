@@ -4,6 +4,7 @@ import { Button, List, ListItem, ListSubheader } from '@material-ui/core'
 export const ListStyled = styled(List)`
   ${({ theme }) => `
     width: 100%;
+    min-width: 240px;
     max-width: 360px;
     background-color: ${theme.palette.background.default};
   `}

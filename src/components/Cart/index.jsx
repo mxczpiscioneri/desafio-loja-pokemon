@@ -1,17 +1,17 @@
 import React, { Fragment } from 'react'
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart'
 import HighlightOffIcon from '@material-ui/icons/HighlightOff'
 import { Avatar, Divider, IconButton, ListItem, ListItemAvatar, ListItemSecondaryAction, ListItemText } from '@material-ui/core'
 import { ButtonStyled, ListItemResumeStyled, ListStyled, ListSubheaderStyled } from './style'
 import { usePokemonContext } from '../../contexts/pokemon'
 
 const Cart = () => {
-  const { cart, removeCart, clearCart } = usePokemonContext()
+  const { cart, removeCart, clearCart, toggleDrawer } = usePokemonContext()
   let total = 0
 
   const handlerFinish = () => {
+    toggleDrawer()
     const text = `Você escolheu ${cart.length} Pokemón.<br />O valor total é de $ ${total}.`
     const MySwal = withReactContent(Swal)
     MySwal.fire({
@@ -37,12 +37,9 @@ const Cart = () => {
     })
   }
 
-  if (!cart || cart.length === 0) {
-    return <Fragment />
-  }
   return (
     <>
-      <ListStyled subheader={<ListSubheaderStyled><ShoppingCartIcon />Carrinho de compras</ListSubheaderStyled>}>
+      <ListStyled subheader={<ListSubheaderStyled>Carrinho de compras</ListSubheaderStyled>}>
         {cart.map((pokemon, index) => {
           total += pokemon.base_experience
           return (
@@ -62,14 +59,21 @@ const Cart = () => {
             </Fragment>
           )
         })}
-        <ListItemResumeStyled>
-          <ListItemText primary='Total' secondary={`$ ${total}`} />
-        </ListItemResumeStyled>
-        <ListItemResumeStyled>
-          <ButtonStyled data-testid="btnFinish" size="large" variant="contained" color="primary" fullWidth onClick={handlerFinish}>
+        {cart.length === 0 ?
+          <ListItem>
+            <ListItemText primary="Adicione um Pokémon no carrinho" />
+          </ListItem> :
+          <>
+            <ListItemResumeStyled>
+              <ListItemText primary='Total' secondary={`$ ${total}`} />
+            </ListItemResumeStyled>
+            <ListItemResumeStyled>
+              <ButtonStyled data-testid="btnFinish" size="large" variant="contained" color="primary" fullWidth onClick={handlerFinish}>
             Continuar
-          </ButtonStyled>
-        </ListItemResumeStyled>
+              </ButtonStyled>
+            </ListItemResumeStyled>
+          </>
+        }
       </ListStyled>
     </>
   )

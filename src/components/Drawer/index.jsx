@@ -17,7 +17,6 @@ const Drawer = ({ open, toggleDrawer }) => {
     <SwipeableDrawer
       anchor={'right'}
       open={open}
-      variant="permanent"
       onClose={handlerOpenClose}
       onOpen={handlerOpenClose}
       disableBackdropTransition={!iOS}

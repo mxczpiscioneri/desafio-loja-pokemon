@@ -8,6 +8,10 @@ export const PokemonProvider = ({ children }) => {
   const { storedValue, setValue } = useLocalStorage()
   const [drawer, setDrawer] = useState(false)
 
+  const toggleDrawer = () => {
+    setDrawer(status => !status)
+  }
+
   const setType = (type) => {
     setValue(keys.type, type)
   }
@@ -17,6 +21,7 @@ export const PokemonProvider = ({ children }) => {
     listPokemon.push(pokemon)
 
     setValue(keys.cart, JSON.stringify(listPokemon))
+    toggleDrawer()
   }
 
   const removeCart = (index) => {
@@ -28,10 +33,6 @@ export const PokemonProvider = ({ children }) => {
 
   const clearCart = () => {
     setValue(keys.cart, JSON.stringify([]))
-  }
-
-  const toggleDrawer = () => {
-    setDrawer(status => !status)
   }
 
   return (

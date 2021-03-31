@@ -6,7 +6,8 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fCjVcY MuiPaper-elevation4"
+        bg="#333333"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -47,16 +48,25 @@ Object {
           <div
             class="sc-iBPRYJ eHCwJP"
           >
-            <svg
-              aria-hidden="true"
-              class="MuiSvgIcon-root"
-              focusable="false"
-              viewBox="0 0 24 24"
+            <span
+              class="MuiBadge-root"
             >
-              <path
-                d="M17.21 9l-4.38-6.56c-.19-.28-.51-.42-.83-.42-.32 0-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1h-4.79zM9 9l3-4.4L15 9H9zm3 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M17.21 9l-4.38-6.56c-.19-.28-.51-.42-.83-.42-.32 0-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1h-4.79zM9 9l3-4.4L15 9H9zm3 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+                />
+              </svg>
+              <span
+                class="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-invisible"
+              >
+                0
+              </span>
+            </span>
           </div>
         </div>
         <div
@@ -76,10 +86,10 @@ Object {
               role="tablist"
             >
               <button
-                aria-selected="false"
-                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-bdfBwQ ixxUhz MuiTab-labelIcon"
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-bdfBwQ ixxUhz Mui-selected MuiTab-labelIcon"
                 role="tab"
-                tabindex="-1"
+                tabindex="0"
                 type="button"
               >
                 <span
@@ -552,8 +562,8 @@ Object {
               </button>
             </div>
             <span
-              class="PrivateTabIndicator-root-6 PrivateTabIndicator-colorSecondary-8 MuiTabs-indicator"
-              style="left: 0px; width: 0px;"
+              class="PrivateTabIndicator-root-1 PrivateTabIndicator-colorSecondary-3 MuiTabs-indicator"
+              style="left: 0px; width: 0px; background-color: rgb(51, 51, 51);"
             />
           </div>
         </div>
@@ -751,20 +761,20 @@ Object {
                         aria-valuemax="100"
                         aria-valuemin="0"
                         aria-valuenow="45"
-                        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-1"
+                        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
                         data-index="0"
                         role="slider"
                         style="left: 45%;"
                         tabindex="0"
                       >
                         <span
-                          class="PrivateValueLabel-offset-3 MuiSlider-valueLabel"
+                          class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
                         >
                           <span
-                            class="PrivateValueLabel-circle-4"
+                            class="PrivateValueLabel-circle-8"
                           >
                             <span
-                              class="PrivateValueLabel-label-5"
+                              class="PrivateValueLabel-label-9"
                             >
                               45
                             </span>
@@ -798,20 +808,20 @@ Object {
                         aria-valuemax="100"
                         aria-valuemin="0"
                         aria-valuenow="49"
-                        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-1"
+                        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
                         data-index="0"
                         role="slider"
                         style="left: 49%;"
                         tabindex="0"
                       >
                         <span
-                          class="PrivateValueLabel-offset-3 MuiSlider-valueLabel"
+                          class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
                         >
                           <span
-                            class="PrivateValueLabel-circle-4"
+                            class="PrivateValueLabel-circle-8"
                           >
                             <span
-                              class="PrivateValueLabel-label-5"
+                              class="PrivateValueLabel-label-9"
                             >
                               49
                             </span>
@@ -845,20 +855,20 @@ Object {
                         aria-valuemax="100"
                         aria-valuemin="0"
                         aria-valuenow="49"
-                        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-1"
+                        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
                         data-index="0"
                         role="slider"
                         style="left: 49%;"
                         tabindex="0"
                       >
                         <span
-                          class="PrivateValueLabel-offset-3 MuiSlider-valueLabel"
+                          class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
                         >
                           <span
-                            class="PrivateValueLabel-circle-4"
+                            class="PrivateValueLabel-circle-8"
                           >
                             <span
-                              class="PrivateValueLabel-label-5"
+                              class="PrivateValueLabel-label-9"
                             >
                               49
                             </span>
@@ -892,20 +902,20 @@ Object {
                         aria-valuemax="100"
                         aria-valuemin="0"
                         aria-valuenow="65"
-                        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-1"
+                        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
                         data-index="0"
                         role="slider"
                         style="left: 65%;"
                         tabindex="0"
                       >
                         <span
-                          class="PrivateValueLabel-offset-3 MuiSlider-valueLabel"
+                          class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
                         >
                           <span
-                            class="PrivateValueLabel-circle-4"
+                            class="PrivateValueLabel-circle-8"
                           >
                             <span
-                              class="PrivateValueLabel-label-5"
+                              class="PrivateValueLabel-label-9"
                             >
                               65
                             </span>
@@ -939,20 +949,20 @@ Object {
                         aria-valuemax="100"
                         aria-valuemin="0"
                         aria-valuenow="65"
-                        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-1"
+                        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
                         data-index="0"
                         role="slider"
                         style="left: 65%;"
                         tabindex="0"
                       >
                         <span
-                          class="PrivateValueLabel-offset-3 MuiSlider-valueLabel"
+                          class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
                         >
                           <span
-                            class="PrivateValueLabel-circle-4"
+                            class="PrivateValueLabel-circle-8"
                           >
                             <span
-                              class="PrivateValueLabel-label-5"
+                              class="PrivateValueLabel-label-9"
                             >
                               65
                             </span>
@@ -986,20 +996,20 @@ Object {
                         aria-valuemax="100"
                         aria-valuemin="0"
                         aria-valuenow="45"
-                        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-1"
+                        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
                         data-index="0"
                         role="slider"
                         style="left: 45%;"
                         tabindex="0"
                       >
                         <span
-                          class="PrivateValueLabel-offset-3 MuiSlider-valueLabel"
+                          class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
                         >
                           <span
-                            class="PrivateValueLabel-circle-4"
+                            class="PrivateValueLabel-circle-8"
                           >
                             <span
-                              class="PrivateValueLabel-label-5"
+                              class="PrivateValueLabel-label-9"
                             >
                               45
                             </span>
@@ -1581,7 +1591,8 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fCjVcY MuiPaper-elevation4"
+      bg="#333333"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -1622,16 +1633,25 @@ Object {
         <div
           class="sc-iBPRYJ eHCwJP"
         >
-          <svg
-            aria-hidden="true"
-            class="MuiSvgIcon-root"
-            focusable="false"
-            viewBox="0 0 24 24"
+          <span
+            class="MuiBadge-root"
           >
-            <path
-              d="M17.21 9l-4.38-6.56c-.19-.28-.51-.42-.83-.42-.32 0-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1h-4.79zM9 9l3-4.4L15 9H9zm3 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.21 9l-4.38-6.56c-.19-.28-.51-.42-.83-.42-.32 0-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1h-4.79zM9 9l3-4.4L15 9H9zm3 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+              />
+            </svg>
+            <span
+              class="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-invisible"
+            >
+              0
+            </span>
+          </span>
         </div>
       </div>
       <div
@@ -1651,10 +1671,10 @@ Object {
             role="tablist"
           >
             <button
-              aria-selected="false"
-              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-bdfBwQ ixxUhz MuiTab-labelIcon"
+              aria-selected="true"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-bdfBwQ ixxUhz Mui-selected MuiTab-labelIcon"
               role="tab"
-              tabindex="-1"
+              tabindex="0"
               type="button"
             >
               <span
@@ -2127,8 +2147,8 @@ Object {
             </button>
           </div>
           <span
-            class="PrivateTabIndicator-root-6 PrivateTabIndicator-colorSecondary-8 MuiTabs-indicator"
-            style="left: 0px; width: 0px;"
+            class="PrivateTabIndicator-root-1 PrivateTabIndicator-colorSecondary-3 MuiTabs-indicator"
+            style="left: 0px; width: 0px; background-color: rgb(51, 51, 51);"
           />
         </div>
       </div>
@@ -2326,20 +2346,20 @@ Object {
                       aria-valuemax="100"
                       aria-valuemin="0"
                       aria-valuenow="45"
-                      class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-1"
+                      class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
                       data-index="0"
                       role="slider"
                       style="left: 45%;"
                       tabindex="0"
                     >
                       <span
-                        class="PrivateValueLabel-offset-3 MuiSlider-valueLabel"
+                        class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
                       >
                         <span
-                          class="PrivateValueLabel-circle-4"
+                          class="PrivateValueLabel-circle-8"
                         >
                           <span
-                            class="PrivateValueLabel-label-5"
+                            class="PrivateValueLabel-label-9"
                           >
                             45
                           </span>
@@ -2373,20 +2393,20 @@ Object {
                       aria-valuemax="100"
                       aria-valuemin="0"
                       aria-valuenow="49"
-                      class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-1"
+                      class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
                       data-index="0"
                       role="slider"
                       style="left: 49%;"
                       tabindex="0"
                     >
                       <span
-                        class="PrivateValueLabel-offset-3 MuiSlider-valueLabel"
+                        class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
                       >
                         <span
-                          class="PrivateValueLabel-circle-4"
+                          class="PrivateValueLabel-circle-8"
                         >
                           <span
-                            class="PrivateValueLabel-label-5"
+                            class="PrivateValueLabel-label-9"
                           >
                             49
                           </span>
@@ -2420,20 +2440,20 @@ Object {
                       aria-valuemax="100"
                       aria-valuemin="0"
                       aria-valuenow="49"
-                      class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-1"
+                      class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
                       data-index="0"
                       role="slider"
                       style="left: 49%;"
                       tabindex="0"
                     >
                       <span
-                        class="PrivateValueLabel-offset-3 MuiSlider-valueLabel"
+                        class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
                       >
                         <span
-                          class="PrivateValueLabel-circle-4"
+                          class="PrivateValueLabel-circle-8"
                         >
                           <span
-                            class="PrivateValueLabel-label-5"
+                            class="PrivateValueLabel-label-9"
                           >
                             49
                           </span>
@@ -2467,20 +2487,20 @@ Object {
                       aria-valuemax="100"
                       aria-valuemin="0"
                       aria-valuenow="65"
-                      class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-1"
+                      class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
                       data-index="0"
                       role="slider"
                       style="left: 65%;"
                       tabindex="0"
                     >
                       <span
-                        class="PrivateValueLabel-offset-3 MuiSlider-valueLabel"
+                        class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
                       >
                         <span
-                          class="PrivateValueLabel-circle-4"
+                          class="PrivateValueLabel-circle-8"
                         >
                           <span
-                            class="PrivateValueLabel-label-5"
+                            class="PrivateValueLabel-label-9"
                           >
                             65
                           </span>
@@ -2514,20 +2534,20 @@ Object {
                       aria-valuemax="100"
                       aria-valuemin="0"
                       aria-valuenow="65"
-                      class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-1"
+                      class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
                       data-index="0"
                       role="slider"
                       style="left: 65%;"
                       tabindex="0"
                     >
                       <span
-                        class="PrivateValueLabel-offset-3 MuiSlider-valueLabel"
+                        class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
                       >
                         <span
-                          class="PrivateValueLabel-circle-4"
+                          class="PrivateValueLabel-circle-8"
                         >
                           <span
-                            class="PrivateValueLabel-label-5"
+                            class="PrivateValueLabel-label-9"
                           >
                             65
                           </span>
@@ -2561,20 +2581,20 @@ Object {
                       aria-valuemax="100"
                       aria-valuemin="0"
                       aria-valuenow="45"
-                      class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-1"
+                      class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-5"
                       data-index="0"
                       role="slider"
                       style="left: 45%;"
                       tabindex="0"
                     >
                       <span
-                        class="PrivateValueLabel-offset-3 MuiSlider-valueLabel"
+                        class="PrivateValueLabel-offset-7 MuiSlider-valueLabel"
                       >
                         <span
-                          class="PrivateValueLabel-circle-4"
+                          class="PrivateValueLabel-circle-8"
                         >
                           <span
-                            class="PrivateValueLabel-label-5"
+                            class="PrivateValueLabel-label-9"
                           >
                             45
                           </span>
@@ -3213,7 +3233,8 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fCjVcY MuiPaper-elevation4"
+        bg="#333333"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -3254,16 +3275,25 @@ Object {
           <div
             class="sc-iBPRYJ eHCwJP"
           >
-            <svg
-              aria-hidden="true"
-              class="MuiSvgIcon-root"
-              focusable="false"
-              viewBox="0 0 24 24"
+            <span
+              class="MuiBadge-root"
             >
-              <path
-                d="M17.21 9l-4.38-6.56c-.19-.28-.51-.42-.83-.42-.32 0-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1h-4.79zM9 9l3-4.4L15 9H9zm3 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M17.21 9l-4.38-6.56c-.19-.28-.51-.42-.83-.42-.32 0-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1h-4.79zM9 9l3-4.4L15 9H9zm3 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+                />
+              </svg>
+              <span
+                class="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-invisible"
+              >
+                0
+              </span>
+            </span>
           </div>
         </div>
         <div
@@ -3283,10 +3313,10 @@ Object {
               role="tablist"
             >
               <button
-                aria-selected="false"
-                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-bdfBwQ ixxUhz MuiTab-labelIcon"
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-bdfBwQ ixxUhz Mui-selected MuiTab-labelIcon"
                 role="tab"
-                tabindex="-1"
+                tabindex="0"
                 type="button"
               >
                 <span
@@ -3760,7 +3790,7 @@ Object {
             </div>
             <span
               class="PrivateTabIndicator-root-10 PrivateTabIndicator-colorSecondary-12 MuiTabs-indicator"
-              style="left: 0px; width: 0px;"
+              style="left: 0px; width: 0px; background-color: rgb(51, 51, 51);"
             />
           </div>
         </div>
@@ -3778,7 +3808,8 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fCjVcY MuiPaper-elevation4"
+      bg="#333333"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -3819,16 +3850,25 @@ Object {
         <div
           class="sc-iBPRYJ eHCwJP"
         >
-          <svg
-            aria-hidden="true"
-            class="MuiSvgIcon-root"
-            focusable="false"
-            viewBox="0 0 24 24"
+          <span
+            class="MuiBadge-root"
           >
-            <path
-              d="M17.21 9l-4.38-6.56c-.19-.28-.51-.42-.83-.42-.32 0-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1h-4.79zM9 9l3-4.4L15 9H9zm3 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.21 9l-4.38-6.56c-.19-.28-.51-.42-.83-.42-.32 0-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1h-4.79zM9 9l3-4.4L15 9H9zm3 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+              />
+            </svg>
+            <span
+              class="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-invisible"
+            >
+              0
+            </span>
+          </span>
         </div>
       </div>
       <div
@@ -3848,10 +3888,10 @@ Object {
             role="tablist"
           >
             <button
-              aria-selected="false"
-              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-bdfBwQ ixxUhz MuiTab-labelIcon"
+              aria-selected="true"
+              class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit sc-bdfBwQ ixxUhz Mui-selected MuiTab-labelIcon"
               role="tab"
-              tabindex="-1"
+              tabindex="0"
               type="button"
             >
               <span
@@ -4325,7 +4365,7 @@ Object {
           </div>
           <span
             class="PrivateTabIndicator-root-10 PrivateTabIndicator-colorSecondary-12 MuiTabs-indicator"
-            style="left: 0px; width: 0px;"
+            style="left: 0px; width: 0px; background-color: rgb(51, 51, 51);"
           />
         </div>
       </div>

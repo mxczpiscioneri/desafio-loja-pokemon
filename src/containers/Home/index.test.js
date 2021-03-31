@@ -6,6 +6,7 @@ import { ThemeProvider } from 'styled-components'
 import Home from '.'
 import mockDetailsPokemon from '../../assets/mock-data/details-pokemon.json'
 import theme from '../../theme'
+import * as PokemonContext from '../../contexts/pokemon'
 import { usePokemon } from '../../hooks/usePokemon'
 
 jest.mock('../../hooks/usePokemon')
@@ -19,6 +20,13 @@ const containerComponent = (
     </ThemeProvider>
   </MuiThemeProvider>
 )
+
+beforeEach(() => {
+  const mockContext = { type: 'all', cart: [] }
+  jest
+    .spyOn(PokemonContext, 'usePokemonContext')
+    .mockImplementation(() => mockContext)
+})
 
 describe('Home container', () => {
   test('Render layout', () => {

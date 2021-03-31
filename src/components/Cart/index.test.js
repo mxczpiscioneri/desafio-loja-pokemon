@@ -52,9 +52,9 @@ describe('Cart components', () => {
     expect(mockFunc).toBeCalled()
   })
 
-  test('clear cart', async () => {
+  test('finish checkout', async () => {
     const mockFunc = jest.fn()
-    const mockContext = { cart: [mockDetailsPokemon], clearCart: mockFunc }
+    const mockContext = { cart: [mockDetailsPokemon], clearCart: mockFunc, toggleDrawer: jest.fn() }
     jest
       .spyOn(PokemonContext, 'usePokemonContext')
       .mockImplementation(() => mockContext)
@@ -72,7 +72,7 @@ describe('Cart components', () => {
 
   test('cancel checkout', () => {
     const mockFunc = jest.fn()
-    const mockContext = { cart: [mockDetailsPokemon], clearCart: mockFunc }
+    const mockContext = { cart: [mockDetailsPokemon], clearCart: mockFunc, toggleDrawer: jest.fn() }
     jest
       .spyOn(PokemonContext, 'usePokemonContext')
       .mockImplementation(() => mockContext)

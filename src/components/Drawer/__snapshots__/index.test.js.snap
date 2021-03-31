@@ -31,7 +31,30 @@ Object {
       <div
         class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorRight MuiPaper-elevation16"
         tabindex="-1"
-      />
+      >
+        <ul
+          class="MuiList-root sc-bdfBwQ kBEneY MuiList-padding MuiList-subheader"
+        >
+          <li
+            class="MuiListSubheader-root sc-gsTCUz bLgCqt MuiListSubheader-sticky MuiListSubheader-gutters"
+          >
+            Carrinho de compras
+          </li>
+          <li
+            class="MuiListItem-root MuiListItem-gutters"
+          >
+            <div
+              class="MuiListItemText-root"
+            >
+              <span
+                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+              >
+                Adicione um Pokémon no carrinho
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
       <div
         data-test="sentinelEnd"
         tabindex="0"
