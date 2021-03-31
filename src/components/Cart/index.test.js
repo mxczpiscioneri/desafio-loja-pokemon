@@ -1,10 +1,21 @@
 import React from 'react'
 import { act, fireEvent, render, screen } from '@testing-library/react'
+import { MuiThemeProvider } from '@material-ui/core'
+import { ThemeProvider } from 'styled-components'
 import Cart from '.'
 import * as PokemonContext from '../../contexts/pokemon'
 import mockDetailsPokemon from '../../assets/mock-data/details-pokemon.json'
+import theme from '../../theme'
 
 window.scrollTo = jest.fn()
+
+const containerComponent = (
+  <MuiThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
+      <Cart />
+    </ThemeProvider>
+  </MuiThemeProvider>
+)
 
 describe('Cart components', () => {
   test('Render with success', () => {
@@ -13,7 +24,7 @@ describe('Cart components', () => {
       .spyOn(PokemonContext, 'usePokemonContext')
       .mockImplementation(() => mockContext)
 
-    const component = render(<Cart />)
+    const component = render(containerComponent)
     expect(component).toMatchSnapshot()
   })
 
@@ -23,7 +34,7 @@ describe('Cart components', () => {
       .spyOn(PokemonContext, 'usePokemonContext')
       .mockImplementation(() => mockContext)
 
-    const component = render(<Cart />)
+    const component = render(containerComponent)
     expect(component).toMatchSnapshot()
   })
 
@@ -34,23 +45,23 @@ describe('Cart components', () => {
       .spyOn(PokemonContext, 'usePokemonContext')
       .mockImplementation(() => mockContext)
 
-    render(<Cart />)
+    render(containerComponent)
 
     fireEvent.click(screen.getByLabelText('deletar'))
 
     expect(mockFunc).toBeCalled()
   })
 
-  test('clear cart', async () => {
+  test('finish checkout', async () => {
     const mockFunc = jest.fn()
-    const mockContext = { cart: [mockDetailsPokemon], clearCart: mockFunc }
+    const mockContext = { cart: [mockDetailsPokemon], clearCart: mockFunc, toggleDrawer: jest.fn() }
     jest
       .spyOn(PokemonContext, 'usePokemonContext')
       .mockImplementation(() => mockContext)
 
-    render(<Cart />)
+    render(containerComponent)
 
-    await act( async () =>{
+    await act(async () => {
       fireEvent.click(screen.getByTestId('btnFinish'))
 
       fireEvent.click(screen.getByText('Concluir pedido'))
@@ -61,14 +72,14 @@ describe('Cart components', () => {
 
   test('cancel checkout', () => {
     const mockFunc = jest.fn()
-    const mockContext = { cart: [mockDetailsPokemon], clearCart: mockFunc }
+    const mockContext = { cart: [mockDetailsPokemon], clearCart: mockFunc, toggleDrawer: jest.fn() }
     jest
       .spyOn(PokemonContext, 'usePokemonContext')
       .mockImplementation(() => mockContext)
 
-    render(<Cart />)
+    render(containerComponent)
 
-    act(() =>{
+    act(() => {
       fireEvent.click(screen.getByTestId('btnFinish'))
 
       fireEvent.click(screen.getByText('Voltar'))

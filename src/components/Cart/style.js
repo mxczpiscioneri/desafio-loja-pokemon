@@ -1,10 +1,13 @@
 import styled from 'styled-components'
-import { List, ListItem, ListSubheader } from '@material-ui/core'
+import { Button, List, ListItem, ListSubheader } from '@material-ui/core'
 
 export const ListStyled = styled(List)`
-  width: 100%;
-  max-width: 360px;
-  background-color: #fafafa;
+  ${({ theme }) => `
+    width: 100%;
+    min-width: 240px;
+    max-width: 360px;
+    background-color: ${theme.palette.background.default};
+  `}
 `
 
 export const ListSubheaderStyled = styled(ListSubheader)`
@@ -20,8 +23,9 @@ export const ListSubheaderStyled = styled(ListSubheader)`
 `
 
 export const ListItemResumeStyled = styled(ListItem)`
-  background-color: #ccc;
-
+  ${({ theme }) => `
+    background-color: ${theme.palette.background.main};
+  `}
   span {
     float: left;
   }
@@ -29,4 +33,11 @@ export const ListItemResumeStyled = styled(ListItem)`
   p {
     float: right;
   }
+`
+
+export const ButtonStyled = styled(Button)`
+  ${({ theme }) => `
+    background-color: ${theme.palette.primary.main};
+    background: ${theme.palette.background.gradient};
+  `}
 `

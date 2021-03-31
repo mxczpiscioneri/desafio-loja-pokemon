@@ -9,10 +9,10 @@ Object {
         class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
       >
         <div
-          class="sc-fubCfw bdnqd"
+          class="sc-gKsewC upNYM"
         >
           <div
-            class="sc-jrAGrp kyhKoq"
+            class="sc-fubCfw eylRHt"
           >
             <div
               class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -39,21 +39,20 @@ Object {
           class="MuiGrid-root sc-bdfBwQ bAhLkp MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
         >
           <div
-            class="MuiPaper-root MuiCard-root sc-gsTCUz kzXRfB MuiPaper-elevation1 MuiPaper-rounded"
+            class="MuiPaper-root MuiCard-root sc-gsTCUz ipBzEi MuiPaper-elevation1 MuiPaper-rounded"
           >
-            <button
-              class="MuiButtonBase-root MuiCardActionArea-root"
-              tabindex="0"
-              type="button"
+            <div
+              class="MuiCardActions-root MuiCardActions-spacing"
+              data-testid="btnViewDetails"
             >
               <img
                 alt="bulbasaur"
-                class="sc-dlfnbm eFShtE"
+                class="sc-dlfnbm cdARiA"
                 src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
                 title="bulbasaur"
               />
               <div
-                class="MuiCardContent-root sc-hKgILt WceGB"
+                class="MuiCardContent-root sc-hKgILt fGYCfb"
               >
                 <h5
                   class="MuiTypography-root sc-eCssSg cyHuDu MuiTypography-h5"
@@ -61,56 +60,67 @@ Object {
                   bulbasaur
                 </h5>
                 <h6
-                  class="MuiTypography-root sc-iBPRYJ fFEHoi MuiTypography-subtitle1"
+                  class="MuiTypography-root sc-jSgupP hsPGzo MuiTypography-subtitle1"
                 >
-                  <b>
-                    $
-                  </b>
-                   
-                  64
+                  R$ 64.00
                 </h6>
                 <div
-                  class="MuiBox-root MuiBox-root-1 sc-jSgupP hsPGzo"
+                  class="MuiBox-root MuiBox-root-1 sc-pFZIQ hAmUSg"
                 >
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-gKsewC kBTYat"
+                    class="MuiChip-root MuiChip-outlined"
                   >
-                    <img
-                      alt="grass"
-                      class="MuiAvatar-img"
-                      src="grass.svg"
-                    />
+                    <div
+                      class="MuiAvatar-root MuiAvatar-circle sc-jrAGrp ckKeGR MuiChip-avatar"
+                      color="#78c851"
+                      title="grass"
+                    >
+                      <img
+                        alt="grass"
+                        class="MuiAvatar-img"
+                        src="grass.svg"
+                      />
+                    </div>
+                    <span
+                      class="MuiChip-label"
+                    >
+                      grass
+                    </span>
                   </div>
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-gKsewC kBTYat"
+                    class="MuiChip-root MuiChip-outlined"
                   >
-                    <img
-                      alt="poison"
-                      class="MuiAvatar-img"
-                      src="poison.svg"
-                    />
+                    <div
+                      class="MuiAvatar-root MuiAvatar-circle sc-jrAGrp fWqKqU MuiChip-avatar"
+                      color="#a04aa0"
+                      title="poison"
+                    >
+                      <img
+                        alt="poison"
+                        class="MuiAvatar-img"
+                        src="poison.svg"
+                      />
+                    </div>
+                    <span
+                      class="MuiChip-label"
+                    >
+                      poison
+                    </span>
                   </div>
                 </div>
-                <span
-                  aria-disabled="false"
-                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-textSizeSmall MuiButton-sizeSmall"
-                  data-testid="btnAddCart"
-                  role="button"
-                  tabindex="0"
-                >
-                  <span
-                    class="MuiButton-label"
-                  >
-                    Comprar
-                  </span>
-                  <span
-                    class="MuiTouchRipple-root"
-                  />
-                </span>
               </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-textSizeSmall MuiButton-sizeSmall MuiButton-fullWidth"
+              data-testid="btnAddCart"
+              tabindex="0"
+              type="button"
+            >
               <span
-                class="MuiCardActionArea-focusHighlight"
-              />
+                class="MuiButton-label"
+              >
+                Comprar
+              </span>
               <span
                 class="MuiTouchRipple-root"
               />
@@ -145,10 +155,10 @@ Object {
       class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
     >
       <div
-        class="sc-fubCfw bdnqd"
+        class="sc-gKsewC upNYM"
       >
         <div
-          class="sc-jrAGrp kyhKoq"
+          class="sc-fubCfw eylRHt"
         >
           <div
             class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -175,21 +185,20 @@ Object {
         class="MuiGrid-root sc-bdfBwQ bAhLkp MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
       >
         <div
-          class="MuiPaper-root MuiCard-root sc-gsTCUz kzXRfB MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root sc-gsTCUz ipBzEi MuiPaper-elevation1 MuiPaper-rounded"
         >
-          <button
-            class="MuiButtonBase-root MuiCardActionArea-root"
-            tabindex="0"
-            type="button"
+          <div
+            class="MuiCardActions-root MuiCardActions-spacing"
+            data-testid="btnViewDetails"
           >
             <img
               alt="bulbasaur"
-              class="sc-dlfnbm eFShtE"
+              class="sc-dlfnbm cdARiA"
               src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
               title="bulbasaur"
             />
             <div
-              class="MuiCardContent-root sc-hKgILt WceGB"
+              class="MuiCardContent-root sc-hKgILt fGYCfb"
             >
               <h5
                 class="MuiTypography-root sc-eCssSg cyHuDu MuiTypography-h5"
@@ -197,56 +206,67 @@ Object {
                 bulbasaur
               </h5>
               <h6
-                class="MuiTypography-root sc-iBPRYJ fFEHoi MuiTypography-subtitle1"
+                class="MuiTypography-root sc-jSgupP hsPGzo MuiTypography-subtitle1"
               >
-                <b>
-                  $
-                </b>
-                 
-                64
+                R$ 64.00
               </h6>
               <div
-                class="MuiBox-root MuiBox-root-1 sc-jSgupP hsPGzo"
+                class="MuiBox-root MuiBox-root-1 sc-pFZIQ hAmUSg"
               >
                 <div
-                  class="MuiAvatar-root MuiAvatar-circle sc-gKsewC kBTYat"
+                  class="MuiChip-root MuiChip-outlined"
                 >
-                  <img
-                    alt="grass"
-                    class="MuiAvatar-img"
-                    src="grass.svg"
-                  />
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-jrAGrp ckKeGR MuiChip-avatar"
+                    color="#78c851"
+                    title="grass"
+                  >
+                    <img
+                      alt="grass"
+                      class="MuiAvatar-img"
+                      src="grass.svg"
+                    />
+                  </div>
+                  <span
+                    class="MuiChip-label"
+                  >
+                    grass
+                  </span>
                 </div>
                 <div
-                  class="MuiAvatar-root MuiAvatar-circle sc-gKsewC kBTYat"
+                  class="MuiChip-root MuiChip-outlined"
                 >
-                  <img
-                    alt="poison"
-                    class="MuiAvatar-img"
-                    src="poison.svg"
-                  />
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-jrAGrp fWqKqU MuiChip-avatar"
+                    color="#a04aa0"
+                    title="poison"
+                  >
+                    <img
+                      alt="poison"
+                      class="MuiAvatar-img"
+                      src="poison.svg"
+                    />
+                  </div>
+                  <span
+                    class="MuiChip-label"
+                  >
+                    poison
+                  </span>
                 </div>
               </div>
-              <span
-                aria-disabled="false"
-                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-textSizeSmall MuiButton-sizeSmall"
-                data-testid="btnAddCart"
-                role="button"
-                tabindex="0"
-              >
-                <span
-                  class="MuiButton-label"
-                >
-                  Comprar
-                </span>
-                <span
-                  class="MuiTouchRipple-root"
-                />
-              </span>
             </div>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-textSizeSmall MuiButton-sizeSmall MuiButton-fullWidth"
+            data-testid="btnAddCart"
+            tabindex="0"
+            type="button"
+          >
             <span
-              class="MuiCardActionArea-focusHighlight"
-            />
+              class="MuiButton-label"
+            >
+              Comprar
+            </span>
             <span
               class="MuiTouchRipple-root"
             />
@@ -338,10 +358,10 @@ Object {
         class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
       >
         <div
-          class="sc-fubCfw bdnqd"
+          class="sc-gKsewC upNYM"
         >
           <div
-            class="sc-jrAGrp kyhKoq"
+            class="sc-fubCfw eylRHt"
           >
             <div
               class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -372,10 +392,10 @@ Object {
       class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
     >
       <div
-        class="sc-fubCfw bdnqd"
+        class="sc-gKsewC upNYM"
       >
         <div
-          class="sc-jrAGrp kyhKoq"
+          class="sc-fubCfw eylRHt"
         >
           <div
             class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"

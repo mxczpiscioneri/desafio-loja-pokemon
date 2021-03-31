@@ -1,17 +1,17 @@
 import styled from 'styled-components'
 import { AppBar, InputBase } from '@material-ui/core'
 import { fade } from '@material-ui/core/styles'
+import lightenDarkenColor from '../../common/utils/color'
 
 export const AppBarStyled = styled(AppBar)`
-  background-color: #378B7D;
-  background: linear-gradient(to right, #639d25, #427768);
+  background: ${props => `linear-gradient(45deg, ${lightenDarkenColor(props.bg, -30)} 30%, ${lightenDarkenColor(props.bg, 30)} 90%)`};
 `
 
 export const LogoStyled = styled.img`
   height: 56px;
 `
 
-export const SearchStyled = styled.div`
+export const SearchStyled = styled.form`
   position: relative;
   border-radius: 4px;
   background-color: ${() => fade('#FFF', 0.15)};
@@ -19,10 +19,7 @@ export const SearchStyled = styled.div`
     background-color: ${() => fade('#FFF', 0.25)};
   };
   width: 100%;
-  margin-left: 0;
-  @media (min-width: 600px) {
-    margin-left: 24px;
-  }
+  margin: 0 16px 0 24px;
 `
 
 export const SearchIconStyled = styled.div`
@@ -39,4 +36,12 @@ export const InputBaseStyled = styled(InputBase)`
   padding: 8px;
   padding-left: 56px;
   width: 100%;
+`
+
+export const ShoppingIconStyled = styled.div`
+  padding: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `

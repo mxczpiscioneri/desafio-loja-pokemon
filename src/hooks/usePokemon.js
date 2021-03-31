@@ -59,6 +59,21 @@ export const usePokemon = () => {
     }
   }, [offset])
 
+  const searchPokemon = useCallback(async (name) => {
+    try {
+      setError(false)
+      setLoading(true)
+      setData([])
+
+      const response = await PokeApiService.search(name)
+      setData([response.data])
+    } catch (err) {
+      setError(true)
+    } finally {
+      setLoading(false)
+    }
+  }, [])
+
   return {
     loading,
     data,
@@ -66,6 +81,7 @@ export const usePokemon = () => {
     setError,
     offset,
     paginate,
-    getAllPokemon
+    getAllPokemon,
+    searchPokemon
   }
 }
