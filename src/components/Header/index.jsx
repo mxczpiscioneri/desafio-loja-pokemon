@@ -18,7 +18,7 @@ const Header = () => {
     event.preventDefault()
     const name = event.target[0].value
     if (name) {
-      push(paths.details.replace(':name', name))
+      push(paths.details.replace(':name', name.toLowerCase()))
     }
   }
 
