@@ -18,14 +18,14 @@ const Header = () => {
     event.preventDefault()
     const name = event.target[0].value
     if (name) {
-      push(paths.details.replace(':name', name))
+      push(paths.details.replace(':name', name.toLowerCase()))
     }
   }
 
   return (
     <AppBarStyled position="static" bg={getType(type).color}>
       <Toolbar>
-        <LogoStyled src={image} />
+        <LogoStyled src={image} alt="Pokémon" title="Pokémon" onClick={() => push(paths.home)} />
         <SearchStyled onSubmit={searchPokemon}>
           <SearchIconStyled>
             <SearchIcon />
@@ -35,7 +35,7 @@ const Header = () => {
             inputProps={{ 'aria-label': 'search' }}
           />
         </SearchStyled>
-        <ShoppingIconStyled onClick={toggleDrawer}>
+        <ShoppingIconStyled data-testid="btnToggleDrawer" onClick={toggleDrawer}>
           <Badge badgeContent={cart.length}>
             <ShoppingIcon />
           </Badge>

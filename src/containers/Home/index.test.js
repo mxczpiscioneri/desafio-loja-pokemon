@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import { fireEvent, render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import { MuiThemeProvider } from '@material-ui/core'
 import { ThemeProvider } from 'styled-components'
 import Home from '.'
@@ -42,9 +42,6 @@ describe('Home container', () => {
     usePokemon.mockReturnValue(mockHooks)
 
     const component = render(containerComponent)
-
-    fireEvent.mouseOver(screen.getByAltText('bulbasaur'))
-    fireEvent.mouseOut(screen.getByAltText('bulbasaur'))
 
     expect(component).toMatchSnapshot()
   })

@@ -7,14 +7,16 @@ Object {
     <div>
       <header
         bg="#333333"
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
         >
           <img
-            class="sc-hKgILt bwMUMg"
+            alt="Pokémon"
+            class="sc-hKgILt ktrHOu"
             src="logo.png"
+            title="Pokémon"
           />
           <form
             class="sc-eCssSg jVGpkR"
@@ -47,6 +49,7 @@ Object {
           </form>
           <div
             class="sc-iBPRYJ fncSfh"
+            data-testid="btnToggleDrawer"
           >
             <span
               class="MuiBadge-root"
@@ -573,14 +576,16 @@ Object {
   "container": <div>
     <header
       bg="#333333"
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
       >
         <img
-          class="sc-hKgILt bwMUMg"
+          alt="Pokémon"
+          class="sc-hKgILt ktrHOu"
           src="logo.png"
+          title="Pokémon"
         />
         <form
           class="sc-eCssSg jVGpkR"
@@ -613,6 +618,7 @@ Object {
         </form>
         <div
           class="sc-iBPRYJ fncSfh"
+          data-testid="btnToggleDrawer"
         >
           <span
             class="MuiBadge-root"

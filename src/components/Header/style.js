@@ -4,11 +4,13 @@ import { fade } from '@material-ui/core/styles'
 import lightenDarkenColor from '../../common/utils/color'
 
 export const AppBarStyled = styled(AppBar)`
+  background-color: ${props => props.bg};
   background: ${props => `linear-gradient(45deg, ${lightenDarkenColor(props.bg, -30)} 30%, ${lightenDarkenColor(props.bg, 30)} 90%)`};
 `
 
 export const LogoStyled = styled.img`
   height: 56px;
+  cursor: pointer;
 `
 
 export const SearchStyled = styled.form`

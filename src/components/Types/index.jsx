@@ -1,15 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Chip } from '@material-ui/core'
 import { getType } from '../../common/constants/typesOfPokemon'
-import { AvatarStyled, TypesStyled } from './style'
+import { AvatarStyled, ChipStyled, TypesStyled } from './style'
 
-const Types = ({ data }) => (
+const Types = ({ data, colapse }) => (
   <TypesStyled>
     {data.map(type => (
-      <Chip
+      <ChipStyled
         key={type.type.name}
-        label={type.type.name}
+        label={!colapse && type.type.name}
+        colapse={colapse ? 1 : 0}
         avatar={
           <AvatarStyled
             color={getType(type.type.name).color}
@@ -24,7 +24,8 @@ const Types = ({ data }) => (
 )
 
 Types.propTypes = {
-  data: PropTypes.array.isRequired
+  data: PropTypes.array.isRequired,
+  colapse: PropTypes.bool.isRequired
 }
 
 export default Types

@@ -27,9 +27,6 @@ describe('Gallery components', () => {
       </MuiThemeProvider>
     )
 
-    fireEvent.mouseOver(screen.getByAltText('bulbasaur'))
-    fireEvent.mouseOut(screen.getByAltText('bulbasaur'))
-
     expect(component).toMatchSnapshot()
   })
 

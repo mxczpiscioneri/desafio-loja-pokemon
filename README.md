@@ -1,35 +1,73 @@
-Parabéns pessoa, **nós escolhemos você** para o nosso processo seletivo!
+[![Deploy](https://github.com/mxczpiscioneri/desafio-loja-pokemon/actions/workflows/react-build-githubpages.yml/badge.svg?branch=master)](https://github.com/mxczpiscioneri/desafio-loja-pokemon/actions/workflows/react-build-githubpages.yml)
+[![Test](https://github.com/mxczpiscioneri/desafio-loja-pokemon/actions/workflows/react-test-coverage.yml/badge.svg?branch=master)](https://github.com/mxczpiscioneri/desafio-loja-pokemon/actions/workflows/react-test-coverage.yml)
+[![codecov](https://codecov.io/gh/mxczpiscioneri/desafio-loja-pokemon/branch/master/graph/badge.svg?token=AGY1IYNGF9)](https://codecov.io/gh/mxczpiscioneri/desafio-loja-pokemon)
 
-Aqui na B2W Digital estamos sempre em busca de pessoas que estejam dispostas a achar todas as insígnias para resolver um problema. E para isso estamos propondo a você um desafio, mas não se preocupe, você conseguirá fazê-lo sentado em sua cadeira.
+# Pokémon Store <img src="./public/logo192.png" align="right" width="96px">
 
-Nós somos a holding de 4 das maiores lojas virtuais e marketplaces da América Latina. Sabendo disso, queremos que você vivencie a experiência de construir uma loja virtual, e nos mostre como você imaginaria ser uma loja de Pokémon.
+Aplicação em ReactJS que simula um e-commerce de Pokémon.
 
-Isso talvez não seja mais um mistério, mas atualmente tratamos as nossas lojas como uma base de código com 4 estilos diferentes.
+## Pokémon
+Os dados utilizados são da API [`https://pokeapi.co`](https://pokeapi.co)
 
-![https://media.giphy.com/media/ZYECZQqMsmvUbnxeVp/giphy.gif](https://media.giphy.com/media/ZYECZQqMsmvUbnxeVp/giphy.gif)
+#### Demonstração
+Veja a aplicação rodando no endereço [`https://mxczpiscioneri.github.io/desafio-loja-pokemon`](https://mxczpiscioneri.github.io/desafio-loja-pokemon)
 
-Queremos saber como você faria isso no seu desafio, **desejamos no mínimo 2 lojas para 2 tipos(água, fogo, dragão, etc.) de Pokémon** com estilos diferentes, mantendo o mesmo comportamento.
+## Instalação
 
-Os Pokémon(sim, esse é o plural) deverão ser mostrados a partir da **[pokeapi](https://pokeapi.co/)([https://pokeapi.co/](https://pokeapi.co/))**, uma api com dados de todos os Pokémon *(ou quase todos)*. Após requisitar os Pokémon, os preços podem ser definidos aleatoriamente, só esteja preocupado em **manter a consistência entre o carrinho lateral e o preço mostrado no catálogo**.
+[![Node.js ^12 (LTS)](https://img.shields.io/badge/node-^12.x.x%20(LTS)-informational.svg?style=flat-square&logo=node.js)](https://nodejs.org/dist/latest-v10.x/docs/api/)
+[![yarn 1.19.x](https://img.shields.io/badge/yarn-1.19.x-informational.svg?style=flat-square&logo=yarn)](https://yarnpkg.com/lang/en/docs/install)
+[![React 17.0.2](https://img.shields.io/badge/React-17.0.2-informational.svg?style=flat-square&logo=react)](https://reactjs.org/blog/2020/10/20/react-v17.html)
 
-Nosso time de designers sugeriu como uma loja virtual deveria se aparentar, e queremos ver a sua criatividade em jogo para transformar esses rabiscos em algo funcional.
+#### Clonar repositório
+```sh
+git clone https://github.com/mxczpiscioneri/desafio-loja-pokemon.git
+```
 
-![wireframe.jpg](wireframe.jpg)
+#### Instalar dependências
+```sh
+yarn
+```
 
-Não se assuste! Nosso time imaginou muitas funcionalidades, mas você poderá fazer somente o elencado abaixo pois utilizaremos sua loja da mesma forma. O MVP consiste em:
+#### Rodar o projeto
+```sh
+yarn start
+```
 
-- Catálogo de produtos
-- Carrinho lateral
-- Resumo do carrinho
-- 2 lojas com estilos e tipos diferentes de Pokémon
+#### Rodar os testes
+```sh
+yarn lint
+yarn test
+yarn test:coverage
+yarn cypress:run
+```
 
-Caso isso tudo seja pouco e você queira batalhar em outros ginásios, não se preocupe, está permitido fazer tudo o que sua imaginação permitir e nos impressionar. Abaixo segue outras ideias propostas nesse rabisco.
+#### Acesse:
+[`http://localhost:3000/desafio-loja-pokemon`](http://localhost:3000/desafio-loja-pokemon)
 
-- Barra de busca para filtrar os Pokémon
-- Botão de finalizar compra, reiniciando o processo de compra
-- Modal de obrigado ao finalizar compra
-- Salvar os dados da compra do usuário localmente para não perdê-las ao atualizar a página
 
-Recomendamos a utilização da biblioteca ReactJS com o comando create-react-app, mas sinta-se livre para utilizar a tecnologia que preferir, mas não se esqueça que uma aplicação shiny é uma aplicação bem testada e que funcione em todos os tamanhos de tela.
+## Env
+Defina as variáveis de ambiente no arquivo `.env`.
+```
+REACT_APP_API_URL= // URL da API para consumir os pokemon
+REACT_APP_API_TIMEOUT=30000 // Tempo de timeout da api em milissegundos
+```
 
-Esperamos que você tenha gostado do desafio e que esteja ansioso para evoluir seus Pokémon conosco na B2W. Nos responda quanto tempo você deseja para realizar o desafio e o que achou dele, queremos saber como podemos fazer melhor para conseguirmos os melhores treinadores no nosso time!
+## Deploy
+O deploy está sendo realizado automaticamente pelo Github Actions no Github Pages quando o código é enviado para a `branch master`, mas também é possível executar pelo comando abaixo.
+```sh
+yarn deploy
+```
+
+## Pipelines Github Actions CI/CD
+
+#### CI
+- Install
+- Lint
+- Test coverage
+- Generate coverage report
+- Upload coverage to Codecov
+
+#### CD
+- Install
+- Build page
+- Deploy to gh-pages

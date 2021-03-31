@@ -1,7 +1,7 @@
 /* eslint complexity: ["error", 5] */
 
 import React, { useEffect } from 'react'
-import { capitalize, Container, Grid, List, Typography } from '@material-ui/core'
+import { capitalize, CircularProgress, Container, Grid, List, Typography } from '@material-ui/core'
 import { useParams } from 'react-router-dom'
 import { Img } from 'react-image'
 import Header from '../../components/Header'
@@ -10,6 +10,7 @@ import Types from '../../components/Types'
 import { usePokemon } from '../../hooks/usePokemon'
 import { ButtonStyled, CardStyled, Center, ListItemBetween, ListItemCenter, ListItemColumn, LoadingStyled, NameStyled, PriceStyled, SliderStyled, SubTitleStyled } from './style'
 import { usePokemonContext } from '../../contexts/pokemon'
+import { money } from '../../common/utils/format'
 
 const Details = () => {
   const {
@@ -43,16 +44,18 @@ const Details = () => {
               <Grid item xs={12} lg={6}>
                 <Center>
                   <NameStyled variant="h1">{data[0].name}</NameStyled>
-                  <Types data={data[0].types} />
+                  <Types data={data[0].types} colapse={false} />
                   <Img
                     src={[
                       data[0].sprites.other.dream_world.front_default,
                       data[0].sprites.other['official-artwork'].front_default
                     ]}
                     alt={data[0].name}
+                    title={data[0].name}
+                    loader={<CircularProgress />}
                   />
                   <PriceStyled variant="h5">
-                    {data[0].base_experience.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}
+                    {money(data[0].base_experience)}
                   </PriceStyled>
                   <ButtonStyled data-testid="btnAddCart" size="large" variant="contained" color="primary" onClick={() => addCart(data[0])}>Comprar</ButtonStyled>
                 </Center>
@@ -75,7 +78,7 @@ const Details = () => {
                   <List>
                     {data[0].stats.map(stat => (
                       <ListItemColumn key={stat.stat.name}>
-                        {capitalize(stat.stat.name.replace('-', ' '))} <SliderStyled value={stat.base_stat} valueLabelDisplay="auto" aria-labelledby="continuous-slider" />
+                        {capitalize(stat.stat.name.replace('-', ' '))} <SliderStyled value={stat.base_stat} valueLabelDisplay="auto" />
                       </ListItemColumn>
                     ))}
                   </List>
