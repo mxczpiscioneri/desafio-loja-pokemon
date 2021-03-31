@@ -9,6 +9,7 @@ import PokemonContext, { PokemonProvider } from './contexts/pokemon'
 import theme from './theme'
 import { BackgroundStyled } from './style'
 import { getType } from './common/constants/typesOfPokemon'
+import Drawer from './components/Drawer'
 
 const App = () => (
   <StylesProvider injectFirst>
@@ -20,6 +21,7 @@ const App = () => (
             {context => (
               <BackgroundStyled backgroundColor={getType(context.type).color}>
                 <Suspense fallback={<Loading backdrop={false} />}>
+                  <Drawer open={context.drawer} toggleDrawer={context.toggleDrawer} />
                   <BrowserRouter>
                     <Switch>
                       {Routes.map(route => (

@@ -16,6 +16,11 @@ jest.mock('react-router-dom', () => ({
     push: jest.fn()
   })
 }))
+const mockSetState = jest.fn();
+jest.mock('react', () => ({
+    ...jest.requireActual('react'),
+    useState: initial => [initial, mockSetState]
+}));
 
 describe('PokemonContext', () => {
   test('setType', () => {
@@ -49,5 +54,13 @@ describe('PokemonContext', () => {
     provider.props.value.clearCart()
 
     expect(mockFn).toBeCalledWith(keys.cart, JSON.stringify([]))
+  })
+
+  test('toggleDrawer', () => {
+    const provider = pokemonProvider(<p>test</p>)
+
+    provider.props.value.toggleDrawer()
+
+    expect(mockSetState).toBeCalled()
   })
 })

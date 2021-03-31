@@ -40,3 +40,11 @@ export const InputBaseStyled = styled(InputBase)`
   padding-left: 56px;
   width: 100%;
 `
+
+export const ShoppingIconStyled = styled.div`
+  padding: 16px 16px 16px 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`

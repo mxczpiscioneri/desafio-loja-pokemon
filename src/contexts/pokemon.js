@@ -1,4 +1,4 @@
-import React, { createContext, useContext } from 'react'
+import React, { createContext, useContext, useState } from 'react'
 import PropTypes from 'prop-types'
 import { keys, useLocalStorage } from '../hooks/useLocalStorage'
 
@@ -6,6 +6,7 @@ const PokemonContext = createContext({})
 
 export const PokemonProvider = ({ children }) => {
   const { storedValue, setValue } = useLocalStorage()
+  const [drawer, setDrawer] = useState(false)
 
   const setType = (type) => {
     setValue(keys.type, type)
@@ -29,6 +30,10 @@ export const PokemonProvider = ({ children }) => {
     setValue(keys.cart, JSON.stringify([]))
   }
 
+  const toggleDrawer = () => {
+    setDrawer(status => !status)
+  }
+
   return (
     <PokemonContext.Provider value={{
       type: storedValue.type,
@@ -36,7 +41,9 @@ export const PokemonProvider = ({ children }) => {
       cart: JSON.parse(storedValue.cart),
       addCart,
       removeCart,
-      clearCart }}
+      clearCart,
+      drawer,
+      toggleDrawer }}
     >
       {children}
     </PokemonContext.Provider>

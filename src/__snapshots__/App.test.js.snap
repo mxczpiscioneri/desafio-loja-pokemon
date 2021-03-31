@@ -7,13 +7,23 @@ Object {
     <div>
       <div
         class="sc-dlfnbm hPFoeU"
-      />
+      >
+        <div
+          class="PrivateSwipeArea-root-1 PrivateSwipeArea-anchorRight-3"
+          style="width: 20px;"
+        />
+      </div>
     </div>
   </body>,
   "container": <div>
     <div
       class="sc-dlfnbm hPFoeU"
-    />
+    >
+      <div
+        class="PrivateSwipeArea-root-1 PrivateSwipeArea-anchorRight-3"
+        style="width: 20px;"
+      />
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

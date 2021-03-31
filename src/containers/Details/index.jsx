@@ -5,10 +5,8 @@ import { capitalize, Chip, Container, Grid, List, Typography } from '@material-u
 import { useParams } from 'react-router-dom'
 import { Img } from 'react-image'
 import Header from '../../components/Header'
-import Drawer from '../../components/Drawer'
 import Loading from '../../components/Loading'
 import { usePokemon } from '../../hooks/usePokemon'
-import { useCart } from '../../hooks/useCart'
 import { AvatarStyled, ButtonStyled, CardStyled, Center, ChipsGroup, ListItemBetween, ListItemCenter, ListItemColumn, LoadingStyled, NameStyled, SliderStyled, SubTitleStyled } from './style'
 import { getType } from '../../common/constants/typesOfPokemon'
 import { usePokemonContext } from '../../contexts/pokemon'
@@ -21,7 +19,6 @@ const Details = () => {
     searchPokemon
   } = usePokemon()
   const { name } = useParams()
-  const { open, toggleDrawer } = useCart()
   const { addCart } = usePokemonContext()
 
   useEffect(() => {
@@ -31,7 +28,6 @@ const Details = () => {
   return (
     <>
       <Header />
-      <Drawer open={open} toggleDrawer={toggleDrawer} />
       <Container>
         {error &&
           <Typography variant="h4" align="center">Pokémon não encontrado :(</Typography>
