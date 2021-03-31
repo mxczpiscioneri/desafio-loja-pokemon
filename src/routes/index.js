@@ -1,13 +1,12 @@
 import { lazy } from 'react'
-import Constants from '../common/constants'
 
 const Home = lazy(() => import('../containers/Home'))
 const Details = lazy(() => import('../containers/Details'))
 
 export const paths = {
-  home: `/${Constants.base_path}`,
-  type: `/${Constants.base_path}/types/:type`,
-  details: `/${Constants.base_path}/pokemon/:name`
+  home: '/',
+  type: '/types/:type',
+  details: '/pokemon/:name'
 }
 
 const routes = [

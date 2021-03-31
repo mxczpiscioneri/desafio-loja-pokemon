@@ -20,6 +20,9 @@ export const ImageStyled = styled(Img)`
   top: -48px;
   margin: 0 auto;
   padding: 0 32px;
+  width: 96px;
+  height: 96px;
+  box-sizing: initial;
   transition: transform 0.8s;
   transform-style: preserve-3d;
   &:hover {

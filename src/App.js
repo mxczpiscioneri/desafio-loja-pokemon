@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { HashRouter, Switch, Route } from 'react-router-dom'
 import { StylesProvider } from '@material-ui/core/styles'
 import { CssBaseline, MuiThemeProvider } from '@material-ui/core'
 import { ThemeProvider } from 'styled-components'
@@ -22,13 +22,13 @@ const App = () => (
               <BackgroundStyled backgroundColor={getType(context.type).color}>
                 <Suspense fallback={<Loading backdrop={false} />}>
                   <Drawer open={context.drawer} toggleDrawer={context.toggleDrawer} />
-                  <BrowserRouter>
+                  <HashRouter>
                     <Switch>
                       {Routes.map(route => (
                         <Route key={route.path} path={route.path} exact={route.exact} component={route.component} />
                       ))}
                     </Switch>
-                  </BrowserRouter>
+                  </HashRouter>
                 </Suspense>
               </BackgroundStyled>
             )}
