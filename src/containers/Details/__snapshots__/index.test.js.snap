@@ -686,7 +686,7 @@ Object {
                 <h5
                   class="MuiTypography-root sc-hHftDr duCaiA MuiTypography-h5"
                 >
-                  R$ 64.00
+                  R$ 64,00
                 </h5>
                 <button
                   class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-dIUggk ecPHnh MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
@@ -2296,7 +2296,7 @@ Object {
               <h5
                 class="MuiTypography-root sc-hHftDr duCaiA MuiTypography-h5"
               >
-                R$ 64.00
+                R$ 64,00
               </h5>
               <button
                 class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-dIUggk ecPHnh MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"

@@ -643,7 +643,7 @@ Object {
                   <h6
                     class="MuiTypography-root sc-crrsfI jdGPiM MuiTypography-subtitle1"
                   >
-                    R$ 64.00
+                    R$ 64,00
                   </h6>
                   <div
                     class="MuiBox-root MuiBox-root-5 sc-fodVxV ebZweN"
@@ -1369,7 +1369,7 @@ Object {
                 <h6
                   class="MuiTypography-root sc-crrsfI jdGPiM MuiTypography-subtitle1"
                 >
-                  R$ 64.00
+                  R$ 64,00
                 </h6>
                 <div
                   class="MuiBox-root MuiBox-root-5 sc-fodVxV ebZweN"
