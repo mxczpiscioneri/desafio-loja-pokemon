@@ -39,12 +39,11 @@ Object {
           class="MuiGrid-root sc-bdfBwQ bAhLkp MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
         >
           <div
-            class="MuiPaper-root MuiCard-root sc-gsTCUz kzXRfB MuiPaper-elevation1 MuiPaper-rounded"
+            class="MuiPaper-root MuiCard-root sc-gsTCUz dYDyLV MuiPaper-elevation1 MuiPaper-rounded"
           >
-            <button
-              class="MuiButtonBase-root MuiCardActionArea-root"
-              tabindex="0"
-              type="button"
+            <div
+              class="MuiCardActions-root MuiCardActions-spacing"
+              data-testid="btnViewDetails"
             >
               <img
                 alt="bulbasaur"
@@ -53,7 +52,7 @@ Object {
                 title="bulbasaur"
               />
               <div
-                class="MuiCardContent-root sc-hKgILt WceGB"
+                class="MuiCardContent-root sc-hKgILt fGYCfb"
               >
                 <h5
                   class="MuiTypography-root sc-eCssSg cyHuDu MuiTypography-h5"
@@ -74,6 +73,7 @@ Object {
                 >
                   <div
                     class="MuiAvatar-root MuiAvatar-circle sc-gKsewC kBTYat"
+                    title="grass"
                   >
                     <img
                       alt="grass"
@@ -83,6 +83,7 @@ Object {
                   </div>
                   <div
                     class="MuiAvatar-root MuiAvatar-circle sc-gKsewC kBTYat"
+                    title="poison"
                   >
                     <img
                       alt="poison"
@@ -91,26 +92,19 @@ Object {
                     />
                   </div>
                 </div>
-                <span
-                  aria-disabled="false"
-                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-textSizeSmall MuiButton-sizeSmall"
-                  data-testid="btnAddCart"
-                  role="button"
-                  tabindex="0"
-                >
-                  <span
-                    class="MuiButton-label"
-                  >
-                    Comprar
-                  </span>
-                  <span
-                    class="MuiTouchRipple-root"
-                  />
-                </span>
               </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-textSizeSmall MuiButton-sizeSmall MuiButton-fullWidth"
+              data-testid="btnAddCart"
+              tabindex="0"
+              type="button"
+            >
               <span
-                class="MuiCardActionArea-focusHighlight"
-              />
+                class="MuiButton-label"
+              >
+                Comprar
+              </span>
               <span
                 class="MuiTouchRipple-root"
               />
@@ -175,12 +169,11 @@ Object {
         class="MuiGrid-root sc-bdfBwQ bAhLkp MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
       >
         <div
-          class="MuiPaper-root MuiCard-root sc-gsTCUz kzXRfB MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root sc-gsTCUz dYDyLV MuiPaper-elevation1 MuiPaper-rounded"
         >
-          <button
-            class="MuiButtonBase-root MuiCardActionArea-root"
-            tabindex="0"
-            type="button"
+          <div
+            class="MuiCardActions-root MuiCardActions-spacing"
+            data-testid="btnViewDetails"
           >
             <img
               alt="bulbasaur"
@@ -189,7 +182,7 @@ Object {
               title="bulbasaur"
             />
             <div
-              class="MuiCardContent-root sc-hKgILt WceGB"
+              class="MuiCardContent-root sc-hKgILt fGYCfb"
             >
               <h5
                 class="MuiTypography-root sc-eCssSg cyHuDu MuiTypography-h5"
@@ -210,6 +203,7 @@ Object {
               >
                 <div
                   class="MuiAvatar-root MuiAvatar-circle sc-gKsewC kBTYat"
+                  title="grass"
                 >
                   <img
                     alt="grass"
@@ -219,6 +213,7 @@ Object {
                 </div>
                 <div
                   class="MuiAvatar-root MuiAvatar-circle sc-gKsewC kBTYat"
+                  title="poison"
                 >
                   <img
                     alt="poison"
@@ -227,26 +222,19 @@ Object {
                   />
                 </div>
               </div>
-              <span
-                aria-disabled="false"
-                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-textSizeSmall MuiButton-sizeSmall"
-                data-testid="btnAddCart"
-                role="button"
-                tabindex="0"
-              >
-                <span
-                  class="MuiButton-label"
-                >
-                  Comprar
-                </span>
-                <span
-                  class="MuiTouchRipple-root"
-                />
-              </span>
             </div>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-textSizeSmall MuiButton-sizeSmall MuiButton-fullWidth"
+            data-testid="btnAddCart"
+            tabindex="0"
+            type="button"
+          >
             <span
-              class="MuiCardActionArea-focusHighlight"
-            />
+              class="MuiButton-label"
+            >
+              Comprar
+            </span>
             <span
               class="MuiTouchRipple-root"
             />

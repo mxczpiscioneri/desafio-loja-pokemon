@@ -50,7 +50,7 @@ describe('Cart components', () => {
 
     render(<Cart />)
 
-    await act( async () =>{
+    await act(async () => {
       fireEvent.click(screen.getByTestId('btnFinish'))
 
       fireEvent.click(screen.getByText('Concluir pedido'))
@@ -68,7 +68,7 @@ describe('Cart components', () => {
 
     render(<Cart />)
 
-    act(() =>{
+    act(() => {
       fireEvent.click(screen.getByTestId('btnFinish'))
 
       fireEvent.click(screen.getByText('Voltar'))

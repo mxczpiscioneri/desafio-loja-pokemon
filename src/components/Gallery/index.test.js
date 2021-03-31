@@ -3,8 +3,16 @@ import { fireEvent, render, screen } from '@testing-library/react'
 import Gallery from '.'
 import mockDetailsPokemon from '../../assets/mock-data/details-pokemon.json'
 import * as PokemonContext from '../../contexts/pokemon'
+import { paths } from '../../routes'
 
+const mockHistory = jest.fn()
 jest.mock('../../hooks/usePokemon')
+jest.mock('react-router-dom', () => ({
+  ...jest.requireActual('react-router-dom'),
+  useHistory: () => ({
+    push: mockHistory
+  })
+}))
 
 describe('Gallery components', () => {
   test('Render with success', () => {
@@ -52,5 +60,20 @@ describe('Gallery components', () => {
     fireEvent.click(screen.getByTestId('btnAddCart'))
 
     expect(mockFunc).toBeCalled()
+  })
+
+  test('click card to view details', () => {
+    const mockContext = { addCart: jest.fn() }
+    jest
+      .spyOn(PokemonContext, 'usePokemonContext')
+      .mockImplementation(() => mockContext)
+
+    render(
+      <Gallery list={[mockDetailsPokemon]} loading={false} />
+    )
+
+    fireEvent.click(screen.getByTestId('btnViewDetails'))
+
+    expect(mockHistory).toBeCalledWith(paths.details.replace(':name', mockDetailsPokemon.name))
   })
 })

@@ -9,6 +9,9 @@ const PokeApiService = {
   },
   getType (type) {
     return Api.get(`type/${type}`)
+  },
+  search (name) {
+    return Api.get(`pokemon/${name}`)
   }
 }
 

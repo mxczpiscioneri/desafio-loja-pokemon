@@ -66,7 +66,7 @@ const Cart = () => {
           <ListItemText primary='Total' secondary={`$ ${total}`} />
         </ListItemResumeStyled>
         <ListItemResumeStyled>
-          <Button data-testid="btnFinish" size="large" variant="contained" color="primary" onClick={handlerFinish}>
+          <Button data-testid="btnFinish" size="large" variant="contained" color="primary" fullWidth onClick={handlerFinish}>
             Continuar
           </Button>
         </ListItemResumeStyled>

@@ -31,4 +31,11 @@ describe('PokeApiService', () => {
     const response = await PokeApiService.getType('test')
     expect(response.data).toEqual(mockListPokemon)
   })
+
+  test('search successfully', async () => {
+    mock.onGet('/pokemon/test').reply(200, mockDetailsPokemon)
+
+    const response = await PokeApiService.search('test')
+    expect(response.data).toEqual(mockDetailsPokemon)
+  })
 })

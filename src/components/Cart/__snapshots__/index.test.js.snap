@@ -110,7 +110,7 @@ Object {
           class="MuiListItem-root sc-dlfnbm kDiYaP MuiListItem-gutters"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth"
             data-testid="btnFinish"
             tabindex="0"
             type="button"
@@ -234,7 +234,7 @@ Object {
         class="MuiListItem-root sc-dlfnbm kDiYaP MuiListItem-gutters"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth"
           data-testid="btnFinish"
           tabindex="0"
           type="button"

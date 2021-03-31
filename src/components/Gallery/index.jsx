@@ -2,13 +2,16 @@
 
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Button, CardActionArea, Grid, Typography } from '@material-ui/core'
+import { useHistory } from 'react-router-dom'
+import { Button, CardActions, Grid, Typography } from '@material-ui/core'
 import { GridStyled, CardStyled, ImageStyled, CardContentStyled, NameStyled, TypesStyled, PriceStyled, AvatarStyled, LoadingStyled } from './style'
 import Loading from '../Loading'
 import { usePokemonContext } from '../../contexts/pokemon'
+import { paths } from '../../routes'
 
 const Gallery = ({ list, loading, paginate }) => {
   const { addCart } = usePokemonContext()
+  const { push } = useHistory()
 
   return (
     <Grid container spacing={2}>
@@ -22,7 +25,7 @@ const Gallery = ({ list, loading, paginate }) => {
           {list.map((item, index) => (
             <GridStyled item xs={6} sm={4} md={3} lg={2} key={index}>
               <CardStyled>
-                <CardActionArea>
+                <CardActions data-testid="btnViewDetails" onClick={() => push(paths.details.replace(':name', item.name))}>
                   <ImageStyled
                     alt={item.name}
                     title={item.name}
@@ -47,14 +50,15 @@ const Gallery = ({ list, loading, paginate }) => {
                           key={type.type.name}
                           src={require(`../../assets/icons/${type.type.name}.svg`).default}
                           alt={type.type.name}
+                          title={type.type.name}
                         />
                       ))}
                     </TypesStyled>
-                    <Button data-testid="btnAddCart" component="span" size="small" color="secondary" onClick={() => addCart(item)}>
-                      Comprar
-                    </Button>
                   </CardContentStyled>
-                </CardActionArea>
+                </CardActions>
+                <Button data-testid="btnAddCart" fullWidth size="small" color="secondary" onClick={() => addCart(item)}>
+                  Comprar
+                </Button>
               </CardStyled>
             </GridStyled>
           ))}

@@ -15,7 +15,7 @@ Object {
             class="sc-hKgILt bwMUMg"
             src="logo.png"
           />
-          <div
+          <form
             class="sc-eCssSg kccrPl"
           >
             <div
@@ -43,7 +43,7 @@ Object {
                 value=""
               />
             </div>
-          </div>
+          </form>
         </div>
         <div
           class="MuiTabs-root"
@@ -557,7 +557,7 @@ Object {
           class="sc-hKgILt bwMUMg"
           src="logo.png"
         />
-        <div
+        <form
           class="sc-eCssSg kccrPl"
         >
           <div
@@ -585,7 +585,7 @@ Object {
               value=""
             />
           </div>
-        </div>
+        </form>
       </div>
       <div
         class="MuiTabs-root"

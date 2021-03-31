@@ -11,7 +11,7 @@ export const LogoStyled = styled.img`
   height: 56px;
 `
 
-export const SearchStyled = styled.div`
+export const SearchStyled = styled.form`
   position: relative;
   border-radius: 4px;
   background-color: ${() => fade('#FFF', 0.15)};
