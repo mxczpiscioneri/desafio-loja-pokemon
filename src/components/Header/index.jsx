@@ -6,9 +6,12 @@ import Tabs from '../Tabs'
 import image from '../../assets/images/logo.png'
 import { AppBarStyled, InputBaseStyled, LogoStyled, SearchIconStyled, SearchStyled } from './style'
 import { paths } from '../../routes'
+import { getType } from '../../common/constants/typesOfPokemon'
+import { usePokemonContext } from '../../contexts/pokemon'
 
 const Header = () => {
   const { push } = useHistory()
+  const { type } = usePokemonContext()
 
   const searchPokemon = (event) => {
     event.preventDefault()
@@ -19,7 +22,7 @@ const Header = () => {
   }
 
   return (
-    <AppBarStyled position="static">
+    <AppBarStyled position="static" bg={getType(type).color}>
       <Toolbar>
         <LogoStyled src={image} />
         <SearchStyled onSubmit={searchPokemon}>

@@ -1,5 +1,5 @@
 const typesOfPokemon = [
-  { name: 'all', color: '#f4f4f4' },
+  { name: 'all', color: '#333333' },
   { name: 'normal', color: '#a7a776' },
   { name: 'fighting', color: '#c03827' },
   { name: 'flying', color: '#a890f0' },
