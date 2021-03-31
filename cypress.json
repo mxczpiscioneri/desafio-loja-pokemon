@@ -1,3 +1,5 @@
 {
-  "baseUrl": "http://localhost:3000/desafio-loja-pokemon/#"
+  "baseUrl": "http://localhost:3000/desafio-loja-pokemon/#",
+  "video":false,
+  "screenshot": false
 }
