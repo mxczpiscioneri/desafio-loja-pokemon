@@ -7,7 +7,7 @@ Object {
     <div>
       <header
         bg="#333333"
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -49,6 +49,7 @@ Object {
           </form>
           <div
             class="sc-iBPRYJ fncSfh"
+            data-testid="btnToggleDrawer"
           >
             <span
               class="MuiBadge-root"
@@ -1616,7 +1617,7 @@ Object {
   "container": <div>
     <header
       bg="#333333"
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -1658,6 +1659,7 @@ Object {
         </form>
         <div
           class="sc-iBPRYJ fncSfh"
+          data-testid="btnToggleDrawer"
         >
           <span
             class="MuiBadge-root"
@@ -3282,7 +3284,7 @@ Object {
     <div>
       <header
         bg="#333333"
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -3324,6 +3326,7 @@ Object {
           </form>
           <div
             class="sc-iBPRYJ fncSfh"
+            data-testid="btnToggleDrawer"
           >
             <span
               class="MuiBadge-root"
@@ -3859,7 +3862,7 @@ Object {
   "container": <div>
     <header
       bg="#333333"
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -3901,6 +3904,7 @@ Object {
         </form>
         <div
           class="sc-iBPRYJ fncSfh"
+          data-testid="btnToggleDrawer"
         >
           <span
             class="MuiBadge-root"

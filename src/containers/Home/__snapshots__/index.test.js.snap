@@ -7,7 +7,7 @@ Object {
     <div>
       <header
         bg="#333333"
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -49,6 +49,7 @@ Object {
           </form>
           <div
             class="sc-iBPRYJ fncSfh"
+            data-testid="btnToggleDrawer"
           >
             <span
               class="MuiBadge-root"
@@ -607,7 +608,7 @@ Object {
             class="MuiGrid-root sc-fubCfw bjZFSa MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
           >
             <div
-              class="MuiPaper-root MuiCard-root sc-pFZIQ fxFXqy MuiPaper-elevation1 MuiPaper-rounded"
+              class="MuiPaper-root MuiCard-root sc-pFZIQ jhTJuv MuiPaper-elevation1 MuiPaper-rounded"
             >
               <div
                 data-testid="btnViewDetails"
@@ -732,7 +733,7 @@ Object {
   "container": <div>
     <header
       bg="#333333"
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -774,6 +775,7 @@ Object {
         </form>
         <div
           class="sc-iBPRYJ fncSfh"
+          data-testid="btnToggleDrawer"
         >
           <span
             class="MuiBadge-root"
@@ -1332,7 +1334,7 @@ Object {
           class="MuiGrid-root sc-fubCfw bjZFSa MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
         >
           <div
-            class="MuiPaper-root MuiCard-root sc-pFZIQ fxFXqy MuiPaper-elevation1 MuiPaper-rounded"
+            class="MuiPaper-root MuiCard-root sc-pFZIQ jhTJuv MuiPaper-elevation1 MuiPaper-rounded"
           >
             <div
               data-testid="btnViewDetails"
@@ -1514,7 +1516,7 @@ Object {
     <div>
       <header
         bg="#333333"
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -1556,6 +1558,7 @@ Object {
           </form>
           <div
             class="sc-iBPRYJ fncSfh"
+            data-testid="btnToggleDrawer"
           >
             <span
               class="MuiBadge-root"
@@ -2130,7 +2133,7 @@ Object {
   "container": <div>
     <header
       bg="#333333"
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -2172,6 +2175,7 @@ Object {
         </form>
         <div
           class="sc-iBPRYJ fncSfh"
+          data-testid="btnToggleDrawer"
         >
           <span
             class="MuiBadge-root"
@@ -2803,7 +2807,7 @@ Object {
     <div>
       <header
         bg="#333333"
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -2845,6 +2849,7 @@ Object {
           </form>
           <div
             class="sc-iBPRYJ fncSfh"
+            data-testid="btnToggleDrawer"
           >
             <span
               class="MuiBadge-root"
@@ -3389,7 +3394,7 @@ Object {
   "container": <div>
     <header
       bg="#333333"
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm inIufd MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -3431,6 +3436,7 @@ Object {
         </form>
         <div
           class="sc-iBPRYJ fncSfh"
+          data-testid="btnToggleDrawer"
         >
           <span
             class="MuiBadge-root"

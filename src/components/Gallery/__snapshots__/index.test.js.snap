@@ -39,7 +39,7 @@ Object {
           class="MuiGrid-root sc-bdfBwQ bAhLkp MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
         >
           <div
-            class="MuiPaper-root MuiCard-root sc-gsTCUz ipBzEi MuiPaper-elevation1 MuiPaper-rounded"
+            class="MuiPaper-root MuiCard-root sc-gsTCUz hKHMaT MuiPaper-elevation1 MuiPaper-rounded"
           >
             <div
               data-testid="btnViewDetails"
@@ -195,7 +195,7 @@ Object {
         class="MuiGrid-root sc-bdfBwQ bAhLkp MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
       >
         <div
-          class="MuiPaper-root MuiCard-root sc-gsTCUz ipBzEi MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root sc-gsTCUz hKHMaT MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
             data-testid="btnViewDetails"
