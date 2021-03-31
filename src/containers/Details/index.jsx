@@ -7,7 +7,7 @@ import { Img } from 'react-image'
 import Header from '../../components/Header'
 import Loading from '../../components/Loading'
 import { usePokemon } from '../../hooks/usePokemon'
-import { AvatarStyled, ButtonStyled, CardStyled, Center, ChipsGroup, ListItemBetween, ListItemCenter, ListItemColumn, LoadingStyled, NameStyled, SliderStyled, SubTitleStyled } from './style'
+import { AvatarStyled, ButtonStyled, CardStyled, Center, ChipsGroup, ListItemBetween, ListItemCenter, ListItemColumn, LoadingStyled, NameStyled, PriceStyled, SliderStyled, SubTitleStyled } from './style'
 import { getType } from '../../common/constants/typesOfPokemon'
 import { usePokemonContext } from '../../contexts/pokemon'
 
@@ -64,6 +64,9 @@ const Details = () => {
                     ]}
                     alt={data[0].name}
                   />
+                  <PriceStyled variant="h5">
+                    {data[0].base_experience.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}
+                  </PriceStyled>
                   <ButtonStyled data-testid="btnAddCart" size="large" variant="contained" color="primary" onClick={() => addCart(data[0])}>Comprar</ButtonStyled>
                 </Center>
               </Grid>

@@ -42,7 +42,7 @@ const Gallery = ({ list, loading, paginate }) => {
                       {item.name}
                     </NameStyled>
                     <PriceStyled variant="subtitle1">
-                      <b>$</b> {item.base_experience}
+                      {item.base_experience.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}
                     </PriceStyled>
                     <TypesStyled>
                       {item.types.map(type => (

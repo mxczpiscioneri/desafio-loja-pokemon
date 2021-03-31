@@ -42,7 +42,7 @@ Object {
               <p
                 class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
               >
-                $ 64
+                R$ 64.00
               </p>
             </div>
           </div>
@@ -92,7 +92,7 @@ Object {
             <p
               class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
             >
-              $ 64
+              R$ 64.00
             </p>
           </div>
         </li>
@@ -156,7 +156,7 @@ Object {
             <p
               class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
             >
-              $ 64
+              R$ 64.00
             </p>
           </div>
         </div>
@@ -206,7 +206,7 @@ Object {
           <p
             class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            $ 64
+            R$ 64.00
           </p>
         </div>
       </li>

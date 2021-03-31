@@ -657,8 +657,13 @@ Object {
                     </span>
                   </div>
                 </div>
+                <h5
+                  class="MuiTypography-root sc-dIUggk dDZHWD MuiTypography-h5"
+                >
+                  R$ 64.00
+                </h5>
                 <button
-                  class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-idOhPF bzwDIw MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-idOhPF eyKJDG MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
                   data-testid="btnAddCart"
                   tabindex="0"
                   type="button"
@@ -2242,8 +2247,13 @@ Object {
                   </span>
                 </div>
               </div>
+              <h5
+                class="MuiTypography-root sc-dIUggk dDZHWD MuiTypography-h5"
+              >
+                R$ 64.00
+              </h5>
               <button
-                class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-idOhPF bzwDIw MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-idOhPF eyKJDG MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
                 data-testid="btnAddCart"
                 tabindex="0"
                 type="button"

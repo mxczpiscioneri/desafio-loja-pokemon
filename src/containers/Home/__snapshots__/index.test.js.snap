@@ -626,13 +626,9 @@ Object {
                     bulbasaur
                   </h5>
                   <h6
-                    class="MuiTypography-root sc-bqyKva itbtNa MuiTypography-subtitle1"
+                    class="MuiTypography-root sc-bqyKva hcwYwh MuiTypography-subtitle1"
                   >
-                    <b>
-                      $
-                    </b>
-                     
-                    64
+                    R$ 64.00
                   </h6>
                   <div
                     class="MuiBox-root MuiBox-root-5 sc-crrsfI jdGPiM"
@@ -1323,13 +1319,9 @@ Object {
                   bulbasaur
                 </h5>
                 <h6
-                  class="MuiTypography-root sc-bqyKva itbtNa MuiTypography-subtitle1"
+                  class="MuiTypography-root sc-bqyKva hcwYwh MuiTypography-subtitle1"
                 >
-                  <b>
-                    $
-                  </b>
-                   
-                  64
+                  R$ 64.00
                 </h6>
                 <div
                   class="MuiBox-root MuiBox-root-5 sc-crrsfI jdGPiM"

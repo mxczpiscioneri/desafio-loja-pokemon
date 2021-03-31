@@ -48,7 +48,6 @@ export const AvatarStyled = styled(Avatar)`
   `}
 `
 export const PriceStyled = styled(Typography)`
-  text-transform: capitalize;
   text-align: center;
 `
 export const LoadingStyled = styled.div`
