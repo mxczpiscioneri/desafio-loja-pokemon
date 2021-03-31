@@ -17,7 +17,7 @@ Object {
             src="logo.png"
           />
           <form
-            class="sc-eCssSg kccrPl"
+            class="sc-eCssSg jVGpkR"
           >
             <div
               class="sc-jSgupP nTBnX"
@@ -46,7 +46,7 @@ Object {
             </div>
           </form>
           <div
-            class="sc-iBPRYJ eHCwJP"
+            class="sc-iBPRYJ fncSfh"
           >
             <span
               class="MuiBadge-root"
@@ -575,10 +575,10 @@ Object {
           class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
         >
           <div
-            class="sc-kstrdz kRfqdu"
+            class="sc-dQppl hCZTkX"
           >
             <div
-              class="sc-fodVxV gBJYPn"
+              class="sc-kstrdz PZzFy"
             >
               <div
                 class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -626,32 +626,52 @@ Object {
                     bulbasaur
                   </h5>
                   <h6
-                    class="MuiTypography-root sc-bqyKva hcwYwh MuiTypography-subtitle1"
+                    class="MuiTypography-root sc-crrsfI jdGPiM MuiTypography-subtitle1"
                   >
                     R$ 64.00
                   </h6>
                   <div
-                    class="MuiBox-root MuiBox-root-5 sc-crrsfI jdGPiM"
+                    class="MuiBox-root MuiBox-root-5 sc-hBEYos gmxrCi"
                   >
                     <div
-                      class="MuiAvatar-root MuiAvatar-circle sc-dQppl jEbkPt"
-                      title="grass"
+                      class="MuiChip-root MuiChip-outlined"
                     >
-                      <img
-                        alt="grass"
-                        class="MuiAvatar-img"
-                        src="grass.svg"
-                      />
+                      <div
+                        class="MuiAvatar-root MuiAvatar-circle sc-fodVxV hZfvLo MuiChip-avatar"
+                        color="#78c851"
+                        title="grass"
+                      >
+                        <img
+                          alt="grass"
+                          class="MuiAvatar-img"
+                          src="grass.svg"
+                        />
+                      </div>
+                      <span
+                        class="MuiChip-label"
+                      >
+                        grass
+                      </span>
                     </div>
                     <div
-                      class="MuiAvatar-root MuiAvatar-circle sc-dQppl jEbkPt"
-                      title="poison"
+                      class="MuiChip-root MuiChip-outlined"
                     >
-                      <img
-                        alt="poison"
-                        class="MuiAvatar-img"
-                        src="poison.svg"
-                      />
+                      <div
+                        class="MuiAvatar-root MuiAvatar-circle sc-fodVxV bMWXWx MuiChip-avatar"
+                        color="#a04aa0"
+                        title="poison"
+                      >
+                        <img
+                          alt="poison"
+                          class="MuiAvatar-img"
+                          src="poison.svg"
+                        />
+                      </div>
+                      <span
+                        class="MuiChip-label"
+                      >
+                        poison
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -710,7 +730,7 @@ Object {
           src="logo.png"
         />
         <form
-          class="sc-eCssSg kccrPl"
+          class="sc-eCssSg jVGpkR"
         >
           <div
             class="sc-jSgupP nTBnX"
@@ -739,7 +759,7 @@ Object {
           </div>
         </form>
         <div
-          class="sc-iBPRYJ eHCwJP"
+          class="sc-iBPRYJ fncSfh"
         >
           <span
             class="MuiBadge-root"
@@ -1268,10 +1288,10 @@ Object {
         class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
       >
         <div
-          class="sc-kstrdz kRfqdu"
+          class="sc-dQppl hCZTkX"
         >
           <div
-            class="sc-fodVxV gBJYPn"
+            class="sc-kstrdz PZzFy"
           >
             <div
               class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -1319,32 +1339,52 @@ Object {
                   bulbasaur
                 </h5>
                 <h6
-                  class="MuiTypography-root sc-bqyKva hcwYwh MuiTypography-subtitle1"
+                  class="MuiTypography-root sc-crrsfI jdGPiM MuiTypography-subtitle1"
                 >
                   R$ 64.00
                 </h6>
                 <div
-                  class="MuiBox-root MuiBox-root-5 sc-crrsfI jdGPiM"
+                  class="MuiBox-root MuiBox-root-5 sc-hBEYos gmxrCi"
                 >
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-dQppl jEbkPt"
-                    title="grass"
+                    class="MuiChip-root MuiChip-outlined"
                   >
-                    <img
-                      alt="grass"
-                      class="MuiAvatar-img"
-                      src="grass.svg"
-                    />
+                    <div
+                      class="MuiAvatar-root MuiAvatar-circle sc-fodVxV hZfvLo MuiChip-avatar"
+                      color="#78c851"
+                      title="grass"
+                    >
+                      <img
+                        alt="grass"
+                        class="MuiAvatar-img"
+                        src="grass.svg"
+                      />
+                    </div>
+                    <span
+                      class="MuiChip-label"
+                    >
+                      grass
+                    </span>
                   </div>
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-dQppl jEbkPt"
-                    title="poison"
+                    class="MuiChip-root MuiChip-outlined"
                   >
-                    <img
-                      alt="poison"
-                      class="MuiAvatar-img"
-                      src="poison.svg"
-                    />
+                    <div
+                      class="MuiAvatar-root MuiAvatar-circle sc-fodVxV bMWXWx MuiChip-avatar"
+                      color="#a04aa0"
+                      title="poison"
+                    >
+                      <img
+                        alt="poison"
+                        class="MuiAvatar-img"
+                        src="poison.svg"
+                      />
+                    </div>
+                    <span
+                      class="MuiChip-label"
+                    >
+                      poison
+                    </span>
                   </div>
                 </div>
               </div>
@@ -1460,7 +1500,7 @@ Object {
             src="logo.png"
           />
           <form
-            class="sc-eCssSg kccrPl"
+            class="sc-eCssSg jVGpkR"
           >
             <div
               class="sc-jSgupP nTBnX"
@@ -1489,7 +1529,7 @@ Object {
             </div>
           </form>
           <div
-            class="sc-iBPRYJ eHCwJP"
+            class="sc-iBPRYJ fncSfh"
           >
             <span
               class="MuiBadge-root"
@@ -2074,7 +2114,7 @@ Object {
           src="logo.png"
         />
         <form
-          class="sc-eCssSg kccrPl"
+          class="sc-eCssSg jVGpkR"
         >
           <div
             class="sc-jSgupP nTBnX"
@@ -2103,7 +2143,7 @@ Object {
           </div>
         </form>
         <div
-          class="sc-iBPRYJ eHCwJP"
+          class="sc-iBPRYJ fncSfh"
         >
           <span
             class="MuiBadge-root"
@@ -2745,7 +2785,7 @@ Object {
             src="logo.png"
           />
           <form
-            class="sc-eCssSg kccrPl"
+            class="sc-eCssSg jVGpkR"
           >
             <div
               class="sc-jSgupP nTBnX"
@@ -2774,7 +2814,7 @@ Object {
             </div>
           </form>
           <div
-            class="sc-iBPRYJ eHCwJP"
+            class="sc-iBPRYJ fncSfh"
           >
             <span
               class="MuiBadge-root"
@@ -3329,7 +3369,7 @@ Object {
           src="logo.png"
         />
         <form
-          class="sc-eCssSg kccrPl"
+          class="sc-eCssSg jVGpkR"
         >
           <div
             class="sc-jSgupP nTBnX"
@@ -3358,7 +3398,7 @@ Object {
           </div>
         </form>
         <div
-          class="sc-iBPRYJ eHCwJP"
+          class="sc-iBPRYJ fncSfh"
         >
           <span
             class="MuiBadge-root"

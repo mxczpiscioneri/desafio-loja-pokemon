@@ -9,10 +9,10 @@ Object {
         class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
       >
         <div
-          class="sc-fubCfw bdnqd"
+          class="sc-gKsewC upNYM"
         >
           <div
-            class="sc-jrAGrp kyhKoq"
+            class="sc-fubCfw eylRHt"
           >
             <div
               class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -60,32 +60,52 @@ Object {
                   bulbasaur
                 </h5>
                 <h6
-                  class="MuiTypography-root sc-iBPRYJ kEDcat MuiTypography-subtitle1"
+                  class="MuiTypography-root sc-jSgupP hsPGzo MuiTypography-subtitle1"
                 >
                   R$ 64.00
                 </h6>
                 <div
-                  class="MuiBox-root MuiBox-root-1 sc-jSgupP hsPGzo"
+                  class="MuiBox-root MuiBox-root-1 sc-pFZIQ hAmUSg"
                 >
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-gKsewC hfkKQi"
-                    title="grass"
+                    class="MuiChip-root MuiChip-outlined"
                   >
-                    <img
-                      alt="grass"
-                      class="MuiAvatar-img"
-                      src="grass.svg"
-                    />
+                    <div
+                      class="MuiAvatar-root MuiAvatar-circle sc-jrAGrp ckKeGR MuiChip-avatar"
+                      color="#78c851"
+                      title="grass"
+                    >
+                      <img
+                        alt="grass"
+                        class="MuiAvatar-img"
+                        src="grass.svg"
+                      />
+                    </div>
+                    <span
+                      class="MuiChip-label"
+                    >
+                      grass
+                    </span>
                   </div>
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-gKsewC hfkKQi"
-                    title="poison"
+                    class="MuiChip-root MuiChip-outlined"
                   >
-                    <img
-                      alt="poison"
-                      class="MuiAvatar-img"
-                      src="poison.svg"
-                    />
+                    <div
+                      class="MuiAvatar-root MuiAvatar-circle sc-jrAGrp fWqKqU MuiChip-avatar"
+                      color="#a04aa0"
+                      title="poison"
+                    >
+                      <img
+                        alt="poison"
+                        class="MuiAvatar-img"
+                        src="poison.svg"
+                      />
+                    </div>
+                    <span
+                      class="MuiChip-label"
+                    >
+                      poison
+                    </span>
                   </div>
                 </div>
               </div>
@@ -135,10 +155,10 @@ Object {
       class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
     >
       <div
-        class="sc-fubCfw bdnqd"
+        class="sc-gKsewC upNYM"
       >
         <div
-          class="sc-jrAGrp kyhKoq"
+          class="sc-fubCfw eylRHt"
         >
           <div
             class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -186,32 +206,52 @@ Object {
                 bulbasaur
               </h5>
               <h6
-                class="MuiTypography-root sc-iBPRYJ kEDcat MuiTypography-subtitle1"
+                class="MuiTypography-root sc-jSgupP hsPGzo MuiTypography-subtitle1"
               >
                 R$ 64.00
               </h6>
               <div
-                class="MuiBox-root MuiBox-root-1 sc-jSgupP hsPGzo"
+                class="MuiBox-root MuiBox-root-1 sc-pFZIQ hAmUSg"
               >
                 <div
-                  class="MuiAvatar-root MuiAvatar-circle sc-gKsewC hfkKQi"
-                  title="grass"
+                  class="MuiChip-root MuiChip-outlined"
                 >
-                  <img
-                    alt="grass"
-                    class="MuiAvatar-img"
-                    src="grass.svg"
-                  />
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-jrAGrp ckKeGR MuiChip-avatar"
+                    color="#78c851"
+                    title="grass"
+                  >
+                    <img
+                      alt="grass"
+                      class="MuiAvatar-img"
+                      src="grass.svg"
+                    />
+                  </div>
+                  <span
+                    class="MuiChip-label"
+                  >
+                    grass
+                  </span>
                 </div>
                 <div
-                  class="MuiAvatar-root MuiAvatar-circle sc-gKsewC hfkKQi"
-                  title="poison"
+                  class="MuiChip-root MuiChip-outlined"
                 >
-                  <img
-                    alt="poison"
-                    class="MuiAvatar-img"
-                    src="poison.svg"
-                  />
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle sc-jrAGrp fWqKqU MuiChip-avatar"
+                    color="#a04aa0"
+                    title="poison"
+                  >
+                    <img
+                      alt="poison"
+                      class="MuiAvatar-img"
+                      src="poison.svg"
+                    />
+                  </div>
+                  <span
+                    class="MuiChip-label"
+                  >
+                    poison
+                  </span>
                 </div>
               </div>
             </div>
@@ -318,10 +358,10 @@ Object {
         class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
       >
         <div
-          class="sc-fubCfw bdnqd"
+          class="sc-gKsewC upNYM"
         >
           <div
-            class="sc-jrAGrp kyhKoq"
+            class="sc-fubCfw eylRHt"
           >
             <div
               class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -352,10 +392,10 @@ Object {
       class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
     >
       <div
-        class="sc-fubCfw bdnqd"
+        class="sc-gKsewC upNYM"
       >
         <div
-          class="sc-jrAGrp kyhKoq"
+          class="sc-fubCfw eylRHt"
         >
           <div
             class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"

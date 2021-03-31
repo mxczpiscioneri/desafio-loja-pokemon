@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Avatar, Box, Card, CardContent, Grid, Typography } from '@material-ui/core'
+import { Card, CardContent, Grid, Typography } from '@material-ui/core'
 
 export const GridStyled = styled(Grid)`
   margin-top: 48px;
@@ -33,19 +33,6 @@ export const CardContentStyled = styled(CardContent)`
 export const NameStyled = styled(Typography)`
   text-transform: capitalize;
   text-align: center;
-`
-export const TypesStyled = styled(Box)`
-  text-align: center;
-`
-export const AvatarStyled = styled(Avatar)`
-  ${({ theme }) => `
-    margin: 0 4px;
-    background-color: ${theme.palette.background.main};
-    padding: 4px;
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-  `}
 `
 export const PriceStyled = styled(Typography)`
   text-align: center;

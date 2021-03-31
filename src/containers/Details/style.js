@@ -1,4 +1,4 @@
-import { Avatar, Button, Card, ListItem, Slider, Typography } from '@material-ui/core'
+import { Button, Card, ListItem, Slider, Typography } from '@material-ui/core'
 import styled from 'styled-components'
 
 export const LoadingStyled = styled.div`
@@ -14,21 +14,6 @@ export const NameStyled = styled(Typography)`
   text-transform: capitalize;
   margin: 0;
   font-size: 2rem;
-`
-
-export const ChipsGroup = styled.div`
-  margin: 8px 0 16px 0;
-  display: flex;
-  justify-content: space-evenly;
-`
-
-export const AvatarStyled = styled(Avatar)`
-  margin: 0 4px;
-  background-color: ${props => props.color};
-  padding: 4px;
-  width: 24px;
-  height: 24px;
-  display: inline-block;
 `
 
 export const SliderStyled = styled(Slider)`

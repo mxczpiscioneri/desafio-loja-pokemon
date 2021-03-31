@@ -4,8 +4,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { useHistory } from 'react-router-dom'
 import { Button, CardActions, Grid, Typography } from '@material-ui/core'
-import { GridStyled, CardStyled, ImageStyled, CardContentStyled, NameStyled, TypesStyled, PriceStyled, AvatarStyled, LoadingStyled } from './style'
+import { GridStyled, CardStyled, ImageStyled, CardContentStyled, NameStyled, PriceStyled, LoadingStyled } from './style'
 import Loading from '../Loading'
+import Types from '../Types'
 import { usePokemonContext } from '../../contexts/pokemon'
 import { paths } from '../../routes'
 
@@ -44,16 +45,7 @@ const Gallery = ({ list, loading, paginate }) => {
                     <PriceStyled variant="subtitle1">
                       {item.base_experience.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}
                     </PriceStyled>
-                    <TypesStyled>
-                      {item.types.map(type => (
-                        <AvatarStyled
-                          key={type.type.name}
-                          src={require(`../../assets/icons/${type.type.name}.svg`).default}
-                          alt={type.type.name}
-                          title={type.type.name}
-                        />
-                      ))}
-                    </TypesStyled>
+                    <Types data={item.types} />
                   </CardContentStyled>
                 </CardActions>
                 <Button data-testid="btnAddCart" fullWidth size="small" color="secondary" onClick={() => addCart(item)}>

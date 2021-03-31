@@ -1,14 +1,14 @@
 /* eslint complexity: ["error", 5] */
 
 import React, { useEffect } from 'react'
-import { capitalize, Chip, Container, Grid, List, Typography } from '@material-ui/core'
+import { capitalize, Container, Grid, List, Typography } from '@material-ui/core'
 import { useParams } from 'react-router-dom'
 import { Img } from 'react-image'
 import Header from '../../components/Header'
 import Loading from '../../components/Loading'
+import Types from '../../components/Types'
 import { usePokemon } from '../../hooks/usePokemon'
-import { AvatarStyled, ButtonStyled, CardStyled, Center, ChipsGroup, ListItemBetween, ListItemCenter, ListItemColumn, LoadingStyled, NameStyled, PriceStyled, SliderStyled, SubTitleStyled } from './style'
-import { getType } from '../../common/constants/typesOfPokemon'
+import { ButtonStyled, CardStyled, Center, ListItemBetween, ListItemCenter, ListItemColumn, LoadingStyled, NameStyled, PriceStyled, SliderStyled, SubTitleStyled } from './style'
 import { usePokemonContext } from '../../contexts/pokemon'
 
 const Details = () => {
@@ -40,23 +40,10 @@ const Details = () => {
         {data[0] &&
           <CardStyled>
             <Grid container spacing={2}>
-              <Grid item xs={6}>
+              <Grid item xs={12} lg={6}>
                 <Center>
                   <NameStyled variant="h1">{data[0].name}</NameStyled>
-                  <ChipsGroup>
-                    {data[0].types.map(type => (
-                      <Chip
-                        key={type.type.name}
-                        label={type.type.name}
-                        avatar={<AvatarStyled
-                          color={getType(type.type.name).color}
-                          src={require(`../../assets/icons/${type.type.name}.svg`).default}
-                          alt={type.type.name} />
-                        }
-                        variant="outlined"
-                      />
-                    ))}
-                  </ChipsGroup>
+                  <Types data={data[0].types} />
                   <Img
                     src={[
                       data[0].sprites.other.dream_world.front_default,
@@ -71,7 +58,7 @@ const Details = () => {
                 </Center>
               </Grid>
 
-              <Grid item xs={4}>
+              <Grid item xs={12} sm={6} lg={4}>
                 <Center>
                   <SubTitleStyled variant="h6">Informações:</SubTitleStyled>
                   <List>
@@ -95,7 +82,7 @@ const Details = () => {
                 </Center>
               </Grid>
 
-              <Grid item xs={2}>
+              <Grid item xs={12} sm={6} lg={2}>
                 <Center>
                   <SubTitleStyled variant="h6">Poderes:</SubTitleStyled>
                   <List>

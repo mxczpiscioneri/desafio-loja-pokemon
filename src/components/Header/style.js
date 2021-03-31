@@ -19,10 +19,7 @@ export const SearchStyled = styled.form`
     background-color: ${() => fade('#FFF', 0.25)};
   };
   width: 100%;
-  margin-left: 0;
-  @media (min-width: 600px) {
-    margin-left: 24px;
-  }
+  margin: 0 16px 0 24px;
 `
 
 export const SearchIconStyled = styled.div`
@@ -42,7 +39,7 @@ export const InputBaseStyled = styled(InputBase)`
 `
 
 export const ShoppingIconStyled = styled.div`
-  padding: 16px 16px 16px 24px;
+  padding: 16px;
   cursor: pointer;
   display: flex;
   align-items: center;
