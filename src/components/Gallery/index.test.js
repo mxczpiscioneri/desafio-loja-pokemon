@@ -1,7 +1,10 @@
 import React from 'react'
 import { fireEvent, render, screen } from '@testing-library/react'
+import { MuiThemeProvider } from '@material-ui/core'
+import { ThemeProvider } from 'styled-components'
 import Gallery from '.'
 import mockDetailsPokemon from '../../assets/mock-data/details-pokemon.json'
+import theme from '../../theme'
 import * as PokemonContext from '../../contexts/pokemon'
 import { paths } from '../../routes'
 
@@ -17,7 +20,11 @@ jest.mock('react-router-dom', () => ({
 describe('Gallery components', () => {
   test('Render with success', () => {
     const component = render(
-      <Gallery list={[mockDetailsPokemon]} loading={true} paginate={jest.fn()} />
+      <MuiThemeProvider theme={theme}>
+        <ThemeProvider theme={theme}>
+          <Gallery list={[mockDetailsPokemon]} loading={true} paginate={jest.fn()} />
+        </ThemeProvider>
+      </MuiThemeProvider>
     )
 
     fireEvent.mouseOver(screen.getByAltText('bulbasaur'))
@@ -28,7 +35,11 @@ describe('Gallery components', () => {
 
   test('Render without pokemon', () => {
     const component = render(
-      <Gallery list={[]} loading={true} paginate={jest.fn()} />
+      <MuiThemeProvider theme={theme}>
+        <ThemeProvider theme={theme}>
+          <Gallery list={[]} loading={true} paginate={jest.fn()} />
+        </ThemeProvider>
+      </MuiThemeProvider>
     )
 
     expect(component).toMatchSnapshot()
@@ -38,7 +49,11 @@ describe('Gallery components', () => {
     const mockPaginate = jest.fn()
 
     render(
-      <Gallery list={[mockDetailsPokemon]} loading={true} paginate={mockPaginate} />
+      <MuiThemeProvider theme={theme}>
+        <ThemeProvider theme={theme}>
+          <Gallery list={[mockDetailsPokemon]} loading={true} paginate={mockPaginate} />
+        </ThemeProvider>
+      </MuiThemeProvider>
     )
 
     fireEvent.click(screen.getByTestId('btnLoadMore'))
@@ -54,7 +69,11 @@ describe('Gallery components', () => {
       .mockImplementation(() => mockContext)
 
     render(
-      <Gallery list={[mockDetailsPokemon]} loading={true} paginate={jest.fn()} />
+      <MuiThemeProvider theme={theme}>
+        <ThemeProvider theme={theme}>
+          <Gallery list={[mockDetailsPokemon]} loading={true} paginate={jest.fn()} />
+        </ThemeProvider>
+      </MuiThemeProvider>
     )
 
     fireEvent.click(screen.getByTestId('btnAddCart'))
@@ -69,7 +88,11 @@ describe('Gallery components', () => {
       .mockImplementation(() => mockContext)
 
     render(
-      <Gallery list={[mockDetailsPokemon]} loading={false} />
+      <MuiThemeProvider theme={theme}>
+        <ThemeProvider theme={theme}>
+          <Gallery list={[mockDetailsPokemon]} loading={false} />
+        </ThemeProvider>
+      </MuiThemeProvider>
     )
 
     fireEvent.click(screen.getByTestId('btnViewDetails'))

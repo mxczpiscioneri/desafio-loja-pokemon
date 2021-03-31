@@ -1,6 +1,9 @@
 import React from 'react'
 import { fireEvent, render, screen } from '@testing-library/react'
+import { MuiThemeProvider } from '@material-ui/core'
+import { ThemeProvider } from 'styled-components'
 import Header from '.'
+import theme from '../../theme'
 import { paths } from '../../routes'
 
 const mockHistory = jest.fn()
@@ -12,13 +15,20 @@ jest.mock('react-router-dom', () => ({
 }))
 
 describe('Header components', () => {
+  const renderComponent = () => render(
+    <MuiThemeProvider theme={theme}>
+      <ThemeProvider theme={theme}>
+        <Header />
+      </ThemeProvider>
+    </MuiThemeProvider>
+  )
+
   test('Render with success', () => {
-    const component = render(<Header />)
-    expect(component).toMatchSnapshot()
+    expect(renderComponent()).toMatchSnapshot()
   })
 
   test('search pokemon with success', () => {
-    render(<Header />)
+    renderComponent()
 
     const input = screen.getByPlaceholderText('Procurar...')
 
@@ -30,7 +40,7 @@ describe('Header components', () => {
   })
 
   test('search pokemon empty', () => {
-    render(<Header />)
+    renderComponent()
 
     const input = screen.getByPlaceholderText('Procurar...')
 

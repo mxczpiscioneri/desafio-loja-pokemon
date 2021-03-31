@@ -3,8 +3,8 @@ import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart'
 import HighlightOffIcon from '@material-ui/icons/HighlightOff'
-import { Avatar, Button, Divider, IconButton, ListItem, ListItemAvatar, ListItemSecondaryAction, ListItemText } from '@material-ui/core'
-import { ListItemResumeStyled, ListStyled, ListSubheaderStyled } from './style'
+import { Avatar, Divider, IconButton, ListItem, ListItemAvatar, ListItemSecondaryAction, ListItemText } from '@material-ui/core'
+import { ButtonStyled, ListItemResumeStyled, ListStyled, ListSubheaderStyled } from './style'
 import { usePokemonContext } from '../../contexts/pokemon'
 
 const Cart = () => {
@@ -66,9 +66,9 @@ const Cart = () => {
           <ListItemText primary='Total' secondary={`$ ${total}`} />
         </ListItemResumeStyled>
         <ListItemResumeStyled>
-          <Button data-testid="btnFinish" size="large" variant="contained" color="primary" fullWidth onClick={handlerFinish}>
+          <ButtonStyled data-testid="btnFinish" size="large" variant="contained" color="primary" fullWidth onClick={handlerFinish}>
             Continuar
-          </Button>
+          </ButtonStyled>
         </ListItemResumeStyled>
       </ListStyled>
     </>

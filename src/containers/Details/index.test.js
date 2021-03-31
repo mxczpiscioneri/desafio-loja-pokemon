@@ -1,17 +1,24 @@
 import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import { fireEvent, render, screen } from '@testing-library/react'
+import { MuiThemeProvider } from '@material-ui/core'
+import { ThemeProvider } from 'styled-components'
 import Details from '.'
 import mockDetailsPokemon from '../../assets/mock-data/details-pokemon.json'
+import theme from '../../theme'
 import * as PokemonContext from '../../contexts/pokemon'
 import { usePokemon } from '../../hooks/usePokemon'
 
 jest.mock('../../hooks/usePokemon')
 
 const containerComponent = (
-  <BrowserRouter>
-    <Details />
-  </BrowserRouter>
+  <MuiThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <Details />
+      </BrowserRouter>
+    </ThemeProvider>
+  </MuiThemeProvider>
 )
 
 describe('Details container', () => {

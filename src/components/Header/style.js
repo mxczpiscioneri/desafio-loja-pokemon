@@ -3,8 +3,9 @@ import { AppBar, InputBase } from '@material-ui/core'
 import { fade } from '@material-ui/core/styles'
 
 export const AppBarStyled = styled(AppBar)`
-  background-color: #378B7D;
-  background: linear-gradient(to right, #639d25, #427768);
+  ${({ theme }) => `
+    background: ${theme.palette.background.gradient};
+  `}
 `
 
 export const LogoStyled = styled.img`

@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm hCALJY MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fTvaVK MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -555,10 +555,10 @@ Object {
         class="MuiContainer-root MuiContainer-maxWidthLg"
       >
         <div
-          class="sc-iqHYGH eyInoU"
+          class="sc-crrsfI epqrtd"
         >
           <div
-            class="sc-kEjbxe croyFd"
+            class="sc-iqHYGH fNBKXE"
           >
             <div
               class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -582,7 +582,7 @@ Object {
           </div>
         </div>
         <div
-          class="MuiPaper-root MuiCard-root sc-crrsfI bxdsTs MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root sc-dQppl hhrreq MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
             class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
@@ -591,21 +591,21 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
             >
               <div
-                class="sc-fFubgz iQlerh"
+                class="sc-bkzZxe hmYWfH"
               >
                 <h1
-                  class="MuiTypography-root sc-dQppl eyhZmt MuiTypography-h1"
+                  class="MuiTypography-root sc-bqyKva fKGoFW MuiTypography-h1"
                 >
                   bulbasaur
                 </h1>
                 <div
-                  class="sc-bqyKva kpttbN"
+                  class="sc-kstrdz dFXIKn"
                 >
                   <div
                     class="MuiChip-root MuiChip-outlined"
                   >
                     <div
-                      class="MuiAvatar-root MuiAvatar-circle sc-kstrdz iYOakJ MuiChip-avatar"
+                      class="MuiAvatar-root MuiAvatar-circle sc-hBEYos eRCkyH MuiChip-avatar"
                       color="#78c851"
                     >
                       <img
@@ -624,7 +624,7 @@ Object {
                     class="MuiChip-root MuiChip-outlined"
                   >
                     <div
-                      class="MuiAvatar-root MuiAvatar-circle sc-kstrdz jtYTHQ MuiChip-avatar"
+                      class="MuiAvatar-root MuiAvatar-circle sc-hBEYos gMrdxi MuiChip-avatar"
                       color="#a04aa0"
                     >
                       <img
@@ -641,7 +641,7 @@ Object {
                   </div>
                 </div>
                 <button
-                  class="MuiButtonBase-root MuiButton-root MuiButton-text sc-hHftDr hCNgzC MuiButton-textSizeLarge MuiButton-sizeLarge"
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-dmlrTW cQtJSg MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
                   data-testid="btnAddCart"
                   tabindex="0"
                   type="button"
@@ -661,10 +661,10 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
             >
               <div
-                class="sc-fFubgz iQlerh"
+                class="sc-bkzZxe hmYWfH"
               >
                 <h6
-                  class="MuiTypography-root sc-fodVxV hSMyik MuiTypography-h6"
+                  class="MuiTypography-root sc-fFubgz cxuoVP MuiTypography-h6"
                 >
                   Informações:
                 </h6>
@@ -672,7 +672,7 @@ Object {
                   class="MuiList-root MuiList-padding"
                 >
                   <li
-                    class="MuiListItem-root sc-idOhPF eWsywY MuiListItem-gutters MuiListItem-divider"
+                    class="MuiListItem-root sc-dIUggk jKUrjH MuiListItem-gutters MuiListItem-divider"
                   >
                     Altura 
                     <span>
@@ -681,7 +681,7 @@ Object {
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-idOhPF eWsywY MuiListItem-gutters MuiListItem-divider"
+                    class="MuiListItem-root sc-dIUggk jKUrjH MuiListItem-gutters MuiListItem-divider"
                   >
                     Peso 
                     <span>
@@ -692,7 +692,7 @@ Object {
                 </ul>
                 <br />
                 <h6
-                  class="MuiTypography-root sc-fodVxV hSMyik MuiTypography-h6"
+                  class="MuiTypography-root sc-fFubgz cxuoVP MuiTypography-h6"
                 >
                   Habilidades:
                 </h6>
@@ -700,19 +700,19 @@ Object {
                   class="MuiList-root MuiList-padding"
                 >
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-gutters MuiListItem-divider"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-gutters MuiListItem-divider"
                   >
                     Overgrow
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-gutters MuiListItem-divider"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-gutters MuiListItem-divider"
                   >
                     Chlorophyll
                   </li>
                 </ul>
                 <br />
                 <h6
-                  class="MuiTypography-root sc-fodVxV hSMyik MuiTypography-h6"
+                  class="MuiTypography-root sc-fFubgz cxuoVP MuiTypography-h6"
                 >
                   Estatísticas:
                 </h6>
@@ -720,12 +720,12 @@ Object {
                   class="MuiList-root MuiList-padding"
                 >
                   <li
-                    class="MuiListItem-root sc-bkzZxe kLeWwk MuiListItem-gutters"
+                    class="MuiListItem-root sc-idOhPF iDWLcs MuiListItem-gutters"
                   >
                     Hp
                      
                     <span
-                      class="MuiSlider-root MuiSlider-colorPrimary sc-hBEYos ktpgZz"
+                      class="MuiSlider-root MuiSlider-colorPrimary sc-fodVxV gnqCdU"
                     >
                       <span
                         class="MuiSlider-rail"
@@ -767,12 +767,12 @@ Object {
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-bkzZxe kLeWwk MuiListItem-gutters"
+                    class="MuiListItem-root sc-idOhPF iDWLcs MuiListItem-gutters"
                   >
                     Attack
                      
                     <span
-                      class="MuiSlider-root MuiSlider-colorPrimary sc-hBEYos ktpgZz"
+                      class="MuiSlider-root MuiSlider-colorPrimary sc-fodVxV gnqCdU"
                     >
                       <span
                         class="MuiSlider-rail"
@@ -814,12 +814,12 @@ Object {
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-bkzZxe kLeWwk MuiListItem-gutters"
+                    class="MuiListItem-root sc-idOhPF iDWLcs MuiListItem-gutters"
                   >
                     Defense
                      
                     <span
-                      class="MuiSlider-root MuiSlider-colorPrimary sc-hBEYos ktpgZz"
+                      class="MuiSlider-root MuiSlider-colorPrimary sc-fodVxV gnqCdU"
                     >
                       <span
                         class="MuiSlider-rail"
@@ -861,12 +861,12 @@ Object {
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-bkzZxe kLeWwk MuiListItem-gutters"
+                    class="MuiListItem-root sc-idOhPF iDWLcs MuiListItem-gutters"
                   >
                     Special attack
                      
                     <span
-                      class="MuiSlider-root MuiSlider-colorPrimary sc-hBEYos ktpgZz"
+                      class="MuiSlider-root MuiSlider-colorPrimary sc-fodVxV gnqCdU"
                     >
                       <span
                         class="MuiSlider-rail"
@@ -908,12 +908,12 @@ Object {
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-bkzZxe kLeWwk MuiListItem-gutters"
+                    class="MuiListItem-root sc-idOhPF iDWLcs MuiListItem-gutters"
                   >
                     Special defense
                      
                     <span
-                      class="MuiSlider-root MuiSlider-colorPrimary sc-hBEYos ktpgZz"
+                      class="MuiSlider-root MuiSlider-colorPrimary sc-fodVxV gnqCdU"
                     >
                       <span
                         class="MuiSlider-rail"
@@ -955,12 +955,12 @@ Object {
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-bkzZxe kLeWwk MuiListItem-gutters"
+                    class="MuiListItem-root sc-idOhPF iDWLcs MuiListItem-gutters"
                   >
                     Speed
                      
                     <span
-                      class="MuiSlider-root MuiSlider-colorPrimary sc-hBEYos ktpgZz"
+                      class="MuiSlider-root MuiSlider-colorPrimary sc-fodVxV gnqCdU"
                     >
                       <span
                         class="MuiSlider-rail"
@@ -1008,10 +1008,10 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
             >
               <div
-                class="sc-fFubgz iQlerh"
+                class="sc-bkzZxe hmYWfH"
               >
                 <h6
-                  class="MuiTypography-root sc-fodVxV hSMyik MuiTypography-h6"
+                  class="MuiTypography-root sc-fFubgz cxuoVP MuiTypography-h6"
                 >
                   Poderes:
                 </h6>
@@ -1019,546 +1019,546 @@ Object {
                   class="MuiList-root MuiList-padding"
                 >
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Razor wind
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Swords dance
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Cut
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Bind
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Vine whip
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Headbutt
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Tackle
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Body slam
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Take down
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Double edge
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Growl
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Strength
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Mega drain
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Leech seed
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Growth
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Razor leaf
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Solar beam
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Poison powder
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Sleep powder
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Petal dance
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       String shot
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Toxic
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Rage
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Mimic
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Double team
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Defense curl
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Light screen
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Reflect
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Bide
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Sludge
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Skull bash
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Amnesia
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Flash
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Rest
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Substitute
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Snore
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Curse
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Protect
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Sludge bomb
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Mud slap
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Giga drain
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Endure
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Charm
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Swagger
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Fury cutter
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Attract
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Sleep talk
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Return
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Frustration
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Safeguard
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Sweet scent
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Synthesis
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Hidden power
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Sunny day
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Rock smash
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Facade
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Nature power
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Ingrain
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Knock off
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Secret power
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Grass whistle
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Bullet seed
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Magical leaf
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Natural gift
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Worry seed
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Seed bomb
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Energy ball
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Leaf storm
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Power whip
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Captivate
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Grass knot
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Venoshock
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Round
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Echoed voice
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Grass pledge
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Work up
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Grassy terrain
                     </span>
                   </li>
                   <li
-                    class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                    class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                   >
                     <span>
                       Confide
@@ -1574,7 +1574,7 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm hCALJY MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fTvaVK MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -2123,10 +2123,10 @@ Object {
       class="MuiContainer-root MuiContainer-maxWidthLg"
     >
       <div
-        class="sc-iqHYGH eyInoU"
+        class="sc-crrsfI epqrtd"
       >
         <div
-          class="sc-kEjbxe croyFd"
+          class="sc-iqHYGH fNBKXE"
         >
           <div
             class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -2150,7 +2150,7 @@ Object {
         </div>
       </div>
       <div
-        class="MuiPaper-root MuiCard-root sc-crrsfI bxdsTs MuiPaper-elevation1 MuiPaper-rounded"
+        class="MuiPaper-root MuiCard-root sc-dQppl hhrreq MuiPaper-elevation1 MuiPaper-rounded"
       >
         <div
           class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
@@ -2159,21 +2159,21 @@ Object {
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
           >
             <div
-              class="sc-fFubgz iQlerh"
+              class="sc-bkzZxe hmYWfH"
             >
               <h1
-                class="MuiTypography-root sc-dQppl eyhZmt MuiTypography-h1"
+                class="MuiTypography-root sc-bqyKva fKGoFW MuiTypography-h1"
               >
                 bulbasaur
               </h1>
               <div
-                class="sc-bqyKva kpttbN"
+                class="sc-kstrdz dFXIKn"
               >
                 <div
                   class="MuiChip-root MuiChip-outlined"
                 >
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-kstrdz iYOakJ MuiChip-avatar"
+                    class="MuiAvatar-root MuiAvatar-circle sc-hBEYos eRCkyH MuiChip-avatar"
                     color="#78c851"
                   >
                     <img
@@ -2192,7 +2192,7 @@ Object {
                   class="MuiChip-root MuiChip-outlined"
                 >
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-kstrdz jtYTHQ MuiChip-avatar"
+                    class="MuiAvatar-root MuiAvatar-circle sc-hBEYos gMrdxi MuiChip-avatar"
                     color="#a04aa0"
                   >
                     <img
@@ -2209,7 +2209,7 @@ Object {
                 </div>
               </div>
               <button
-                class="MuiButtonBase-root MuiButton-root MuiButton-text sc-hHftDr hCNgzC MuiButton-textSizeLarge MuiButton-sizeLarge"
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-dmlrTW cQtJSg MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
                 data-testid="btnAddCart"
                 tabindex="0"
                 type="button"
@@ -2229,10 +2229,10 @@ Object {
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
           >
             <div
-              class="sc-fFubgz iQlerh"
+              class="sc-bkzZxe hmYWfH"
             >
               <h6
-                class="MuiTypography-root sc-fodVxV hSMyik MuiTypography-h6"
+                class="MuiTypography-root sc-fFubgz cxuoVP MuiTypography-h6"
               >
                 Informações:
               </h6>
@@ -2240,7 +2240,7 @@ Object {
                 class="MuiList-root MuiList-padding"
               >
                 <li
-                  class="MuiListItem-root sc-idOhPF eWsywY MuiListItem-gutters MuiListItem-divider"
+                  class="MuiListItem-root sc-dIUggk jKUrjH MuiListItem-gutters MuiListItem-divider"
                 >
                   Altura 
                   <span>
@@ -2249,7 +2249,7 @@ Object {
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-idOhPF eWsywY MuiListItem-gutters MuiListItem-divider"
+                  class="MuiListItem-root sc-dIUggk jKUrjH MuiListItem-gutters MuiListItem-divider"
                 >
                   Peso 
                   <span>
@@ -2260,7 +2260,7 @@ Object {
               </ul>
               <br />
               <h6
-                class="MuiTypography-root sc-fodVxV hSMyik MuiTypography-h6"
+                class="MuiTypography-root sc-fFubgz cxuoVP MuiTypography-h6"
               >
                 Habilidades:
               </h6>
@@ -2268,19 +2268,19 @@ Object {
                 class="MuiList-root MuiList-padding"
               >
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-gutters MuiListItem-divider"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-gutters MuiListItem-divider"
                 >
                   Overgrow
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-gutters MuiListItem-divider"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-gutters MuiListItem-divider"
                 >
                   Chlorophyll
                 </li>
               </ul>
               <br />
               <h6
-                class="MuiTypography-root sc-fodVxV hSMyik MuiTypography-h6"
+                class="MuiTypography-root sc-fFubgz cxuoVP MuiTypography-h6"
               >
                 Estatísticas:
               </h6>
@@ -2288,12 +2288,12 @@ Object {
                 class="MuiList-root MuiList-padding"
               >
                 <li
-                  class="MuiListItem-root sc-bkzZxe kLeWwk MuiListItem-gutters"
+                  class="MuiListItem-root sc-idOhPF iDWLcs MuiListItem-gutters"
                 >
                   Hp
                    
                   <span
-                    class="MuiSlider-root MuiSlider-colorPrimary sc-hBEYos ktpgZz"
+                    class="MuiSlider-root MuiSlider-colorPrimary sc-fodVxV gnqCdU"
                   >
                     <span
                       class="MuiSlider-rail"
@@ -2335,12 +2335,12 @@ Object {
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-bkzZxe kLeWwk MuiListItem-gutters"
+                  class="MuiListItem-root sc-idOhPF iDWLcs MuiListItem-gutters"
                 >
                   Attack
                    
                   <span
-                    class="MuiSlider-root MuiSlider-colorPrimary sc-hBEYos ktpgZz"
+                    class="MuiSlider-root MuiSlider-colorPrimary sc-fodVxV gnqCdU"
                   >
                     <span
                       class="MuiSlider-rail"
@@ -2382,12 +2382,12 @@ Object {
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-bkzZxe kLeWwk MuiListItem-gutters"
+                  class="MuiListItem-root sc-idOhPF iDWLcs MuiListItem-gutters"
                 >
                   Defense
                    
                   <span
-                    class="MuiSlider-root MuiSlider-colorPrimary sc-hBEYos ktpgZz"
+                    class="MuiSlider-root MuiSlider-colorPrimary sc-fodVxV gnqCdU"
                   >
                     <span
                       class="MuiSlider-rail"
@@ -2429,12 +2429,12 @@ Object {
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-bkzZxe kLeWwk MuiListItem-gutters"
+                  class="MuiListItem-root sc-idOhPF iDWLcs MuiListItem-gutters"
                 >
                   Special attack
                    
                   <span
-                    class="MuiSlider-root MuiSlider-colorPrimary sc-hBEYos ktpgZz"
+                    class="MuiSlider-root MuiSlider-colorPrimary sc-fodVxV gnqCdU"
                   >
                     <span
                       class="MuiSlider-rail"
@@ -2476,12 +2476,12 @@ Object {
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-bkzZxe kLeWwk MuiListItem-gutters"
+                  class="MuiListItem-root sc-idOhPF iDWLcs MuiListItem-gutters"
                 >
                   Special defense
                    
                   <span
-                    class="MuiSlider-root MuiSlider-colorPrimary sc-hBEYos ktpgZz"
+                    class="MuiSlider-root MuiSlider-colorPrimary sc-fodVxV gnqCdU"
                   >
                     <span
                       class="MuiSlider-rail"
@@ -2523,12 +2523,12 @@ Object {
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-bkzZxe kLeWwk MuiListItem-gutters"
+                  class="MuiListItem-root sc-idOhPF iDWLcs MuiListItem-gutters"
                 >
                   Speed
                    
                   <span
-                    class="MuiSlider-root MuiSlider-colorPrimary sc-hBEYos ktpgZz"
+                    class="MuiSlider-root MuiSlider-colorPrimary sc-fodVxV gnqCdU"
                   >
                     <span
                       class="MuiSlider-rail"
@@ -2576,10 +2576,10 @@ Object {
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
           >
             <div
-              class="sc-fFubgz iQlerh"
+              class="sc-bkzZxe hmYWfH"
             >
               <h6
-                class="MuiTypography-root sc-fodVxV hSMyik MuiTypography-h6"
+                class="MuiTypography-root sc-fFubgz cxuoVP MuiTypography-h6"
               >
                 Poderes:
               </h6>
@@ -2587,546 +2587,546 @@ Object {
                 class="MuiList-root MuiList-padding"
               >
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Razor wind
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Swords dance
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Cut
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Bind
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Vine whip
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Headbutt
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Tackle
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Body slam
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Take down
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Double edge
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Growl
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Strength
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Mega drain
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Leech seed
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Growth
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Razor leaf
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Solar beam
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Poison powder
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Sleep powder
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Petal dance
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     String shot
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Toxic
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Rage
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Mimic
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Double team
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Defense curl
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Light screen
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Reflect
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Bide
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Sludge
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Skull bash
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Amnesia
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Flash
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Rest
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Substitute
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Snore
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Curse
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Protect
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Sludge bomb
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Mud slap
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Giga drain
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Endure
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Charm
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Swagger
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Fury cutter
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Attract
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Sleep talk
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Return
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Frustration
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Safeguard
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Sweet scent
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Synthesis
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Hidden power
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Sunny day
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Rock smash
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Facade
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Nature power
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Ingrain
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Knock off
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Secret power
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Grass whistle
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Bullet seed
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Magical leaf
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Natural gift
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Worry seed
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Seed bomb
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Energy ball
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Leaf storm
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Power whip
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Captivate
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Grass knot
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Venoshock
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Round
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Echoed voice
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Grass pledge
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Work up
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Grassy terrain
                   </span>
                 </li>
                 <li
-                  class="MuiListItem-root sc-dIUggk iuzDAv MuiListItem-dense MuiListItem-gutters"
+                  class="MuiListItem-root sc-hHftDr kvweRE MuiListItem-dense MuiListItem-gutters"
                 >
                   <span>
                     Confide
@@ -3199,7 +3199,7 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm hCALJY MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fTvaVK MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -3757,7 +3757,7 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm hCALJY MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fTvaVK MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"

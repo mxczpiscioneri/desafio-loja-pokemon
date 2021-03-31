@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <ul
-        class="MuiList-root sc-bdfBwQ laSfBL MuiList-padding MuiList-subheader"
+        class="MuiList-root sc-bdfBwQ iVZCNA MuiList-padding MuiList-subheader"
       >
         <li
           class="MuiListSubheader-root sc-gsTCUz bLgCqt MuiListSubheader-sticky MuiListSubheader-gutters"
@@ -89,7 +89,7 @@ Object {
           class="MuiDivider-root"
         />
         <li
-          class="MuiListItem-root sc-dlfnbm kDiYaP MuiListItem-gutters"
+          class="MuiListItem-root sc-dlfnbm jVqsQE MuiListItem-gutters"
         >
           <div
             class="MuiListItemText-root MuiListItemText-multiline"
@@ -107,10 +107,10 @@ Object {
           </div>
         </li>
         <li
-          class="MuiListItem-root sc-dlfnbm kDiYaP MuiListItem-gutters"
+          class="MuiListItem-root sc-dlfnbm jVqsQE MuiListItem-gutters"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-hKgILt jpiHvD MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth"
             data-testid="btnFinish"
             tabindex="0"
             type="button"
@@ -130,7 +130,7 @@ Object {
   </body>,
   "container": <div>
     <ul
-      class="MuiList-root sc-bdfBwQ laSfBL MuiList-padding MuiList-subheader"
+      class="MuiList-root sc-bdfBwQ iVZCNA MuiList-padding MuiList-subheader"
     >
       <li
         class="MuiListSubheader-root sc-gsTCUz bLgCqt MuiListSubheader-sticky MuiListSubheader-gutters"
@@ -213,7 +213,7 @@ Object {
         class="MuiDivider-root"
       />
       <li
-        class="MuiListItem-root sc-dlfnbm kDiYaP MuiListItem-gutters"
+        class="MuiListItem-root sc-dlfnbm jVqsQE MuiListItem-gutters"
       >
         <div
           class="MuiListItemText-root MuiListItemText-multiline"
@@ -231,10 +231,10 @@ Object {
         </div>
       </li>
       <li
-        class="MuiListItem-root sc-dlfnbm kDiYaP MuiListItem-gutters"
+        class="MuiListItem-root sc-dlfnbm jVqsQE MuiListItem-gutters"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-hKgILt jpiHvD MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth"
           data-testid="btnFinish"
           tabindex="0"
           type="button"

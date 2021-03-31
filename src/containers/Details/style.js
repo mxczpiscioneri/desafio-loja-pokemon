@@ -80,13 +80,14 @@ export const ListItemCenter = styled(ListItem)`
 `
 
 export const ButtonStyled = styled(Button)`
-  background-color: #378B7D;
-  background: linear-gradient(to right, #639d25, #427768);
-  min-width: 50%;
-  margin-top: 32px;
-  color: #fff;
-  transition: opacity .5s ease-out;
-  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  ${({ theme }) => `
+    background-color: ${theme.palette.primary.main};
+    background: ${theme.palette.background.gradient};
+    min-width: 50%;
+    margin-top: 32px;
+    transition: opacity .5s ease-out;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  `}
 
   :hover {
     opacity: 0.8;

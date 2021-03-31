@@ -68,7 +68,7 @@ const Details = () => {
                     ]}
                     alt={data[0].name}
                   />
-                  <ButtonStyled data-testid="btnAddCart" size="large" onClick={() => addCart(data[0])}>Comprar</ButtonStyled>
+                  <ButtonStyled data-testid="btnAddCart" size="large" variant="contained" color="primary" onClick={() => addCart(data[0])}>Comprar</ButtonStyled>
                 </Center>
               </Grid>
 

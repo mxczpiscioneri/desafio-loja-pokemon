@@ -5,10 +5,12 @@ export const GridStyled = styled(Grid)`
   margin-top: 48px;
 `
 export const CardStyled = styled(Card)`
-  overflow: inherit;
-  background-color: #f5f5f5;
-  position: relative;
-  cursor: pointer;
+  ${({ theme }) => `
+    overflow: inherit;
+    background-color: ${theme.palette.background.default};
+    position: relative;
+    cursor: pointer;
+  `}
 `
 export const ImageStyled = styled.img`
   position: absolute;
@@ -18,7 +20,7 @@ export const ImageStyled = styled.img`
   margin: 0 auto;
   padding: 0 32px;
   transition: transform 0.8s;
-    transform-style: preserve-3d;
+  transform-style: preserve-3d;
   &:hover {
     transform: rotateY(180deg);
   }
@@ -36,12 +38,14 @@ export const TypesStyled = styled(Box)`
   text-align: center;
 `
 export const AvatarStyled = styled(Avatar)`
-  margin: 0 4px;
-  background-color: #cfcfcf;
-  padding: 4px;
-  width: 24px;
-  height: 24px;
-  display: inline-block;
+  ${({ theme }) => `
+    margin: 0 4px;
+    background-color: ${theme.palette.background.main};
+    padding: 4px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+  `}
 `
 export const PriceStyled = styled(Typography)`
   text-transform: capitalize;

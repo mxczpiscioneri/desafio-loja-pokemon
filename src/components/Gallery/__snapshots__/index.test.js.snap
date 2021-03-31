@@ -39,7 +39,7 @@ Object {
           class="MuiGrid-root sc-bdfBwQ bAhLkp MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
         >
           <div
-            class="MuiPaper-root MuiCard-root sc-gsTCUz dYDyLV MuiPaper-elevation1 MuiPaper-rounded"
+            class="MuiPaper-root MuiCard-root sc-gsTCUz ipBzEi MuiPaper-elevation1 MuiPaper-rounded"
           >
             <div
               class="MuiCardActions-root MuiCardActions-spacing"
@@ -47,7 +47,7 @@ Object {
             >
               <img
                 alt="bulbasaur"
-                class="sc-dlfnbm eFShtE"
+                class="sc-dlfnbm cdARiA"
                 src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
                 title="bulbasaur"
               />
@@ -72,7 +72,7 @@ Object {
                   class="MuiBox-root MuiBox-root-1 sc-jSgupP hsPGzo"
                 >
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-gKsewC kBTYat"
+                    class="MuiAvatar-root MuiAvatar-circle sc-gKsewC hfkKQi"
                     title="grass"
                   >
                     <img
@@ -82,7 +82,7 @@ Object {
                     />
                   </div>
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-gKsewC kBTYat"
+                    class="MuiAvatar-root MuiAvatar-circle sc-gKsewC hfkKQi"
                     title="poison"
                   >
                     <img
@@ -169,7 +169,7 @@ Object {
         class="MuiGrid-root sc-bdfBwQ bAhLkp MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
       >
         <div
-          class="MuiPaper-root MuiCard-root sc-gsTCUz dYDyLV MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiCard-root sc-gsTCUz ipBzEi MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
             class="MuiCardActions-root MuiCardActions-spacing"
@@ -177,7 +177,7 @@ Object {
           >
             <img
               alt="bulbasaur"
-              class="sc-dlfnbm eFShtE"
+              class="sc-dlfnbm cdARiA"
               src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
               title="bulbasaur"
             />
@@ -202,7 +202,7 @@ Object {
                 class="MuiBox-root MuiBox-root-1 sc-jSgupP hsPGzo"
               >
                 <div
-                  class="MuiAvatar-root MuiAvatar-circle sc-gKsewC kBTYat"
+                  class="MuiAvatar-root MuiAvatar-circle sc-gKsewC hfkKQi"
                   title="grass"
                 >
                   <img
@@ -212,7 +212,7 @@ Object {
                   />
                 </div>
                 <div
-                  class="MuiAvatar-root MuiAvatar-circle sc-gKsewC kBTYat"
+                  class="MuiAvatar-root MuiAvatar-circle sc-gKsewC hfkKQi"
                   title="poison"
                 >
                   <img

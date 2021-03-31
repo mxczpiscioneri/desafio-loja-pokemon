@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm hCALJY MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fTvaVK MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -588,7 +588,7 @@ Object {
             class="MuiGrid-root sc-iBPRYJ brmnVD MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
           >
             <div
-              class="MuiPaper-root MuiCard-root sc-fubCfw jnDXBq MuiPaper-elevation1 MuiPaper-rounded"
+              class="MuiPaper-root MuiCard-root sc-fubCfw iRnyAx MuiPaper-elevation1 MuiPaper-rounded"
             >
               <div
                 class="MuiCardActions-root MuiCardActions-spacing"
@@ -596,7 +596,7 @@ Object {
               >
                 <img
                   alt="bulbasaur"
-                  class="sc-pFZIQ eptacP"
+                  class="sc-pFZIQ gVsrbn"
                   src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
                   title="bulbasaur"
                 />
@@ -621,7 +621,7 @@ Object {
                     class="MuiBox-root MuiBox-root-1 sc-iqHYGH ckcYRZ"
                   >
                     <div
-                      class="MuiAvatar-root MuiAvatar-circle sc-crrsfI jMbOwk"
+                      class="MuiAvatar-root MuiAvatar-circle sc-crrsfI PlrLn"
                       title="grass"
                     >
                       <img
@@ -631,7 +631,7 @@ Object {
                       />
                     </div>
                     <div
-                      class="MuiAvatar-root MuiAvatar-circle sc-crrsfI jMbOwk"
+                      class="MuiAvatar-root MuiAvatar-circle sc-crrsfI PlrLn"
                       title="poison"
                     >
                       <img
@@ -686,7 +686,7 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm hCALJY MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fTvaVK MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -1268,7 +1268,7 @@ Object {
           class="MuiGrid-root sc-iBPRYJ brmnVD MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
         >
           <div
-            class="MuiPaper-root MuiCard-root sc-fubCfw jnDXBq MuiPaper-elevation1 MuiPaper-rounded"
+            class="MuiPaper-root MuiCard-root sc-fubCfw iRnyAx MuiPaper-elevation1 MuiPaper-rounded"
           >
             <div
               class="MuiCardActions-root MuiCardActions-spacing"
@@ -1276,7 +1276,7 @@ Object {
             >
               <img
                 alt="bulbasaur"
-                class="sc-pFZIQ eptacP"
+                class="sc-pFZIQ gVsrbn"
                 src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
                 title="bulbasaur"
               />
@@ -1301,7 +1301,7 @@ Object {
                   class="MuiBox-root MuiBox-root-1 sc-iqHYGH ckcYRZ"
                 >
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-crrsfI jMbOwk"
+                    class="MuiAvatar-root MuiAvatar-circle sc-crrsfI PlrLn"
                     title="grass"
                   >
                     <img
@@ -1311,7 +1311,7 @@ Object {
                     />
                   </div>
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-crrsfI jMbOwk"
+                    class="MuiAvatar-root MuiAvatar-circle sc-crrsfI PlrLn"
                     title="poison"
                   >
                     <img
@@ -1423,7 +1423,7 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm hCALJY MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fTvaVK MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -2020,7 +2020,7 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm hCALJY MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fTvaVK MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -2674,7 +2674,7 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm hCALJY MuiPaper-elevation4"
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fTvaVK MuiPaper-elevation4"
       >
         <div
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -3241,7 +3241,7 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm hCALJY MuiPaper-elevation4"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm fTvaVK MuiPaper-elevation4"
     >
       <div
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
