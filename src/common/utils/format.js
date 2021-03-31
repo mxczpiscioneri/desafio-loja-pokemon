@@ -1,5 +1,5 @@
 export const money = (value) => {
-  const formated = value.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })
-  formated.replace(/\s/, ' ')
+  let formated = value.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })
+  formated = formated.replace(/\s/, ' ')
   return formated
 }
