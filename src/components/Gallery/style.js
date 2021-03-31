@@ -11,6 +11,7 @@ export const CardStyled = styled(Card)`
     background-color: ${theme.palette.background.default};
     position: relative;
     cursor: pointer;
+    text-align: center;
   `}
 `
 export const ImageStyled = styled(Img)`
