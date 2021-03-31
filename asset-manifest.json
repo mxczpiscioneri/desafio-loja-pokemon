@@ -4,14 +4,14 @@
     "static/js/0.ce472956.chunk.js.map": "/desafio-loja-pokemon/static/js/0.ce472956.chunk.js.map",
     "main.js": "/desafio-loja-pokemon/static/js/main.fc1c1804.chunk.js",
     "main.js.map": "/desafio-loja-pokemon/static/js/main.fc1c1804.chunk.js.map",
-    "runtime-main.js": "/desafio-loja-pokemon/static/js/runtime-main.a35e32c3.js",
-    "runtime-main.js.map": "/desafio-loja-pokemon/static/js/runtime-main.a35e32c3.js.map",
+    "runtime-main.js": "/desafio-loja-pokemon/static/js/runtime-main.0514375e.js",
+    "runtime-main.js.map": "/desafio-loja-pokemon/static/js/runtime-main.0514375e.js.map",
     "static/js/3.5b86630f.chunk.js": "/desafio-loja-pokemon/static/js/3.5b86630f.chunk.js",
     "static/js/3.5b86630f.chunk.js.map": "/desafio-loja-pokemon/static/js/3.5b86630f.chunk.js.map",
-    "static/js/4.83214d65.chunk.js": "/desafio-loja-pokemon/static/js/4.83214d65.chunk.js",
-    "static/js/4.83214d65.chunk.js.map": "/desafio-loja-pokemon/static/js/4.83214d65.chunk.js.map",
-    "static/js/5.c131b68b.chunk.js": "/desafio-loja-pokemon/static/js/5.c131b68b.chunk.js",
-    "static/js/5.c131b68b.chunk.js.map": "/desafio-loja-pokemon/static/js/5.c131b68b.chunk.js.map",
+    "static/js/4.cb9b1eba.chunk.js": "/desafio-loja-pokemon/static/js/4.cb9b1eba.chunk.js",
+    "static/js/4.cb9b1eba.chunk.js.map": "/desafio-loja-pokemon/static/js/4.cb9b1eba.chunk.js.map",
+    "static/js/5.6e26dcf8.chunk.js": "/desafio-loja-pokemon/static/js/5.6e26dcf8.chunk.js",
+    "static/js/5.6e26dcf8.chunk.js.map": "/desafio-loja-pokemon/static/js/5.6e26dcf8.chunk.js.map",
     "static/js/6.ade0f08f.chunk.js": "/desafio-loja-pokemon/static/js/6.ade0f08f.chunk.js",
     "static/js/6.ade0f08f.chunk.js.map": "/desafio-loja-pokemon/static/js/6.ade0f08f.chunk.js.map",
     "static/js/7.6a40140f.chunk.js": "/desafio-loja-pokemon/static/js/7.6a40140f.chunk.js",
@@ -42,7 +42,7 @@
     "static/media/water.svg": "/desafio-loja-pokemon/static/media/water.b6d13329.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a35e32c3.js",
+    "static/js/runtime-main.0514375e.js",
     "static/js/3.5b86630f.chunk.js",
     "static/js/main.fc1c1804.chunk.js"
   ]
