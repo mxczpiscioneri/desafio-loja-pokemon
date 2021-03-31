@@ -15,7 +15,9 @@
     "eject": "react-scripts eject",
     "lint": "eslint --ext .jsx,.js src",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
@@ -43,6 +45,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios-mock-adapter": "^1.19.0",
     "babel-eslint": "^10.1.0",
+    "cypress": "^6.8.0",
     "eslint": "^7.22.0",
     "gh-pages": "^3.1.0",
     "husky": "^5.2.0"

@@ -35,7 +35,7 @@ const Header = () => {
             inputProps={{ 'aria-label': 'search' }}
           />
         </SearchStyled>
-        <ShoppingIconStyled onClick={toggleDrawer}>
+        <ShoppingIconStyled data-testid="btnToggleDrawer" onClick={toggleDrawer}>
           <Badge badgeContent={cart.length}>
             <ShoppingIcon />
           </Badge>
