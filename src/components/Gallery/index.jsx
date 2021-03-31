@@ -47,7 +47,7 @@ const Gallery = ({ list, loading, paginate }) => {
                     <PriceStyled variant="subtitle1">
                       {item.base_experience.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}
                     </PriceStyled>
-                    <Types data={item.types} />
+                    <Types data={item.types} colapse={true} />
                   </CardContentStyled>
                 </div>
                 <Button data-testid="btnAddCart" fullWidth size="small" color="secondary" onClick={() => addCart(item)}>

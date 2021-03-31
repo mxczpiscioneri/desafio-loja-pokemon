@@ -43,7 +43,7 @@ const Details = () => {
               <Grid item xs={12} lg={6}>
                 <Center>
                   <NameStyled variant="h1">{data[0].name}</NameStyled>
-                  <Types data={data[0].types} />
+                  <Types data={data[0].types} colapse={false} />
                   <Img
                     src={[
                       data[0].sprites.other.dream_world.front_default,

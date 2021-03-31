@@ -80,10 +80,11 @@ Object {
                   class="MuiBox-root MuiBox-root-1 sc-jrAGrp iEAjkg"
                 >
                   <div
-                    class="MuiChip-root MuiChip-outlined"
+                    class="MuiChip-root sc-kEjbxe blutHt MuiChip-outlined"
+                    colapse="1"
                   >
                     <div
-                      class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe kbRlPO MuiChip-avatar"
+                      class="MuiAvatar-root MuiAvatar-circle sc-iqHYGH eevEyr MuiChip-avatar"
                       color="#78c851"
                       title="grass"
                     >
@@ -95,15 +96,14 @@ Object {
                     </div>
                     <span
                       class="MuiChip-label"
-                    >
-                      grass
-                    </span>
+                    />
                   </div>
                   <div
-                    class="MuiChip-root MuiChip-outlined"
+                    class="MuiChip-root sc-kEjbxe blutHt MuiChip-outlined"
+                    colapse="1"
                   >
                     <div
-                      class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe csPwtT MuiChip-avatar"
+                      class="MuiAvatar-root MuiAvatar-circle sc-iqHYGH igKQxi MuiChip-avatar"
                       color="#a04aa0"
                       title="poison"
                     >
@@ -115,9 +115,7 @@ Object {
                     </div>
                     <span
                       class="MuiChip-label"
-                    >
-                      poison
-                    </span>
+                    />
                   </div>
                 </div>
               </div>
@@ -238,10 +236,11 @@ Object {
                 class="MuiBox-root MuiBox-root-1 sc-jrAGrp iEAjkg"
               >
                 <div
-                  class="MuiChip-root MuiChip-outlined"
+                  class="MuiChip-root sc-kEjbxe blutHt MuiChip-outlined"
+                  colapse="1"
                 >
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe kbRlPO MuiChip-avatar"
+                    class="MuiAvatar-root MuiAvatar-circle sc-iqHYGH eevEyr MuiChip-avatar"
                     color="#78c851"
                     title="grass"
                   >
@@ -253,15 +252,14 @@ Object {
                   </div>
                   <span
                     class="MuiChip-label"
-                  >
-                    grass
-                  </span>
+                  />
                 </div>
                 <div
-                  class="MuiChip-root MuiChip-outlined"
+                  class="MuiChip-root sc-kEjbxe blutHt MuiChip-outlined"
+                  colapse="1"
                 >
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe csPwtT MuiChip-avatar"
+                    class="MuiAvatar-root MuiAvatar-circle sc-iqHYGH igKQxi MuiChip-avatar"
                     color="#a04aa0"
                     title="poison"
                   >
@@ -273,9 +271,7 @@ Object {
                   </div>
                   <span
                     class="MuiChip-label"
-                  >
-                    poison
-                  </span>
+                  />
                 </div>
               </div>
             </div>
