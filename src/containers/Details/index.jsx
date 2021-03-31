@@ -10,6 +10,7 @@ import Types from '../../components/Types'
 import { usePokemon } from '../../hooks/usePokemon'
 import { ButtonStyled, CardStyled, Center, ListItemBetween, ListItemCenter, ListItemColumn, LoadingStyled, NameStyled, PriceStyled, SliderStyled, SubTitleStyled } from './style'
 import { usePokemonContext } from '../../contexts/pokemon'
+import { money } from '../../common/utils/format'
 
 const Details = () => {
   const {
@@ -54,7 +55,7 @@ const Details = () => {
                     loader={<CircularProgress />}
                   />
                   <PriceStyled variant="h5">
-                    {data[0].base_experience.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}
+                    {money(data[0].base_experience)}
                   </PriceStyled>
                   <ButtonStyled data-testid="btnAddCart" size="large" variant="contained" color="primary" onClick={() => addCart(data[0])}>Comprar</ButtonStyled>
                 </Center>

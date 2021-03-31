@@ -9,6 +9,7 @@ import Loading from '../Loading'
 import Types from '../Types'
 import { usePokemonContext } from '../../contexts/pokemon'
 import { paths } from '../../routes'
+import { money } from '../../common/utils/format'
 
 const Gallery = ({ list, loading, paginate }) => {
   const { addCart } = usePokemonContext()
@@ -45,7 +46,7 @@ const Gallery = ({ list, loading, paginate }) => {
                       {item.name}
                     </NameStyled>
                     <PriceStyled variant="subtitle1">
-                      {item.base_experience.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}
+                      {money(item.base_experience)}
                     </PriceStyled>
                     <Types data={item.types} colapse={true} />
                   </CardContentStyled>

@@ -5,6 +5,7 @@ import HighlightOffIcon from '@material-ui/icons/HighlightOff'
 import { Avatar, Divider, IconButton, ListItem, ListItemAvatar, ListItemSecondaryAction, ListItemText } from '@material-ui/core'
 import { ButtonStyled, ListItemResumeStyled, ListStyled, ListSubheaderStyled } from './style'
 import { usePokemonContext } from '../../contexts/pokemon'
+import { money } from '../../common/utils/format'
 
 const Cart = () => {
   const { cart, removeCart, clearCart, toggleDrawer } = usePokemonContext()
@@ -12,7 +13,7 @@ const Cart = () => {
 
   const handlerFinish = () => {
     toggleDrawer()
-    const text = `Você escolheu ${cart.length} Pokemón.<br />O valor total é de ${total.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}.`
+    const text = `Você escolheu ${cart.length} Pokemón.<br />O valor total é de ${money(total)}.`
     const MySwal = withReactContent(Swal)
     MySwal.fire({
       title: 'Revisão do pedido',
@@ -28,7 +29,7 @@ const Cart = () => {
         MySwal.fire({
           icon: 'success',
           title: 'Obrigado pela compra!',
-          text: `Você ganhou ${(total / 10).toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })} (10%) de cashback!`,
+          text: `Você ganhou ${money(total / 10)} (10%) de cashback!`,
           showConfirmButton: false,
           timerProgressBar: true,
           timer: 5000
@@ -48,7 +49,7 @@ const Cart = () => {
                 <ListItemAvatar>
                   <Avatar src={pokemon.sprites.front_default} />
                 </ListItemAvatar>
-                <ListItemText primary={pokemon.name} secondary={pokemon.base_experience.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })} />
+                <ListItemText primary={pokemon.name} secondary={money(pokemon.base_experience)} />
                 <ListItemSecondaryAction>
                   <IconButton size="small" edge="end" aria-label="deletar" onClick={() => removeCart(index)}>
                     <HighlightOffIcon />
@@ -65,7 +66,7 @@ const Cart = () => {
           </ListItem> :
           <>
             <ListItemResumeStyled>
-              <ListItemText primary='Total' secondary={total.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })} />
+              <ListItemText primary='Total' secondary={money(total)} />
             </ListItemResumeStyled>
             <ListItemResumeStyled>
               <ButtonStyled data-testid="btnFinish" size="large" variant="contained" color="primary" fullWidth onClick={handlerFinish}>
