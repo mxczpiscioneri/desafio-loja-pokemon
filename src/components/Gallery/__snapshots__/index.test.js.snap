@@ -12,7 +12,7 @@ Object {
           class="sc-gKsewC upNYM"
         >
           <div
-            class="sc-fubCfw eylRHt"
+            class="sc-pFZIQ dDKEuW"
           >
             <div
               class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -42,15 +42,27 @@ Object {
             class="MuiPaper-root MuiCard-root sc-gsTCUz ipBzEi MuiPaper-elevation1 MuiPaper-rounded"
           >
             <div
-              class="MuiCardActions-root MuiCardActions-spacing"
               data-testid="btnViewDetails"
             >
-              <img
-                alt="bulbasaur"
-                class="sc-dlfnbm cdARiA"
-                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
-                title="bulbasaur"
-              />
+              <div
+                class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+                role="progressbar"
+                style="width: 40px; height: 40px;"
+              >
+                <svg
+                  class="MuiCircularProgress-svg"
+                  viewBox="22 22 44 44"
+                >
+                  <circle
+                    class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                    cx="44"
+                    cy="44"
+                    fill="none"
+                    r="20.2"
+                    stroke-width="3.6"
+                  />
+                </svg>
+              </div>
               <div
                 class="MuiCardContent-root sc-hKgILt fGYCfb"
               >
@@ -65,13 +77,13 @@ Object {
                   R$ 64.00
                 </h6>
                 <div
-                  class="MuiBox-root MuiBox-root-1 sc-pFZIQ hAmUSg"
+                  class="MuiBox-root MuiBox-root-1 sc-jrAGrp iEAjkg"
                 >
                   <div
                     class="MuiChip-root MuiChip-outlined"
                   >
                     <div
-                      class="MuiAvatar-root MuiAvatar-circle sc-jrAGrp ckKeGR MuiChip-avatar"
+                      class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe kbRlPO MuiChip-avatar"
                       color="#78c851"
                       title="grass"
                     >
@@ -91,7 +103,7 @@ Object {
                     class="MuiChip-root MuiChip-outlined"
                   >
                     <div
-                      class="MuiAvatar-root MuiAvatar-circle sc-jrAGrp fWqKqU MuiChip-avatar"
+                      class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe csPwtT MuiChip-avatar"
                       color="#a04aa0"
                       title="poison"
                     >
@@ -132,7 +144,7 @@ Object {
           class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-iBPRYJ laByNs MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
             data-testid="btnLoadMore"
             tabindex="0"
             type="button"
@@ -158,7 +170,7 @@ Object {
         class="sc-gKsewC upNYM"
       >
         <div
-          class="sc-fubCfw eylRHt"
+          class="sc-pFZIQ dDKEuW"
         >
           <div
             class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -188,15 +200,27 @@ Object {
           class="MuiPaper-root MuiCard-root sc-gsTCUz ipBzEi MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
-            class="MuiCardActions-root MuiCardActions-spacing"
             data-testid="btnViewDetails"
           >
-            <img
-              alt="bulbasaur"
-              class="sc-dlfnbm cdARiA"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
-              title="bulbasaur"
-            />
+            <div
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+              role="progressbar"
+              style="width: 40px; height: 40px;"
+            >
+              <svg
+                class="MuiCircularProgress-svg"
+                viewBox="22 22 44 44"
+              >
+                <circle
+                  class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                  cx="44"
+                  cy="44"
+                  fill="none"
+                  r="20.2"
+                  stroke-width="3.6"
+                />
+              </svg>
+            </div>
             <div
               class="MuiCardContent-root sc-hKgILt fGYCfb"
             >
@@ -211,13 +235,13 @@ Object {
                 R$ 64.00
               </h6>
               <div
-                class="MuiBox-root MuiBox-root-1 sc-pFZIQ hAmUSg"
+                class="MuiBox-root MuiBox-root-1 sc-jrAGrp iEAjkg"
               >
                 <div
                   class="MuiChip-root MuiChip-outlined"
                 >
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-jrAGrp ckKeGR MuiChip-avatar"
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe kbRlPO MuiChip-avatar"
                     color="#78c851"
                     title="grass"
                   >
@@ -237,7 +261,7 @@ Object {
                   class="MuiChip-root MuiChip-outlined"
                 >
                   <div
-                    class="MuiAvatar-root MuiAvatar-circle sc-jrAGrp fWqKqU MuiChip-avatar"
+                    class="MuiAvatar-root MuiAvatar-circle sc-kEjbxe csPwtT MuiChip-avatar"
                     color="#a04aa0"
                     title="poison"
                   >
@@ -278,7 +302,7 @@ Object {
         class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-iBPRYJ laByNs MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
           data-testid="btnLoadMore"
           tabindex="0"
           type="button"
@@ -361,7 +385,7 @@ Object {
           class="sc-gKsewC upNYM"
         >
           <div
-            class="sc-fubCfw eylRHt"
+            class="sc-pFZIQ dDKEuW"
           >
             <div
               class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -395,7 +419,7 @@ Object {
         class="sc-gKsewC upNYM"
       >
         <div
-          class="sc-fubCfw eylRHt"
+          class="sc-pFZIQ dDKEuW"
         >
           <div
             class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"

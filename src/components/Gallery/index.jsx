@@ -3,8 +3,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { useHistory } from 'react-router-dom'
-import { Button, CardActions, Grid, Typography } from '@material-ui/core'
-import { GridStyled, CardStyled, ImageStyled, CardContentStyled, NameStyled, PriceStyled, LoadingStyled } from './style'
+import { Button, CircularProgress, Grid, Typography } from '@material-ui/core'
+import { GridStyled, CardStyled, ImageStyled, CardContentStyled, NameStyled, PriceStyled, LoadingStyled, ButtonStyled } from './style'
 import Loading from '../Loading'
 import Types from '../Types'
 import { usePokemonContext } from '../../contexts/pokemon'
@@ -26,8 +26,9 @@ const Gallery = ({ list, loading, paginate }) => {
           {list.map((item, index) => (
             <GridStyled item xs={6} sm={4} md={3} lg={2} key={index}>
               <CardStyled>
-                <CardActions data-testid="btnViewDetails" onClick={() => push(paths.details.replace(':name', item.name))}>
+                <div data-testid="btnViewDetails" onClick={() => push(paths.details.replace(':name', item.name))}>
                   <ImageStyled
+                    data-testid="imgGallery"
                     alt={item.name}
                     title={item.name}
                     src={item.sprites.front_default}
@@ -37,6 +38,7 @@ const Gallery = ({ list, loading, paginate }) => {
                     onMouseOut={(e) => {
                       e.currentTarget.src = item.sprites.front_default
                     }}
+                    loader={<CircularProgress />}
                   />
                   <CardContentStyled>
                     <NameStyled variant="h5">
@@ -47,7 +49,7 @@ const Gallery = ({ list, loading, paginate }) => {
                     </PriceStyled>
                     <Types data={item.types} />
                   </CardContentStyled>
-                </CardActions>
+                </div>
                 <Button data-testid="btnAddCart" fullWidth size="small" color="secondary" onClick={() => addCart(item)}>
                   Comprar
                 </Button>
@@ -55,11 +57,11 @@ const Gallery = ({ list, loading, paginate }) => {
             </GridStyled>
           ))}
           {paginate &&
-        <Grid item xs={12} align="center">
-          <Button data-testid="btnLoadMore" variant="outlined" size="large" color="primary" onClick={() => paginate()}>
-            Carregar mais
-          </Button>
-        </Grid>
+            <Grid item xs={12} align="center">
+              <ButtonStyled data-testid="btnLoadMore" variant="contained" size="large" color="primary" onClick={() => paginate()}>
+                Carregar mais
+              </ButtonStyled>
+            </Grid>
           }
         </>
       ) :

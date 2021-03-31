@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <AppBarStyled position="static" bg={getType(type).color}>
       <Toolbar>
-        <LogoStyled src={image} />
+        <LogoStyled src={image} alt="Pokémon" title="Pokémon" onClick={() => push(paths.home)} />
         <SearchStyled onSubmit={searchPokemon}>
           <SearchIconStyled>
             <SearchIcon />

@@ -13,8 +13,10 @@ Object {
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
         >
           <img
-            class="sc-hKgILt bwMUMg"
+            alt="Pokémon"
+            class="sc-hKgILt ktrHOu"
             src="logo.png"
+            title="Pokémon"
           />
           <form
             class="sc-eCssSg jVGpkR"
@@ -579,8 +581,10 @@ Object {
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
       >
         <img
-          class="sc-hKgILt bwMUMg"
+          alt="Pokémon"
+          class="sc-hKgILt ktrHOu"
           src="logo.png"
+          title="Pokémon"
         />
         <form
           class="sc-eCssSg jVGpkR"

@@ -9,6 +9,7 @@ export const AppBarStyled = styled(AppBar)`
 
 export const LogoStyled = styled.img`
   height: 56px;
+  cursor: pointer;
 `
 
 export const SearchStyled = styled.form`

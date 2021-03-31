@@ -13,8 +13,10 @@ Object {
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
         >
           <img
-            class="sc-hKgILt bwMUMg"
+            alt="Pokémon"
+            class="sc-hKgILt ktrHOu"
             src="logo.png"
+            title="Pokémon"
           />
           <form
             class="sc-eCssSg jVGpkR"
@@ -659,6 +661,25 @@ Object {
                     </span>
                   </div>
                 </div>
+                <div
+                  class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+                  role="progressbar"
+                  style="width: 40px; height: 40px;"
+                >
+                  <svg
+                    class="MuiCircularProgress-svg"
+                    viewBox="22 22 44 44"
+                  >
+                    <circle
+                      class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                      cx="44"
+                      cy="44"
+                      fill="none"
+                      r="20.2"
+                      stroke-width="3.6"
+                    />
+                  </svg>
+                </div>
                 <h5
                   class="MuiTypography-root sc-dIUggk dDZHWD MuiTypography-h5"
                 >
@@ -763,7 +784,6 @@ Object {
                         value="45"
                       />
                       <span
-                        aria-labelledby="continuous-slider"
                         aria-orientation="horizontal"
                         aria-valuemax="100"
                         aria-valuemin="0"
@@ -810,7 +830,6 @@ Object {
                         value="49"
                       />
                       <span
-                        aria-labelledby="continuous-slider"
                         aria-orientation="horizontal"
                         aria-valuemax="100"
                         aria-valuemin="0"
@@ -857,7 +876,6 @@ Object {
                         value="49"
                       />
                       <span
-                        aria-labelledby="continuous-slider"
                         aria-orientation="horizontal"
                         aria-valuemax="100"
                         aria-valuemin="0"
@@ -904,7 +922,6 @@ Object {
                         value="65"
                       />
                       <span
-                        aria-labelledby="continuous-slider"
                         aria-orientation="horizontal"
                         aria-valuemax="100"
                         aria-valuemin="0"
@@ -951,7 +968,6 @@ Object {
                         value="65"
                       />
                       <span
-                        aria-labelledby="continuous-slider"
                         aria-orientation="horizontal"
                         aria-valuemax="100"
                         aria-valuemin="0"
@@ -998,7 +1014,6 @@ Object {
                         value="45"
                       />
                       <span
-                        aria-labelledby="continuous-slider"
                         aria-orientation="horizontal"
                         aria-valuemax="100"
                         aria-valuemin="0"
@@ -1605,8 +1620,10 @@ Object {
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
       >
         <img
-          class="sc-hKgILt bwMUMg"
+          alt="Pokémon"
+          class="sc-hKgILt ktrHOu"
           src="logo.png"
+          title="Pokémon"
         />
         <form
           class="sc-eCssSg jVGpkR"
@@ -2251,6 +2268,25 @@ Object {
                   </span>
                 </div>
               </div>
+              <div
+                class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+                role="progressbar"
+                style="width: 40px; height: 40px;"
+              >
+                <svg
+                  class="MuiCircularProgress-svg"
+                  viewBox="22 22 44 44"
+                >
+                  <circle
+                    class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                    cx="44"
+                    cy="44"
+                    fill="none"
+                    r="20.2"
+                    stroke-width="3.6"
+                  />
+                </svg>
+              </div>
               <h5
                 class="MuiTypography-root sc-dIUggk dDZHWD MuiTypography-h5"
               >
@@ -2355,7 +2391,6 @@ Object {
                       value="45"
                     />
                     <span
-                      aria-labelledby="continuous-slider"
                       aria-orientation="horizontal"
                       aria-valuemax="100"
                       aria-valuemin="0"
@@ -2402,7 +2437,6 @@ Object {
                       value="49"
                     />
                     <span
-                      aria-labelledby="continuous-slider"
                       aria-orientation="horizontal"
                       aria-valuemax="100"
                       aria-valuemin="0"
@@ -2449,7 +2483,6 @@ Object {
                       value="49"
                     />
                     <span
-                      aria-labelledby="continuous-slider"
                       aria-orientation="horizontal"
                       aria-valuemax="100"
                       aria-valuemin="0"
@@ -2496,7 +2529,6 @@ Object {
                       value="65"
                     />
                     <span
-                      aria-labelledby="continuous-slider"
                       aria-orientation="horizontal"
                       aria-valuemax="100"
                       aria-valuemin="0"
@@ -2543,7 +2575,6 @@ Object {
                       value="65"
                     />
                     <span
-                      aria-labelledby="continuous-slider"
                       aria-orientation="horizontal"
                       aria-valuemax="100"
                       aria-valuemin="0"
@@ -2590,7 +2621,6 @@ Object {
                       value="45"
                     />
                     <span
-                      aria-labelledby="continuous-slider"
                       aria-orientation="horizontal"
                       aria-valuemax="100"
                       aria-valuemin="0"
@@ -3254,8 +3284,10 @@ Object {
           class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
         >
           <img
-            class="sc-hKgILt bwMUMg"
+            alt="Pokémon"
+            class="sc-hKgILt ktrHOu"
             src="logo.png"
+            title="Pokémon"
           />
           <form
             class="sc-eCssSg jVGpkR"
@@ -3829,8 +3861,10 @@ Object {
         class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
       >
         <img
-          class="sc-hKgILt bwMUMg"
+          alt="Pokémon"
+          class="sc-hKgILt ktrHOu"
           src="logo.png"
+          title="Pokémon"
         />
         <form
           class="sc-eCssSg jVGpkR"

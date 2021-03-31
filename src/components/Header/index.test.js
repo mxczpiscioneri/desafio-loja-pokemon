@@ -58,4 +58,12 @@ describe('Header components', () => {
 
     expect(mockHistory).not.toBeCalled()
   })
+
+  test('click logo', () => {
+    renderComponent()
+
+    fireEvent.click(screen.getByAltText('Pokémon'))
+
+    expect(mockHistory).toBeCalled()
+  })
 })

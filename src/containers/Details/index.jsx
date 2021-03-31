@@ -1,7 +1,7 @@
 /* eslint complexity: ["error", 5] */
 
 import React, { useEffect } from 'react'
-import { capitalize, Container, Grid, List, Typography } from '@material-ui/core'
+import { capitalize, CircularProgress, Container, Grid, List, Typography } from '@material-ui/core'
 import { useParams } from 'react-router-dom'
 import { Img } from 'react-image'
 import Header from '../../components/Header'
@@ -50,6 +50,8 @@ const Details = () => {
                       data[0].sprites.other['official-artwork'].front_default
                     ]}
                     alt={data[0].name}
+                    title={data[0].name}
+                    loader={<CircularProgress />}
                   />
                   <PriceStyled variant="h5">
                     {data[0].base_experience.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}
@@ -75,7 +77,7 @@ const Details = () => {
                   <List>
                     {data[0].stats.map(stat => (
                       <ListItemColumn key={stat.stat.name}>
-                        {capitalize(stat.stat.name.replace('-', ' '))} <SliderStyled value={stat.base_stat} valueLabelDisplay="auto" aria-labelledby="continuous-slider" />
+                        {capitalize(stat.stat.name.replace('-', ' '))} <SliderStyled value={stat.base_stat} valueLabelDisplay="auto" />
                       </ListItemColumn>
                     ))}
                   </List>

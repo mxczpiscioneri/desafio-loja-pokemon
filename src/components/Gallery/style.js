@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import { Card, CardContent, Grid, Typography } from '@material-ui/core'
+import { Img } from 'react-image'
+import { Button, Card, CardContent, Grid, Typography } from '@material-ui/core'
 
 export const GridStyled = styled(Grid)`
   margin-top: 48px;
@@ -12,7 +13,7 @@ export const CardStyled = styled(Card)`
     cursor: pointer;
   `}
 `
-export const ImageStyled = styled.img`
+export const ImageStyled = styled(Img)`
   position: absolute;
   left: 0;
   right: 0;
@@ -40,4 +41,10 @@ export const PriceStyled = styled(Typography)`
 export const LoadingStyled = styled.div`
   margin-top: 60px;
   width: 100%;
+`
+export const ButtonStyled = styled(Button)`
+  ${({ theme }) => `
+    background-color: ${theme.palette.primary.main};
+    background: ${theme.palette.background.gradient};
+  `}
 `
