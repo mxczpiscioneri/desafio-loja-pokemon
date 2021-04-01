@@ -5,6 +5,7 @@
 # Pokémon Store <img src="./public/logo192.png" align="right" width="96px">
 
 Aplicação em ReactJS que simula um e-commerce de Pokémon.
+As abas com os tipos de Pokémon simula outras lojas com estilos diferentes, mas com o mesmo comportamento.
 
 ## Pokémon
 Os dados utilizados são da API [`https://pokeapi.co`](https://pokeapi.co)
