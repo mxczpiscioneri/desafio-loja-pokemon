@@ -22,14 +22,16 @@ const Home = () => {
   }, [getAllPokemon, type])
 
   useEffect(() => {
-    const MySwal = withReactContent(Swal)
-    MySwal.fire({
-      title: 'Ocorreu um erro, tente novamente!',
-      icon: 'error',
-      showConfirmButton: false,
-      timerProgressBar: true,
-      timer: 5000
-    })
+    if (error) {
+      const MySwal = withReactContent(Swal)
+      MySwal.fire({
+        title: 'Ocorreu um erro, tente novamente!',
+        icon: 'error',
+        showConfirmButton: false,
+        timerProgressBar: true,
+        timer: 5000
+      })
+    }
   }, [error])
 
   return (
