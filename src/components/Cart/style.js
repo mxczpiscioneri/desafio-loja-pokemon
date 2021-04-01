@@ -7,6 +7,7 @@ export const ListStyled = styled(List)`
     min-width: 240px;
     max-width: 360px;
     background-color: ${theme.palette.background.default};
+    padding: 0;
   `}
 `
 
