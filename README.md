@@ -71,3 +71,11 @@ yarn deploy
 - Install
 - Build page
 - Deploy to gh-pages
+
+## Telas
+<img src="docs/01.png" height="350">
+<img src="docs/02.png" height="350">
+<img src="docs/03.png" height="350">
+<img src="docs/04.png" height="350">
+<img src="docs/05.png" height="350">
+<img src="docs/06.png" height="350">
