@@ -48,8 +48,6 @@ export const SubTitleStyled = styled(Typography)`
 export const Center = styled.div`
   text-align: center;
   padding: 16px 32px;
-  display: flex;
-  flex-direction: column;
 `
 
 export const ListItemColumn = styled(ListItem)`

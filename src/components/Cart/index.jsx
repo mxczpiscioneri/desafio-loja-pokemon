@@ -6,9 +6,11 @@ import { Avatar, Divider, IconButton, ListItem, ListItemAvatar, ListItemSecondar
 import { ButtonStyled, ListItemResumeStyled, ListStyled, ListSubheaderStyled } from './style'
 import { usePokemonContext } from '../../contexts/pokemon'
 import { money } from '../../common/utils/format'
+import { useTheme } from '@material-ui/styles'
 
 const Cart = () => {
   const { cart, removeCart, clearCart, toggleDrawer } = usePokemonContext()
+  const theme = useTheme()
   let total = 0
 
   const handlerFinish = () => {
@@ -18,9 +20,11 @@ const Cart = () => {
     MySwal.fire({
       title: 'Revisão do pedido',
       html: text,
-      showCancelButton: true,
       confirmButtonText: 'Concluir pedido',
+      confirmButtonColor: theme.palette.primary.main,
+      showCancelButton: true,
       cancelButtonText: 'Voltar',
+      cancelButtonColor: theme.palette.background.main,
       reverseButtons: true,
       allowOutsideClick: false
     }).then((result) => {

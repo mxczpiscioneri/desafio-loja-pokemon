@@ -3,8 +3,12 @@
 exports[`Home container Render layout 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
-    <div>
+  "baseElement": <body
+    class="swal2-shown swal2-height-auto"
+  >
+    <div
+      aria-hidden="true"
+    >
       <header
         bg="#333333"
         class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
@@ -578,33 +582,6 @@ Object {
           class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
         >
           <div
-            class="sc-dQppl hCZTkX"
-          >
-            <div
-              class="sc-hBEYos fGwlNI"
-            >
-              <div
-                class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
-                role="progressbar"
-                style="width: 40px; height: 40px;"
-              >
-                <svg
-                  class="MuiCircularProgress-svg"
-                  viewBox="22 22 44 44"
-                >
-                  <circle
-                    class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
-                    cx="44"
-                    cy="44"
-                    fill="none"
-                    r="20.2"
-                    stroke-width="3.6"
-                  />
-                </svg>
-              </div>
-            </div>
-          </div>
-          <div
             class="MuiGrid-root sc-fubCfw bjZFSa MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
           >
             <div
@@ -707,13 +684,41 @@ Object {
             </div>
           </div>
           <div
+            class="sc-dQppl hCZTkX"
+          >
+            <div
+              class="sc-hBEYos fGwlNI"
+            >
+              <div
+                class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+                role="progressbar"
+                style="width: 40px; height: 40px;"
+              >
+                <svg
+                  class="MuiCircularProgress-svg"
+                  viewBox="22 22 44 44"
+                >
+                  <circle
+                    class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                    cx="44"
+                    cy="44"
+                    fill="none"
+                    r="20.2"
+                    stroke-width="3.6"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
             align="center"
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
           >
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bqyKva jxySas MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bqyKva jxySas MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge Mui-disabled Mui-disabled"
               data-testid="btnLoadMore"
-              tabindex="0"
+              disabled=""
+              tabindex="-1"
               type="button"
             >
               <span
@@ -721,16 +726,180 @@ Object {
               >
                 Carregar mais
               </span>
-              <span
-                class="MuiTouchRipple-root"
-              />
             </button>
           </div>
         </div>
       </div>
     </div>
+    <div
+      class="swal2-container swal2-center swal2-backdrop-show"
+    >
+      <div
+        aria-describedby="swal2-content"
+        aria-labelledby="swal2-title"
+        aria-live="assertive"
+        aria-modal="true"
+        class="swal2-popup swal2-modal swal2-icon-error"
+        role="dialog"
+        style="opacity: 0 !important; display: flex;"
+        tabindex="-1"
+      >
+        <div
+          class="swal2-header"
+        >
+          <ul
+            class="swal2-progress-steps"
+            style="display: none;"
+          />
+          <div
+            class="swal2-icon swal2-error swal2-icon-show"
+            style="display: flex;"
+          >
+            <span
+              class="swal2-x-mark"
+            >
+              
+        
+              <span
+                class="swal2-x-mark-line-left"
+              />
+              
+        
+              <span
+                class="swal2-x-mark-line-right"
+              />
+              
+      
+            </span>
+            
+    
+          </div>
+          <img
+            class="swal2-image"
+            style="display: none;"
+          />
+          <h2
+            class="swal2-title"
+            id="swal2-title"
+            style="display: flex;"
+          >
+            Ocorreu um erro, tente novamente!
+          </h2>
+          <button
+            aria-label="Close this dialog"
+            class="swal2-close"
+            style="display: none;"
+            type="button"
+          >
+            ×
+          </button>
+        </div>
+        <div
+          class="swal2-content"
+        >
+          <div
+            class="swal2-html-container"
+            id="swal2-content"
+            style="display: none;"
+          />
+          <input
+            class="swal2-input"
+            style="display: none;"
+          />
+          <input
+            class="swal2-file"
+            style="display: none;"
+            type="file"
+          />
+          <div
+            class="swal2-range"
+            style="display: none;"
+          >
+            <input
+              type="range"
+            />
+            <output />
+          </div>
+          <select
+            class="swal2-select"
+            style="display: none;"
+          />
+          <div
+            class="swal2-radio"
+            style="display: none;"
+          />
+          <label
+            class="swal2-checkbox"
+            for="swal2-checkbox"
+            style="display: none;"
+          >
+            <input
+              type="checkbox"
+            />
+            <span
+              class="swal2-label"
+            />
+          </label>
+          <textarea
+            class="swal2-textarea"
+            style="display: none;"
+          />
+          <div
+            class="swal2-validation-message"
+            id="swal2-validation-message"
+            style="display: none;"
+          />
+        </div>
+        <div
+          class="swal2-actions"
+          style="display: none;"
+        >
+          <div
+            class="swal2-loader"
+          />
+          <button
+            aria-label=""
+            class="swal2-confirm swal2-styled"
+            style="display: none;"
+            type="button"
+          >
+            OK
+          </button>
+          <button
+            aria-label=""
+            class="swal2-deny swal2-styled"
+            style="display: none;"
+            type="button"
+          >
+            No
+          </button>
+          <button
+            aria-label=""
+            class="swal2-cancel swal2-styled"
+            style="display: none;"
+            type="button"
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          class="swal2-footer"
+          style="display: none;"
+        />
+        <div
+          class="swal2-timer-progress-bar-container"
+        >
+          <div
+            class="swal2-timer-progress-bar"
+            style="display: flex;"
+          />
+        </div>
+      </div>
+    </div>
   </body>,
-  "container": <div>
+  "container": <div
+    aria-hidden="true"
+  >
     <header
       bg="#333333"
       class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
@@ -1304,33 +1473,6 @@ Object {
         class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
       >
         <div
-          class="sc-dQppl hCZTkX"
-        >
-          <div
-            class="sc-hBEYos fGwlNI"
-          >
-            <div
-              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
-              role="progressbar"
-              style="width: 40px; height: 40px;"
-            >
-              <svg
-                class="MuiCircularProgress-svg"
-                viewBox="22 22 44 44"
-              >
-                <circle
-                  class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
-                  cx="44"
-                  cy="44"
-                  fill="none"
-                  r="20.2"
-                  stroke-width="3.6"
-                />
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div
           class="MuiGrid-root sc-fubCfw bjZFSa MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
         >
           <div
@@ -1433,13 +1575,41 @@ Object {
           </div>
         </div>
         <div
+          class="sc-dQppl hCZTkX"
+        >
+          <div
+            class="sc-hBEYos fGwlNI"
+          >
+            <div
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+              role="progressbar"
+              style="width: 40px; height: 40px;"
+            >
+              <svg
+                class="MuiCircularProgress-svg"
+                viewBox="22 22 44 44"
+              >
+                <circle
+                  class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                  cx="44"
+                  cy="44"
+                  fill="none"
+                  r="20.2"
+                  stroke-width="3.6"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
           align="center"
           class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bqyKva jxySas MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bqyKva jxySas MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge Mui-disabled Mui-disabled"
             data-testid="btnLoadMore"
-            tabindex="0"
+            disabled=""
+            tabindex="-1"
             type="button"
           >
             <span
@@ -1447,9 +1617,6 @@ Object {
             >
               Carregar mais
             </span>
-            <span
-              class="MuiTouchRipple-root"
-            />
           </button>
         </div>
       </div>
@@ -1512,8 +1679,12 @@ Object {
 exports[`Home container Render with error 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
-    <div>
+  "baseElement": <body
+    class="swal2-shown swal2-height-auto"
+  >
+    <div
+      aria-hidden="true"
+    >
       <header
         bg="#333333"
         class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
@@ -2084,36 +2255,6 @@ Object {
         class="MuiContainer-root MuiContainer-maxWidthLg"
       >
         <div
-          class="MuiSnackbar-root MuiSnackbar-anchorOriginTopRight"
-        >
-          <div
-            class="MuiPaper-root MuiAlert-root MuiAlert-filledError MuiPaper-elevation0"
-            direction="down"
-            role="alert"
-            style="opacity: 1; transform: scale(1, 1); transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
-          >
-            <div
-              class="MuiAlert-icon"
-            >
-              <svg
-                aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
-                focusable="false"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
-                />
-              </svg>
-            </div>
-            <div
-              class="MuiAlert-message"
-            >
-              Ocorreu um erro, tente novamente!
-            </div>
-          </div>
-        </div>
-        <div
           class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
         >
           <div
@@ -2129,8 +2270,175 @@ Object {
         </div>
       </div>
     </div>
+    <div
+      class="swal2-container swal2-center swal2-backdrop-show"
+    >
+      <div
+        aria-describedby="swal2-content"
+        aria-labelledby="swal2-title"
+        aria-live="assertive"
+        aria-modal="true"
+        class="swal2-popup swal2-modal swal2-icon-error"
+        role="dialog"
+        style="opacity: 0 !important; display: flex;"
+        tabindex="-1"
+      >
+        <div
+          class="swal2-header"
+        >
+          <ul
+            class="swal2-progress-steps"
+            style="display: none;"
+          />
+          <div
+            class="swal2-icon swal2-error swal2-icon-show"
+            style="display: flex;"
+          >
+            <span
+              class="swal2-x-mark"
+            >
+              
+        
+              <span
+                class="swal2-x-mark-line-left"
+              />
+              
+        
+              <span
+                class="swal2-x-mark-line-right"
+              />
+              
+      
+            </span>
+            
+    
+          </div>
+          <img
+            class="swal2-image"
+            style="display: none;"
+          />
+          <h2
+            class="swal2-title"
+            id="swal2-title"
+            style="display: flex;"
+          >
+            Ocorreu um erro, tente novamente!
+          </h2>
+          <button
+            aria-label="Close this dialog"
+            class="swal2-close"
+            style="display: none;"
+            type="button"
+          >
+            ×
+          </button>
+        </div>
+        <div
+          class="swal2-content"
+        >
+          <div
+            class="swal2-html-container"
+            id="swal2-content"
+            style="display: none;"
+          />
+          <input
+            class="swal2-input"
+            style="display: none;"
+          />
+          <input
+            class="swal2-file"
+            style="display: none;"
+            type="file"
+          />
+          <div
+            class="swal2-range"
+            style="display: none;"
+          >
+            <input
+              type="range"
+            />
+            <output />
+          </div>
+          <select
+            class="swal2-select"
+            style="display: none;"
+          />
+          <div
+            class="swal2-radio"
+            style="display: none;"
+          />
+          <label
+            class="swal2-checkbox"
+            for="swal2-checkbox"
+            style="display: none;"
+          >
+            <input
+              type="checkbox"
+            />
+            <span
+              class="swal2-label"
+            />
+          </label>
+          <textarea
+            class="swal2-textarea"
+            style="display: none;"
+          />
+          <div
+            class="swal2-validation-message"
+            id="swal2-validation-message"
+            style="display: none;"
+          />
+        </div>
+        <div
+          class="swal2-actions"
+          style="display: none;"
+        >
+          <div
+            class="swal2-loader"
+          />
+          <button
+            aria-label=""
+            class="swal2-confirm swal2-styled"
+            style="display: none;"
+            type="button"
+          >
+            OK
+          </button>
+          <button
+            aria-label=""
+            class="swal2-deny swal2-styled"
+            style="display: none;"
+            type="button"
+          >
+            No
+          </button>
+          <button
+            aria-label=""
+            class="swal2-cancel swal2-styled"
+            style="display: none;"
+            type="button"
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          class="swal2-footer"
+          style="display: none;"
+        />
+        <div
+          class="swal2-timer-progress-bar-container"
+        >
+          <div
+            class="swal2-timer-progress-bar"
+            style="display: flex;"
+          />
+        </div>
+      </div>
+    </div>
   </body>,
-  "container": <div>
+  "container": <div
+    aria-hidden="true"
+  >
     <header
       bg="#333333"
       class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
@@ -2701,36 +3009,6 @@ Object {
       class="MuiContainer-root MuiContainer-maxWidthLg"
     >
       <div
-        class="MuiSnackbar-root MuiSnackbar-anchorOriginTopRight"
-      >
-        <div
-          class="MuiPaper-root MuiAlert-root MuiAlert-filledError MuiPaper-elevation0"
-          direction="down"
-          role="alert"
-          style="opacity: 1; transform: scale(1, 1); transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
-        >
-          <div
-            class="MuiAlert-icon"
-          >
-            <svg
-              aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
-              focusable="false"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
-              />
-            </svg>
-          </div>
-          <div
-            class="MuiAlert-message"
-          >
-            Ocorreu um erro, tente novamente!
-          </div>
-        </div>
-      </div>
-      <div
         class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
       >
         <div
@@ -2803,8 +3081,12 @@ Object {
 exports[`Home container Render without pokemon 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
-    <div>
+  "baseElement": <body
+    class="swal2-shown swal2-height-auto"
+  >
+    <div
+      aria-hidden="true"
+    >
       <header
         bg="#333333"
         class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"
@@ -3390,8 +3672,175 @@ Object {
         </div>
       </div>
     </div>
+    <div
+      class="swal2-container swal2-center swal2-backdrop-show"
+    >
+      <div
+        aria-describedby="swal2-content"
+        aria-labelledby="swal2-title"
+        aria-live="assertive"
+        aria-modal="true"
+        class="swal2-popup swal2-modal swal2-icon-error"
+        role="dialog"
+        style="opacity: 0 !important; display: flex;"
+        tabindex="-1"
+      >
+        <div
+          class="swal2-header"
+        >
+          <ul
+            class="swal2-progress-steps"
+            style="display: none;"
+          />
+          <div
+            class="swal2-icon swal2-error swal2-icon-show"
+            style="display: flex;"
+          >
+            <span
+              class="swal2-x-mark"
+            >
+              
+        
+              <span
+                class="swal2-x-mark-line-left"
+              />
+              
+        
+              <span
+                class="swal2-x-mark-line-right"
+              />
+              
+      
+            </span>
+            
+    
+          </div>
+          <img
+            class="swal2-image"
+            style="display: none;"
+          />
+          <h2
+            class="swal2-title"
+            id="swal2-title"
+            style="display: flex;"
+          >
+            Ocorreu um erro, tente novamente!
+          </h2>
+          <button
+            aria-label="Close this dialog"
+            class="swal2-close"
+            style="display: none;"
+            type="button"
+          >
+            ×
+          </button>
+        </div>
+        <div
+          class="swal2-content"
+        >
+          <div
+            class="swal2-html-container"
+            id="swal2-content"
+            style="display: none;"
+          />
+          <input
+            class="swal2-input"
+            style="display: none;"
+          />
+          <input
+            class="swal2-file"
+            style="display: none;"
+            type="file"
+          />
+          <div
+            class="swal2-range"
+            style="display: none;"
+          >
+            <input
+              type="range"
+            />
+            <output />
+          </div>
+          <select
+            class="swal2-select"
+            style="display: none;"
+          />
+          <div
+            class="swal2-radio"
+            style="display: none;"
+          />
+          <label
+            class="swal2-checkbox"
+            for="swal2-checkbox"
+            style="display: none;"
+          >
+            <input
+              type="checkbox"
+            />
+            <span
+              class="swal2-label"
+            />
+          </label>
+          <textarea
+            class="swal2-textarea"
+            style="display: none;"
+          />
+          <div
+            class="swal2-validation-message"
+            id="swal2-validation-message"
+            style="display: none;"
+          />
+        </div>
+        <div
+          class="swal2-actions"
+          style="display: none;"
+        >
+          <div
+            class="swal2-loader"
+          />
+          <button
+            aria-label=""
+            class="swal2-confirm swal2-styled"
+            style="display: none;"
+            type="button"
+          >
+            OK
+          </button>
+          <button
+            aria-label=""
+            class="swal2-deny swal2-styled"
+            style="display: none;"
+            type="button"
+          >
+            No
+          </button>
+          <button
+            aria-label=""
+            class="swal2-cancel swal2-styled"
+            style="display: none;"
+            type="button"
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          class="swal2-footer"
+          style="display: none;"
+        />
+        <div
+          class="swal2-timer-progress-bar-container"
+        >
+          <div
+            class="swal2-timer-progress-bar"
+            style="display: flex;"
+          />
+        </div>
+      </div>
+    </div>
   </body>,
-  "container": <div>
+  "container": <div
+    aria-hidden="true"
+  >
     <header
       bg="#333333"
       class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dlfnbm becaFQ MuiPaper-elevation4"

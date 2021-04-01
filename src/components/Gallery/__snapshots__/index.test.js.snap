@@ -9,33 +9,6 @@ Object {
         class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
       >
         <div
-          class="sc-gKsewC upNYM"
-        >
-          <div
-            class="sc-pFZIQ dDKEuW"
-          >
-            <div
-              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
-              role="progressbar"
-              style="width: 40px; height: 40px;"
-            >
-              <svg
-                class="MuiCircularProgress-svg"
-                viewBox="22 22 44 44"
-              >
-                <circle
-                  class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
-                  cx="44"
-                  cy="44"
-                  fill="none"
-                  r="20.2"
-                  stroke-width="3.6"
-                />
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div
           class="MuiGrid-root sc-bdfBwQ bAhLkp MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
         >
           <div
@@ -138,13 +111,41 @@ Object {
           </div>
         </div>
         <div
+          class="sc-gKsewC upNYM"
+        >
+          <div
+            class="sc-pFZIQ dDKEuW"
+          >
+            <div
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+              role="progressbar"
+              style="width: 40px; height: 40px;"
+            >
+              <svg
+                class="MuiCircularProgress-svg"
+                viewBox="22 22 44 44"
+              >
+                <circle
+                  class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                  cx="44"
+                  cy="44"
+                  fill="none"
+                  r="20.2"
+                  stroke-width="3.6"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
           align="center"
           class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-iBPRYJ laByNs MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-iBPRYJ laByNs MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge Mui-disabled Mui-disabled"
             data-testid="btnLoadMore"
-            tabindex="0"
+            disabled=""
+            tabindex="-1"
             type="button"
           >
             <span
@@ -152,9 +153,6 @@ Object {
             >
               Carregar mais
             </span>
-            <span
-              class="MuiTouchRipple-root"
-            />
           </button>
         </div>
       </div>
@@ -164,33 +162,6 @@ Object {
     <div
       class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
     >
-      <div
-        class="sc-gKsewC upNYM"
-      >
-        <div
-          class="sc-pFZIQ dDKEuW"
-        >
-          <div
-            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
-            role="progressbar"
-            style="width: 40px; height: 40px;"
-          >
-            <svg
-              class="MuiCircularProgress-svg"
-              viewBox="22 22 44 44"
-            >
-              <circle
-                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
-                cx="44"
-                cy="44"
-                fill="none"
-                r="20.2"
-                stroke-width="3.6"
-              />
-            </svg>
-          </div>
-        </div>
-      </div>
       <div
         class="MuiGrid-root sc-bdfBwQ bAhLkp MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
       >
@@ -294,13 +265,41 @@ Object {
         </div>
       </div>
       <div
+        class="sc-gKsewC upNYM"
+      >
+        <div
+          class="sc-pFZIQ dDKEuW"
+        >
+          <div
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+            role="progressbar"
+            style="width: 40px; height: 40px;"
+          >
+            <svg
+              class="MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                cx="44"
+                cy="44"
+                fill="none"
+                r="20.2"
+                stroke-width="3.6"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
         align="center"
         class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-iBPRYJ laByNs MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-iBPRYJ laByNs MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge Mui-disabled Mui-disabled"
           data-testid="btnLoadMore"
-          tabindex="0"
+          disabled=""
+          tabindex="-1"
           type="button"
         >
           <span
@@ -308,9 +307,6 @@ Object {
           >
             Carregar mais
           </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
         </button>
       </div>
     </div>

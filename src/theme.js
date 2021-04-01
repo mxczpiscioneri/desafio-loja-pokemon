@@ -7,7 +7,6 @@ const primaryDark = '#427768'
 const secondary = '#795548'
 const black = '#343a40'
 const white = '#FFFFFF'
-const darkBlack = 'rgb(36, 40, 44)'
 const background = '#f5f5f5'
 const backgroundMain = '#cfcfcf'
 const warningLight = 'rgba(253, 200, 69, .3)'
@@ -24,8 +23,7 @@ const theme = createMuiTheme({
     secondary: { main: secondary },
     common: {
       white,
-      black,
-      darkBlack
+      black
     },
     warning: {
       light: warningLight,

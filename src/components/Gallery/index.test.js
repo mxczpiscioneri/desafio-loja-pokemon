@@ -48,7 +48,7 @@ describe('Gallery components', () => {
     render(
       <MuiThemeProvider theme={theme}>
         <ThemeProvider theme={theme}>
-          <Gallery list={[mockDetailsPokemon]} loading={true} paginate={mockPaginate} />
+          <Gallery list={[mockDetailsPokemon]} loading={false} paginate={mockPaginate} />
         </ThemeProvider>
       </MuiThemeProvider>
     )
